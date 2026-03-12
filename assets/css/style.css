@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Sans+Kannada:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+:root {
+    /* Color Palette */
+    --gold-primary: #F3C34B;
+    --gold-light: #FBEBA6;
+    --gold-dark: #C49221;
+    --gold-metallic: linear-gradient(135deg, #FFF2A8 0%, #D4AF37 50%, #996B1C 100%);
+    
+    --bg-dark-red: #3A0504;
+    --bg-darker-red: #1A0000;
+    --bg-parchment: #FDF4E3;
+    --text-dark: #332211;
+    --text-light: #FDF4E3;
+
+    /* Fonts */
+    --font-heading-en: 'Cinzel', serif;
+    --font-body-en: 'Playfair Display', serif;
+    --font-kannada: 'Noto Sans Kannada', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body-en);
+    background-color: var(--bg-dark-red);
+    color: var(--text-light);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* =========================================================================
+   UTILITIES
+   ========================================================================= */
+.text-center { text-align: center; }
+.kannada-text { font-family: var(--font-kannada); }
+.english-heading { font-family: var(--font-heading-en); text-transform: uppercase; letter-spacing: 1px; }
+
+.gold-text {
+    background: var(--gold-metallic);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+}
+
+.gold-border {
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #C49221, #FFF2A8, #C49221) 1;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* =========================================================================
+   INDEX PAGE: MAIN PREDICTIONS GRID (DARK THEME)
+   ========================================================================= */
+.index-body {
+    position: relative;
+    background-color: var(--bg-darker-red);
+    min-height: 100vh;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+.index-body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: -2;
+    background: 
+        radial-gradient(circle at 20% 30%, rgba(139, 35, 35, 0.5) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(212, 175, 55, 0.15) 0%, transparent 40%),
+        radial-gradient(circle at 50% 90%, rgba(74, 14, 14, 0.6) 0%, transparent 50%),
+        linear-gradient(135deg, #240000 0%, #0a0000 100%);
+}
+
+.index-body::after {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: -1;
+    background-image: 
+        radial-gradient(2px 2px at 15px 25px, #FFE066 100%, transparent),
+        radial-gradient(2px 2px at 50px 70px, rgba(255,255,255,0.8) 100%, transparent),
+        radial-gradient(1.5px 1.5px at 90px 40px, #F3C34B 100%, transparent),
+        radial-gradient(1px 1px at 130px 110px, rgba(255,255,255,0.6) 100%, transparent),
+        radial-gradient(2.5px 2.5px at 180px 30px, #FFE066 100%, transparent),
+        radial-gradient(1px 1px at 220px 140px, rgba(255,255,255,0.5) 100%, transparent),
+        radial-gradient(2px 2px at 270px 80px, #F3C34B 100%, transparent),
+        radial-gradient(1.5px 1.5px at 320px 160px, rgba(255,255,255,0.7) 100%, transparent),
+        radial-gradient(1px 1px at 380px 20px, #FFE066 100%, transparent);
+    background-size: 400px 400px;
+    opacity: 0.6;
+    animation: stardust 30s linear infinite;
+}
+
+@keyframes stardust {
+    0% { background-position: 0px 0px; opacity: 0.4; }
+    50% { opacity: 0.8; }
+    100% { background-position: -400px -400px; opacity: 0.4; }
+}
+
+/* Zodiac Wheel Background Graphic for extra flair */
+.zodiac-bg {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background-image: url('../img/indian_rashi_wheel.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.25;
+    animation: rotateSlow 180s linear infinite;
+    mix-blend-mode: screen;
+}
+
+@media (max-width: 768px) {
+    .zodiac-bg {
+        width: 120vw;
+        height: 120vw;
+        top: 30%;
+        opacity: 0.15;
+    }
+}
+
+@keyframes rotateSlow {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.hero-section {
+    padding: 40px 15px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.title-kannada {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: var(--gold-primary);
+    text-shadow: 0 0 15px rgba(243, 195, 75, 0.4);
+}
+
+.title-english {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    color: var(--gold-light);
+}
+
+/* Guru Portrait Card */
+.guru-portrait {
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 6px;
+    background: var(--gold-metallic);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8), 0 0 40px rgba(243, 195, 75, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.guru-portrait img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 2px solid var(--bg-darker-red);
+}
+
+.guru-name {
+    margin-top: 15px;
+    font-size: 1.4rem;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+
+/* Rashi Grid Section */
+.rashi-section {
+    padding: 40px 15px 80px;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.5));
+    border-top: 1px solid rgba(243, 195, 75, 0.3);
+    margin-top: 40px;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.rashi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.rashi-card {
+    background: linear-gradient(145deg, #4A0E0E, #2A0404);
+    border: 2px solid #8B6914;
+    border-radius: 8px;
+    padding: 15px 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6), inset 0 0 10px rgba(243, 195, 75, 0.1);
+}
+
+.rashi-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--gold-primary);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.8), inset 0 0 15px rgba(243, 195, 75, 0.3);
+}
+
+.rashi-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #050000;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--gold-primary);
+    box-shadow: 0 0 15px rgba(243, 195, 75, 0.4), inset 0 0 10px rgba(243, 195, 75, 0.2);
+    overflow: hidden; /* Ensure square images are clipped to the circle */
+}
+
+.rashi-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Make sure the image covers the circle without stretching */
+    /* Remove the extreme drop-shadows that worked for transparent SVGs but look bad on solid JPEGs */
+    filter: none; 
+}
+
+.rashi-name-kn {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 2px;
+}
+
+.rashi-name-en {
+    font-size: 0.8rem;
+    color: var(--gold-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .rashi-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    .title-kannada { font-size: 2rem; }
+    .guru-portrait { width: 200px; height: 250px; }
+}
+
+@media (min-width: 768px) {
+    .rashi-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* =========================================================================
+   PREDICTION PAGE (PARCHMENT THEME)
+   ========================================================================= */
+.prediction-body {
+    background-color: var(--bg-parchment);
+    /* Simple SVG noise for paper texture */
+    background-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(%23noise)" opacity="0.06"/></svg>'), linear-gradient(135deg, #FFF9EB, #F2E3C6);
+    color: var(--text-dark);
+    min-height: 100vh;
+}
+
+.prediction-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 3px solid transparent;
+    border-image: linear-gradient(to bottom, #D4AF37, #8B6914, #D4AF37) 1;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1), inset 0 0 40px rgba(212, 175, 55, 0.1);
+}
+
+.prediction-header {
+    text-align: center;
+    border-bottom: 2px solid #D4AF37;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.prediction-header .kannada-text {
+    font-size: 2.2rem;
+    color: var(--bg-dark-red);
+    margin-bottom: 5px;
+}
+
+.prediction-header .english-heading {
+    font-size: 1.2rem;
+    color: #8B6914;
+    letter-spacing: 1px;
+}
+
+/* The decorative Rashi Icon in header */
+.header-rashi-icon {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    border: 2px solid #D4AF37;
+    background: var(--bg-dark-red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    overflow: hidden; /* Ensure square JPEGs are cropped to the circle */
+}
+
+.header-rashi-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Fit the JPEG without stretching */
+}
+
+/* Content Layout: 2 Columns on Desktop */
+.prediction-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media (min-width: 768px) {
+    .prediction-content-wrapper {
+        flex-direction: row;
+    }
+    .main-content {
+        flex: 2;
+        padding-right: 20px;
+        border-right: 1px dashed #D4AF37;
+    }
+    .sidebar {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* Prediction Sections */
+.pred-section {
+    margin-bottom: 30px;
+}
+
+.pred-section h3 {
+    font-size: 1.5rem;
+    color: var(--bg-dark-red);
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.4);
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pred-section p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.pred-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.pred-section li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.pred-section .kannada-text {
+    font-size: 1.05rem;
+    color: #4A0E0E; /* Slightly darker for readability */
+}
+
+/* Sidebar Call-to-Action Cards */
+.sidebar-cta {
+    background: linear-gradient(145deg, #4A0E0E, #2A0404);
+    border: 2px solid #D4AF37;
+    border-radius: 6px;
+    padding: 20px 15px;
+    text-align: center;
+    color: var(--text-light);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.sidebar-cta img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.sidebar-cta h4 {
+    color: var(--gold-light);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-family: var(--font-heading-en);
+}
+
+.sidebar-cta p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-kannada), sans-serif;
+}
+
+.btn-primary {
+    background: linear-gradient(180deg, #D4AF37 0%, #B8860B 100%);
+    color: var(--bg-darker-red) !important;
+    border: 1px solid #FFDF00;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3), inset 0 2px 5px rgba(255,255,255,0.5);
+    text-shadow: 0 1px 1px rgba(255,255,255,0.4);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(180deg, #FFDF00 0%, #D4AF37 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4), inset 0 2px 5px rgba(255,255,255,0.5);
+}
+
+.btn-cta-large {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    margin: 30px auto 0;
+    padding: 12px 30px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #8B2323 0%, #4A0E0E 100%);
+    color: var(--gold-light) !important;
+    border: 2px solid #D4AF37;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    white-space: nowrap;
+}
+
+.btn-cta-large:hover {
+    background: linear-gradient(180deg, #A52A2A 0%, #5C1212 100%);
+    color: #FFF !important;
+}
+
+/* Mobile Adjustments for Prediction Page */
+@media (max-width: 767px) {
+    .prediction-container {
+        margin: 10px;
+        padding: 15px;
+        border-width: 2px;
+    }
+    .prediction-header .kannada-text { font-size: 1.8rem; }
+    .pred-section h3 { font-size: 1.3rem; }
+    
+    .sidebar {
+        margin-top: 30px;
+        border-top: 2px dashed #D4AF37;
+        padding-top: 30px;
+    }
+}

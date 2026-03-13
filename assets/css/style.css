@@ -143,7 +143,7 @@ body {
 }
 
 .hero-section {
-    padding: 40px 15px;
+    padding: 25px 15px 15px;
     text-align: center;
     position: relative;
 }
@@ -196,10 +196,10 @@ body {
 
 /* Rashi Grid Section */
 .rashi-section {
-    padding: 40px 15px 80px;
+    padding: 15px 15px 80px;
     background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.5));
     border-top: 1px solid rgba(243, 195, 75, 0.3);
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .section-title {
@@ -280,7 +280,7 @@ body {
         gap: 12px;
     }
     .title-kannada { font-size: 2rem; }
-    .guru-portrait { width: 200px; height: 250px; }
+    .guru-portrait { width: 170px; height: 210px; }
 }
 
 @media (min-width: 768px) {

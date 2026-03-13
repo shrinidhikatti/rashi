@@ -289,6 +289,21 @@ body {
     }
 }
 
+/* CTA Cards on Index Page */
+.index-cta-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.index-cta-row .sidebar-cta {
+    max-width: 320px;
+    flex: 1;
+}
+
 /* =========================================================================
    PREDICTION PAGE (PARCHMENT THEME)
    ========================================================================= */
@@ -308,6 +323,7 @@ body {
     border: 3px solid transparent;
     border-image: linear-gradient(to bottom, #D4AF37, #8B6914, #D4AF37) 1;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1), inset 0 0 40px rgba(212, 175, 55, 0.1);
+    overflow: hidden;
 }
 
 .prediction-header {
@@ -432,6 +448,26 @@ body {
     border: 1px solid rgba(255,255,255,0.2);
 }
 
+.sidebar-img-placeholder {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    background: linear-gradient(135deg, #2A0404, #1A0000);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-img-placeholder span {
+    color: rgba(212, 175, 55, 0.4);
+    font-size: 0.8rem;
+    font-family: var(--font-heading-en);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 .sidebar-cta h4 {
     color: var(--gold-light);
     font-size: 1.2rem;
@@ -480,15 +516,17 @@ body {
     width: auto;
     max-width: 100%;
     margin: 30px auto 0;
-    padding: 12px 30px;
-    font-size: 1rem;
+    padding: 8px 22px;
+    font-size: 0.85rem;
     text-align: center;
     border-radius: 50px;
     background: linear-gradient(180deg, #8B2323 0%, #4A0E0E 100%);
     color: var(--gold-light) !important;
     border: 2px solid #D4AF37;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    white-space: nowrap;
+    white-space: normal;
+    word-break: break-word;
+    box-sizing: border-box;
 }
 
 .btn-cta-large:hover {

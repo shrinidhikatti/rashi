@@ -1,241 +1,314 @@
 {
   "mesha": {
     "month": "April 2026",
-    "intro_en": "April 2026 is an important month for Mesha Rashi natives. With the Sun entering Aries, confidence, leadership, and personal energy increase, bringing opportunities for growth and new beginnings.",
-    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ತಿಂಗಳು ಮೇಷ ರಾಶಿಯವರಿಗೆ ಪ್ರಮುಖ ಸಮಯವಾಗಿರುತ್ತದೆ. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನು ಮೇಷ ರಾಶಿಗೆ ಪ್ರವೇಶಿಸುವುದರಿಂದ ಆತ್ಮವಿಶ್ವಾಸ ಮತ್ತು ನಾಯಕತ್ವ ಹೆಚ್ಚಾಗುತ್ತದೆ.",
-    "career_en": "Professional life may bring recognition and new opportunities. Leadership responsibilities or appreciation from seniors may arise.",
-    "career_kn": "ಉದ್ಯೋಗದಲ್ಲಿ ಗುರುತು ಮತ್ತು ಹೊಸ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು.",
-    "finance_en": "Financially, income and expenses may both increase. Maintaining discipline in spending will help stability.",
-    "finance_kn": "ಆದಾಯ ಮತ್ತು ಖರ್ಚು ಎರಡೂ ಹೆಚ್ಚಾಗಬಹುದು. ಹಣಕಾಸಿನಲ್ಲಿ ಶಿಸ್ತು ಅಗತ್ಯ.",
-    "family_en": "Family life remains supportive though minor misunderstandings may occur.",
-    "family_kn": "ಕುಟುಂಬ ಜೀವನ ಸಾಮಾನ್ಯವಾಗಿ ಸಹಕಾರದಿಂದ ಸಾಗಬಹುದು.",
-    "health_en": "Energy levels remain high but avoid overexertion and stress.",
-    "health_kn": "ಶಕ್ತಿ ಹೆಚ್ಚಾಗಬಹುದು ಆದರೆ ಅತಿಯಾದ ಕೆಲಸ ತಪ್ಪಿಸಬೇಕು.",
-    "growth_en": "A strong month for personal growth, leadership development, and new projects.",
-    "growth_kn": "ಆತ್ಮವಿಕಾಸ ಮತ್ತು ಹೊಸ ಯೋಜನೆಗಳಿಗೆ ಇದು ಉತ್ತಮ ಸಮಯ.",
-    "remedy_en": "Offer water to the Sun and chant 'Om Suryaya Namah' 11 times.",
-    "remedy_kn": "ಪ್ರತಿ ಬೆಳಗ್ಗೆ ಸೂರ್ಯನಿಗೆ ಅರ್ಘ್ಯ ನೀಡಿ 'ಓಂ ಸೂರ್ಯಾಯ ನಮಃ' ಜಪಿಸಿ.",
-    "conclusion_en": "April 2026 brings confidence, growth, and new opportunities.",
-    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ಹೊಸ ಅವಕಾಶಗಳು ಮತ್ತು ಬೆಳವಣಿಗೆ ತರಬಹುದು."
-  },
+    "intro_en": "April 2026 is an important month for Mesha Rashi natives. With the Sun entering Aries during this period, your personal energy, confidence, and leadership qualities become stronger. This transit brings opportunities for growth, recognition, and new beginnings. However, it also requires careful decision-making and balanced actions.",
+    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ತಿಂಗಳು ಮೇಷ ರಾಶಿಯವರಿಗೆ ಪ್ರಮುಖ ಸಮಯವಾಗಿರುತ್ತದೆ. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನು ಮೇಷ ರಾಶಿಗೆ ಪ್ರವೇಶಿಸುವುದರಿಂದ ಆತ್ಮವಿಶ್ವಾಸ, ನಾಯಕತ್ವ ಮತ್ತು ವ್ಯಕ್ತಿತ್ವದ ಶಕ್ತಿ ಹೆಚ್ಚಾಗುತ್ತದೆ. ಈ ಸಂಚಾರವು ಹೊಸ ಅವಕಾಶಗಳು, ಗೌರವ ಮತ್ತು ಬೆಳವಣಿಗೆಗೆ ಕಾರಣವಾಗಬಹುದು. ಆದರೆ ಮಹತ್ವದ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವಾಗ ಸಮತೋಲನ ಮತ್ತು ಜಾಗ್ರತೆ ಅಗತ್ಯ.",
 
+    "career_en": "This month may bring increased visibility and recognition in your professional life. You may receive appreciation from seniors or gain opportunities to take on leadership roles. If you have been waiting for progress in your career, April can open new doors.\n\nBusiness owners may experience new opportunities through networking and bold initiatives. However, it is important to avoid impulsive decisions and conflicts with colleagues or partners. Maintaining professionalism and patience will help you achieve better results.\n\nStudents preparing for competitive exams or higher studies may feel motivated and focused during this period.",
+    "career_kn": "ಈ ತಿಂಗಳು ಉದ್ಯೋಗದಲ್ಲಿ ಗುರುತಿನೊಂದಿಗೆ ಹೊಸ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು. ಮೇಲಾಧಿಕಾರಿಗಳಿಂದ ಪ್ರಶಂಸೆ ಸಿಗಬಹುದು ಮತ್ತು ನಾಯಕತ್ವದ ಜವಾಬ್ದಾರಿಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವ ಅವಕಾಶವೂ ದೊರೆಯಬಹುದು. ನಿಮ್ಮ ವೃತ್ತಿಯಲ್ಲಿ ಬೆಳವಣಿಗೆಗಾಗಿ ಕಾಯುತ್ತಿದ್ದರೆ ಈ ತಿಂಗಳು ಹೊಸ ದಾರಿಗಳನ್ನು ತೆರೆದಿಡಬಹುದು.\n\nವ್ಯಾಪಾರಸ್ಥರಿಗೆ ಹೊಸ ಸಂಪರ್ಕಗಳು ಮತ್ತು ಧೈರ್ಯವಾದ ನಿರ್ಧಾರಗಳಿಂದ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು. ಆದರೆ ತುರ್ತು ನಿರ್ಧಾರಗಳು ಮತ್ತು ಸಹೋದ್ಯೋಗಿಗಳೊಂದಿಗೆ ವಾದಗಳನ್ನು ತಪ್ಪಿಸಬೇಕು. ಸಹನೆ ಮತ್ತು ವೃತ್ತಿಪರ ನಡವಳಿಕೆ ಉತ್ತಮ ಫಲಿತಾಂಶಗಳನ್ನು ನೀಡುತ್ತದೆ.\n\nಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳಿಗೆ ಸಿದ್ಧತೆ ಮಾಡುತ್ತಿರುವ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಈ ಅವಧಿಯಲ್ಲಿ ಗಮನ ಮತ್ತು ಪ್ರೇರಣೆ ಹೆಚ್ಚಾಗುತ್ತದೆ.",
+
+    "finance_en": "Financially, the month may bring a mix of income and expenses. While new opportunities for earning may arise, expenses related to lifestyle, celebrations, or family responsibilities may also increase.\n\nIt is advisable to maintain financial discipline and avoid unnecessary spending. Long-term investments and savings planning may be beneficial during this period. Careful budgeting will help maintain stability.",
+    "finance_kn": "ಹಣಕಾಸಿನ ದೃಷ್ಟಿಯಿಂದ ಈ ತಿಂಗಳು ಆದಾಯ ಮತ್ತು ಖರ್ಚಿನ ಮಿಶ್ರಣವಾಗಿರಬಹುದು. ಹೊಸ ಆದಾಯದ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು, ಆದರೆ ಜೀವನಶೈಲಿ, ಆಚರಣೆಗಳು ಅಥವಾ ಕುಟುಂಬದ ಜವಾಬ್ದಾರಿಗಳಿಂದ ಖರ್ಚು ಹೆಚ್ಚಾಗುವ ಸಾಧ್ಯತೆ ಇದೆ.\n\nಆದ್ದರಿಂದ ಹಣಕಾಸಿನಲ್ಲಿ ಶಿಸ್ತನ್ನು ಪಾಲಿಸಿ ಮತ್ತು ಅನಾವಶ್ಯಕ ಖರ್ಚುಗಳನ್ನು ತಪ್ಪಿಸಿ. ದೀರ್ಘಕಾಲದ ಹೂಡಿಕೆ ಮತ್ತು ಉಳಿತಾಯ ಯೋಜನೆಗಳು ಈ ಸಮಯದಲ್ಲಿ ಉತ್ತಮವಾಗಿರಬಹುದು.",
+
+    "family_en": "Family life may remain generally supportive, but minor misunderstandings could arise due to strong opinions or impatience. Practicing calm communication and understanding will help maintain harmony at home.\n\nFor married couples, spending quality time together will strengthen the relationship. Unmarried individuals may receive new proposals or develop meaningful connections.\n\nSupport from elders and family members can provide emotional stability during this time.",
+    "family_kn": "ಕುಟುಂಬ ಜೀವನ ಸಾಮಾನ್ಯವಾಗಿ ಸಹಕಾರದಿಂದ ಸಾಗಬಹುದು. ಆದರೆ ಅತಿಯಾದ ಅಭಿಪ್ರಾಯಗಳು ಅಥವಾ ಅಸಹನೆಯಿಂದ ಸಣ್ಣ ಭಿನ್ನಾಭಿಪ್ರಾಯಗಳು ಉಂಟಾಗಬಹುದು. ಶಾಂತವಾಗಿ ಮಾತನಾಡುವುದು ಮತ್ತು ಪರಸ್ಪರ ಅರ್ಥೈಸಿಕೊಳ್ಳುವುದು ಮನೆಯ ಶಾಂತಿಯನ್ನು ಕಾಪಾಡುತ್ತದೆ.\n\nವಿವಾಹಿತರಾದವರು ಒಟ್ಟಿಗೆ ಸಮಯ ಕಳೆಯುವುದರಿಂದ ಸಂಬಂಧ ಗಟ್ಟಿಯಾಗುತ್ತದೆ. ಅವಿವಾಹಿತರಿಗೆ ಹೊಸ ಪರಿಚಯಗಳು ಅಥವಾ ಸಂಬಂಧಗಳ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು.\n\nಹಿರಿಯರು ಮತ್ತು ಕುಟುಂಬದ ಸದಸ್ಯರಿಂದ ಸಹಕಾರ ಮತ್ತು ಮನೋಬಲ ದೊರೆಯಬಹುದು.",
+
+    "health_en": "Your energy levels may remain high during this month, but it is important to avoid overexertion. Stress, headaches, or heat-related issues may occasionally occur.\n\nMaintaining a balanced routine with proper sleep, hydration, and regular exercise will support overall health. Practicing yoga, meditation, or breathing exercises can also help maintain mental clarity and emotional balance.",
+    "health_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಶಕ್ತಿ ಮತ್ತು ಉತ್ಸಾಹ ಹೆಚ್ಚಾಗಬಹುದು. ಆದರೆ ಅತಿಯಾದ ಕೆಲಸದಿಂದ ದಣಿವು, ತಲೆನೋವು ಅಥವಾ ದೇಹದ ಉಷ್ಣತೆ ಹೆಚ್ಚಾಗುವ ಸಾಧ್ಯತೆ ಇದೆ.\n\nಸರಿಯಾದ ನಿದ್ರೆ, ನೀರು ಕುಡಿಯುವುದು ಮತ್ತು ನಿಯಮಿತ ವ್ಯಾಯಾಮ ಆರೋಗ್ಯವನ್ನು ಕಾಪಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಯೋಗ, ಧ್ಯಾನ ಮತ್ತು ಪ್ರಾಣಾಯಾಮ ಮಾನಸಿಕ ಶಾಂತಿಯನ್ನು ನೀಡುತ್ತದೆ.",
+
+    "growth_en": "April is a powerful month for self-development and personal growth. Your confidence and determination may help you take bold steps toward your goals. This is a good time to start new projects, improve leadership skills, and build your public image.\n\nSocial interactions and networking may bring new opportunities that could benefit you in the long run.",
+    "growth_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ಆತ್ಮವಿಕಾಸ ಮತ್ತು ವ್ಯಕ್ತಿತ್ವ ಬೆಳವಣಿಗೆಗೆ ಉತ್ತಮ ಸಮಯ. ಆತ್ಮವಿಶ್ವಾಸ ಮತ್ತು ಧೈರ್ಯದಿಂದ ನಿಮ್ಮ ಗುರಿಗಳತ್ತ ದೊಡ್ಡ ಹೆಜ್ಜೆಗಳನ್ನು ಇಡಬಹುದು.\n\nಹೊಸ ಯೋಜನೆಗಳನ್ನು ಆರಂಭಿಸಲು, ನಾಯಕತ್ವ ಕೌಶಲ್ಯವನ್ನು ಹೆಚ್ಚಿಸಲು ಮತ್ತು ಸಮಾಜದಲ್ಲಿ ನಿಮ್ಮ ಪ್ರಭಾವವನ್ನು ಹೆಚ್ಚಿಸಲು ಇದು ಉತ್ತಮ ಸಮಯ. ಹೊಸ ಪರಿಚಯಗಳು ಭವಿಷ್ಯದಲ್ಲಿ ಲಾಭಕರವಾಗಬಹುದು.",
+
+    "remedy_en": "To strengthen positive energies during this month:\n\nOffer water to the Sun every morning and chant\n“Om Suryaya Namah” 11 times.",
+    "remedy_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಶುಭಫಲಗಳನ್ನು ಹೆಚ್ಚಿಸಲು:\n\nಪ್ರತಿ ಬೆಳಗ್ಗೆ ಸೂರ್ಯನಿಗೆ ಅರ್ಘ್ಯ ನೀಡಿ\n“ಓಂ ಸೂರ್ಯಾಯ ನಮಃ” ಮಂತ್ರವನ್ನು 11 ಬಾರಿ ಜಪಿಸಿ.",
+
+    "conclusion_en": "April 2026 brings renewed confidence, growth, and opportunities for Mesha Rashi natives. By maintaining discipline, patience, and balanced decision-making, you can make the most of this positive period and move forward toward your goals.",
+    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ಮೇಷ ರಾಶಿಯವರಿಗೆ ಆತ್ಮವಿಶ್ವಾಸ, ಬೆಳವಣಿಗೆ ಮತ್ತು ಹೊಸ ಅವಕಾಶಗಳನ್ನು ತರುತ್ತದೆ. ಸಹನೆ, ಶಿಸ್ತು ಮತ್ತು ಸಮತೋಲನದ ನಿರ್ಧಾರಗಳಿಂದ ಈ ಸಮಯವನ್ನು ಉತ್ತಮವಾಗಿ ಬಳಸಿಕೊಂಡು ನಿಮ್ಮ ಗುರಿಗಳತ್ತ ಮುಂದೆ ಸಾಗಬಹುದು."
+  },
   "vrishabha": {
     "month": "April 2026",
-    "intro_en": "April encourages Vrishabha Rashi natives to focus on inner stability, planning, and emotional balance.",
-    "intro_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ವೃಷಭ ರಾಶಿಯವರಿಗೆ ಆಂತರಿಕ ಸ್ಥಿರತೆ ಮತ್ತು ಜಾಣ್ಮೆಯ ಯೋಜನೆಗಳ ಮೇಲೆ ಗಮನಹರಿಸಲು ಸೂಚಿಸುತ್ತದೆ.",
-    "career_en": "Work responsibilities may increase. Patience and careful planning will bring gradual progress.",
-    "career_kn": "ಉದ್ಯೋಗದಲ್ಲಿ ಜವಾಬ್ದಾರಿಗಳು ಹೆಚ್ಚಾಗಬಹುದು. ಸಹನೆ ಅಗತ್ಯ.",
-    "finance_en": "Unexpected expenses may occur, so budgeting and financial discipline are important.",
-    "finance_kn": "ಅನಿರೀಕ್ಷಿತ ಖರ್ಚುಗಳು ಉಂಟಾಗಬಹುದು ಆದ್ದರಿಂದ ಬಜೆಟ್ ಮುಖ್ಯ.",
-    "family_en": "Family relationships require understanding and calm communication.",
-    "family_kn": "ಕುಟುಂಬ ಸಂಬಂಧಗಳಲ್ಲಿ ಸಹನೆ ಅಗತ್ಯ.",
-    "health_en": "Stress or fatigue may arise due to responsibilities.",
-    "health_kn": "ಕೆಲಸದ ಒತ್ತಡದಿಂದ ದಣಿವು ಉಂಟಾಗಬಹುದು.",
-    "growth_en": "A period of reflection and preparation for future opportunities.",
-    "growth_kn": "ಭವಿಷ್ಯಕ್ಕಾಗಿ ಸಿದ್ಧತೆ ಮಾಡುವ ಸಮಯ.",
-    "remedy_en": "Chant 'Om Namah Shivaya' regularly.",
-    "remedy_kn": "'ಓಂ ನಮಃ ಶಿವಾಯ' ಮಂತ್ರವನ್ನು ಜಪಿಸಿ.",
-    "conclusion_en": "April may be a reflective period building strong foundations for the future.",
-    "conclusion_kn": "ಭವಿಷ್ಯಕ್ಕೆ ಬಲವಾದ ನೆಲೆ ನಿರ್ಮಿಸುವ ಸಮಯ."
-  },
+    "intro_en": "April 2026 encourages Vrushabha Rashi natives to focus on inner stability, careful planning, and emotional balance. During this month, the Sun moves through the Aries sign, which may create a period of reflection and preparation before new opportunities begin to unfold.\n\nThis is a time to slow down, evaluate your goals, and strengthen your foundations for the future.",
+    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ವೃಷಭ ರಾಶಿಯವರಿಗೆ ಆಂತರಿಕ ಸ್ಥಿರತೆ, ಜಾಗ್ರತೆಯ ಯೋಜನೆ ಮತ್ತು ಮನಸ್ಸಿನ ಸಮತೋಲನದ ಮೇಲೆ ಗಮನಹರಿಸಲು ಸೂಚಿಸುತ್ತದೆ. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನು ಮೇಷ ರಾಶಿಯಲ್ಲಿ ಸಂಚರಿಸುವುದರಿಂದ ಹೊಸ ಅವಕಾಶಗಳು ಬರುವ ಮೊದಲು ಆತ್ಮಪರಿಶೀಲನೆ ಮತ್ತು ಸಿದ್ಧತೆಯ ಅವಧಿಯಾಗಿರಬಹುದು.\n\nಈ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಗುರಿಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಭವಿಷ್ಯಕ್ಕಾಗಿ ಬಲವಾದ ನೆಲೆ ನಿರ್ಮಿಸುವುದು ಉತ್ತಮ.",
 
+    "career_en": "Professional life may require patience during this month. Work responsibilities could increase, and some tasks may take longer than expected to complete. It is important to stay focused and avoid unnecessary workplace conflicts.\n\nThis period may also help you plan future career strategies. Individuals working in finance, banking, agriculture, food industry, arts, or design-related professions may benefit from careful planning and consistent effort.\n\nBusiness owners should avoid risky investments or partnerships during this period and focus on strengthening existing operations.",
+    "career_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಉದ್ಯೋಗ ಕ್ಷೇತ್ರದಲ್ಲಿ ಸಹನೆ ಅಗತ್ಯವಾಗಬಹುದು. ಕೆಲವು ಕೆಲಸಗಳು ನಿರೀಕ್ಷಿಸಿದ ಸಮಯಕ್ಕಿಂತ ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು ಮತ್ತು ಜವಾಬ್ದಾರಿಗಳು ಹೆಚ್ಚಾಗಬಹುದು. ಕಚೇರಿಯಲ್ಲಿ ಅನಗತ್ಯ ವಾದಗಳನ್ನು ತಪ್ಪಿಸಿ ಮತ್ತು ಕೆಲಸದ ಮೇಲೆ ಗಮನಹರಿಸಿ.\n\nಈ ಸಮಯ ಭವಿಷ್ಯದ ವೃತ್ತಿ ಯೋಜನೆಗಳನ್ನು ರೂಪಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು. ಹಣಕಾಸು, ಬ್ಯಾಂಕಿಂಗ್, ಕೃಷಿ, ಆಹಾರ ಉದ್ಯಮ, ಕಲೆ ಅಥವಾ ವಿನ್ಯಾಸ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವವರಿಗೆ ಜಾಗ್ರತೆಯ ಪ್ರಯತ್ನಗಳಿಂದ ಲಾಭ ದೊರೆಯಬಹುದು.\n\nವ್ಯಾಪಾರಸ್ಥರು ಈ ಅವಧಿಯಲ್ಲಿ ಅಪಾಯಕರ ಹೂಡಿಕೆಗಳನ್ನು ತಪ್ಪಿಸಿ ಮತ್ತು ಈಗಿರುವ ವ್ಯವಹಾರವನ್ನು ಬಲಪಡಿಸಲು ಗಮನ ಕೊಡಬೇಕು.",
+
+    "finance_en": "Financially, this month encourages caution and discipline. Unexpected expenses related to family matters or health may arise. Therefore, it is advisable to maintain a clear budget and avoid unnecessary spending.\n\nThis is a suitable time to focus on savings, financial planning, and long-term stability rather than quick profits. Careful financial decisions taken now can bring benefits in the coming months.",
+    "finance_kn": "ಹಣಕಾಸಿನ ದೃಷ್ಟಿಯಿಂದ ಈ ತಿಂಗಳು ಜಾಗ್ರತೆ ಮತ್ತು ಶಿಸ್ತನ್ನು ಸೂಚಿಸುತ್ತದೆ. ಕುಟುಂಬ ಅಥವಾ ಆರೋಗ್ಯಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಅಚಾನಕ್ ಖರ್ಚುಗಳು ಸಂಭವಿಸಬಹುದು. ಆದ್ದರಿಂದ ಸ್ಪಷ್ಟವಾದ ಬಜೆಟ್ ಯೋಜನೆ ಮಾಡುವುದು ಉತ್ತಮ.\n\nತ್ವರಿತ ಲಾಭಕ್ಕಿಂತ ಉಳಿತಾಯ ಮತ್ತು ದೀರ್ಘಕಾಲದ ಹಣಕಾಸು ಯೋಜನೆಗಳಿಗೆ ಆದ್ಯತೆ ನೀಡುವುದು ಉತ್ತಮ. ಈಗ ತೆಗೆದುಕೊಳ್ಳುವ ಜಾಣ್ಮೆಯ ನಿರ್ಧಾರಗಳು ಮುಂದಿನ ತಿಂಗಳಲ್ಲಿ ಲಾಭ ತರಬಹುದು.",
+
+    "family_en": "Family life may require patience and understanding. You may prefer spending more time in a calm environment rather than social gatherings. Minor misunderstandings may arise due to communication gaps.\n\nMaintaining open conversations and emotional balance will help strengthen relationships. Support from close family members and trusted friends may provide comfort and guidance during this period.",
+    "family_kn": "ಕುಟುಂಬ ಜೀವನದಲ್ಲಿ ಸಹನೆ ಮತ್ತು ಪರಸ್ಪರ ಅರ್ಥೈಸಿಕೊಳ್ಳುವಿಕೆ ಅಗತ್ಯವಾಗಬಹುದು. ಈ ಸಮಯದಲ್ಲಿ ನೀವು ಹೆಚ್ಚು ಶಾಂತ ವಾತಾವರಣದಲ್ಲಿ ಸಮಯ ಕಳೆಯಲು ಇಷ್ಟಪಡಬಹುದು.\n\nಸಂವಹನದ ಕೊರತೆಯಿಂದ ಸಣ್ಣ ಭಿನ್ನಾಭಿಪ್ರಾಯಗಳು ಉಂಟಾಗಬಹುದು. ತೆರೆಯಾಗಿ ಮಾತನಾಡುವುದು ಮತ್ತು ಮನಸ್ಸಿನ ಸಮತೋಲನ ಕಾಪಾಡಿಕೊಳ್ಳುವುದು ಸಂಬಂಧಗಳನ್ನು ಗಟ್ಟಿಗೊಳಿಸುತ್ತದೆ. ಕುಟುಂಬದವರು ಮತ್ತು ಸ್ನೇಹಿತರಿಂದ ಸಹಕಾರ ದೊರೆಯಬಹುದು.",
+
+    "health_en": "Health may generally remain stable, but stress and fatigue may occasionally arise due to work pressure or overthinking. Maintaining a healthy routine with balanced diet, proper sleep, and physical activity will be beneficial.\n\nSpending time in nature, practicing meditation, and avoiding excessive worry will help maintain emotional well-being.",
+    "health_kn": "ಆರೋಗ್ಯ ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಿರವಾಗಿರಬಹುದು. ಆದರೆ ಕೆಲಸದ ಒತ್ತಡ ಅಥವಾ ಹೆಚ್ಚು ಯೋಚನೆಯಿಂದ ದಣಿವು ಮತ್ತು ಮಾನಸಿಕ ಒತ್ತಡ ಉಂಟಾಗಬಹುದು.\n\nಸರಿಯಾದ ಆಹಾರ, ಸಮರ್ಪಕ ನಿದ್ರೆ ಮತ್ತು ನಿಯಮಿತ ವ್ಯಾಯಾಮ ಆರೋಗ್ಯವನ್ನು ಕಾಪಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಪ್ರಕೃತಿಯಲ್ಲಿ ಸಮಯ ಕಳೆಯುವುದು ಮತ್ತು ಧ್ಯಾನ ಮಾಡುವುದು ಮನಶಾಂತಿಯನ್ನು ನೀಡುತ್ತದೆ.",
+
+    "growth_en": "April may encourage Vrushabha Rashi individuals to reflect on their life direction and make thoughtful decisions. This period is beneficial for spiritual learning, self-improvement, and developing inner strength.\n\nYou may feel inclined toward meditation, devotional practices, or gaining deeper knowledge about life and spirituality.",
+    "growth_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ವೃಷಭ ರಾಶಿಯವರಿಗೆ ಜೀವನದ ದಿಕ್ಕನ್ನು ಪರಿಶೀಲಿಸಲು ಮತ್ತು ಜಾಣ್ಮೆಯ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು ಪ್ರೇರೇಪಿಸಬಹುದು. ಆತ್ಮವಿಕಾಸ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸಗಳಿಗೆ ಇದು ಉತ್ತಮ ಸಮಯ.\n\nಧ್ಯಾನ, ಭಕ್ತಿ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಜ್ಞಾನಗಳತ್ತ ಆಸಕ್ತಿ ಹೆಚ್ಚಾಗಬಹುದು.",
+
+    "remedy_en": "To maintain positivity and inner peace during this month:\n\nChant “Om Namah Shivaya” daily and offer prayers to Lord Shiva, especially on Mondays.",
+    "remedy_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಮನಶಾಂತಿ ಮತ್ತು ಶುಭಫಲಕ್ಕಾಗಿ:\n\nಪ್ರತಿದಿನ “ಓಂ ನಮಃ ಶಿವಾಯ” ಮಂತ್ರವನ್ನು ಜಪಿಸಿ ಮತ್ತು ವಿಶೇಷವಾಗಿ ಸೋಮವಾರ ಶಿವನನ್ನು ಪೂಜಿಸಿ.",
+
+    "conclusion_en": "April 2026 may be a reflective and preparatory period for Vrushabha Rashi natives. By maintaining patience, financial discipline, and emotional balance, you can build a strong foundation for future opportunities.",
+    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ವೃಷಭ ರಾಶಿಯವರಿಗೆ ಆತ್ಮಪರಿಶೀಲನೆ ಮತ್ತು ಸಿದ್ಧತೆಯ ಸಮಯವಾಗಿರಬಹುದು. ಸಹನೆ, ಹಣಕಾಸಿನ ಶಿಸ್ತು ಮತ್ತು ಮನಸ್ಸಿನ ಸಮತೋಲನವನ್ನು ಕಾಪಾಡಿಕೊಂಡರೆ ಮುಂದಿನ ಅವಕಾಶಗಳಿಗೆ ಬಲವಾದ ನೆಲೆ ನಿರ್ಮಿಸಬಹುದು."
+  },
   "mithuna": {
     "month": "April 2026",
-    "intro_en": "April 2026 brings networking opportunities, social interactions, and professional growth.",
-    "intro_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ಮಿಥುನ ರಾಶಿಯವರಿಗೆ ಹೊಸ ಸಂಪರ್ಕಗಳು ಮತ್ತು ಬೆಳವಣಿಗೆ ತರಬಹುದು.",
-    "career_en": "Teamwork and networking will help career progress.",
-    "career_kn": "ತಂಡದ ಸಹಕಾರದಿಂದ ಯಶಸ್ಸು ಸಾಧ್ಯ.",
-    "finance_en": "Financial improvement may occur through new projects or connections.",
-    "finance_kn": "ಹೊಸ ಯೋಜನೆಗಳಿಂದ ಆದಾಯದ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು.",
-    "family_en": "Social gatherings and family events may increase.",
-    "family_kn": "ಸಾಮಾಜಿಕ ಕಾರ್ಯಕ್ರಮಗಳು ಹೆಚ್ಚಾಗಬಹುದು.",
-    "health_en": "Mental stress may arise due to busy schedules.",
-    "health_kn": "ಚಟುವಟಿಕೆಗಳಿಂದ ಮಾನಸಿಕ ಒತ್ತಡ ಉಂಟಾಗಬಹುದು.",
-    "growth_en": "Learning new skills and expanding networks will support growth.",
-    "growth_kn": "ಹೊಸ ಕೌಶಲ್ಯಗಳು ವ್ಯಕ್ತಿತ್ವ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತವೆ.",
-    "remedy_en": "Chant 'Om Namo Bhagavate Vasudevaya'.",
-    "remedy_kn": "'ಓಂ ನಮೋ ಭಗವತೇ ವಾಸುದೇವಾಯ' ಜಪಿಸಿ.",
-    "conclusion_en": "A productive and socially active month.",
-    "conclusion_kn": "ಚಟುವಟಿಕೆಗಳಿಂದ ಕೂಡಿದ ತಿಂಗಳು."
-  },
+    "intro_en": "April 2026 may bring new opportunities, social interactions, and progress for Mithuna Rashi natives. During this period, the Sun’s transit encourages networking, teamwork, and participation in group activities. You may find yourself more active socially and professionally.\n\nThis month supports expanding your circle, sharing ideas, and working towards long-term goals.",
+    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ಮಿಥುನ ರಾಶಿಯವರಿಗೆ ಹೊಸ ಅವಕಾಶಗಳು, ಸಾಮಾಜಿಕ ಸಂಪರ್ಕಗಳು ಮತ್ತು ಬೆಳವಣಿಗೆ ತರುವ ಸಾಧ್ಯತೆ ಇದೆ. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನ ಸಂಚಾರವು ತಂಡದ ಕೆಲಸ, ಹೊಸ ಪರಿಚಯಗಳು ಮತ್ತು ಗುಂಪು ಚಟುವಟಿಕೆಗಳಿಗೆ ಉತ್ತೇಜನ ನೀಡುತ್ತದೆ.\n\nಈ ತಿಂಗಳು ನಿಮ್ಮ ಪರಿಚಯ ವಲಯವನ್ನು ವಿಸ್ತರಿಸಲು, ಆಲೋಚನೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಮತ್ತು ದೀರ್ಘಕಾಲದ ಗುರಿಗಳತ್ತ ಕೆಲಸ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
 
+    "career_en": "Professional life may become more dynamic during this month. You may receive support from colleagues, friends, or professional contacts. Teamwork and collaboration can play an important role in achieving success.\n\nIndividuals working in communication, marketing, media, education, writing, consulting, or technology-related fields may experience positive developments.\n\nBusiness owners may benefit from expanding their network and exploring new collaborations. However, careful planning and clear communication will be essential for long-term success.",
+    "career_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಉದ್ಯೋಗ ಜೀವನ ಹೆಚ್ಚು ಚುರುಕಾಗಿರಬಹುದು. ಸಹೋದ್ಯೋಗಿಗಳು, ಸ್ನೇಹಿತರು ಮತ್ತು ವೃತ್ತಿಪರ ಸಂಪರ್ಕಗಳಿಂದ ಸಹಕಾರ ದೊರೆಯಬಹುದು. ತಂಡದ ಕೆಲಸ ಮತ್ತು ಸಹಕಾರದಿಂದ ಯಶಸ್ಸು ದೊರೆಯುವ ಸಾಧ್ಯತೆ ಇದೆ.\n\nಸಂವಹನ, ಮಾರ್ಕೆಟಿಂಗ್, ಮಾಧ್ಯಮ, ಶಿಕ್ಷಣ, ಬರವಣಿಗೆ, ಸಲಹೆಗಾರಿಕೆ ಅಥವಾ ತಂತ್ರಜ್ಞಾನ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವವರಿಗೆ ಉತ್ತಮ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು.\n\nವ್ಯಾಪಾರಸ್ಥರು ಹೊಸ ಸಂಪರ್ಕಗಳನ್ನು ವಿಸ್ತರಿಸುವುದರಿಂದ ಮತ್ತು ಸಹಕಾರದ ಅವಕಾಶಗಳನ್ನು ಅನ್ವೇಷಿಸುವುದರಿಂದ ಲಾಭ ಪಡೆಯಬಹುದು.",
+
+    "finance_en": "Financially, the month may bring gradual improvement. Opportunities to earn through networking, projects, or side ventures may arise. However, it is important to manage expenses carefully.\n\nAvoid impulsive financial decisions and focus on long-term stability. Savings and thoughtful financial planning will help strengthen your financial position.",
+    "finance_kn": "ಹಣಕಾಸಿನ ದೃಷ್ಟಿಯಿಂದ ಈ ತಿಂಗಳು ನಿಧಾನವಾದ ಸುಧಾರಣೆ ತರಬಹುದು. ಹೊಸ ಯೋಜನೆಗಳು, ಸಂಪರ್ಕಗಳು ಅಥವಾ ಪಾರ್ಶ್ವ ಆದಾಯಗಳಿಂದ ಹಣ ಗಳಿಸುವ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು.\n\nಆದರೆ ಖರ್ಚುಗಳನ್ನು ನಿಯಂತ್ರಣದಲ್ಲಿಡುವುದು ಮುಖ್ಯ. ತುರ್ತು ಹಣಕಾಸಿನ ನಿರ್ಧಾರಗಳನ್ನು ತಪ್ಪಿಸಿ ಮತ್ತು ದೀರ್ಘಕಾಲದ ಸ್ಥಿರತೆಯ ಮೇಲೆ ಗಮನಹರಿಸಿ.",
+
+    "family_en": "Family life may remain supportive, and you may enjoy spending time with friends and relatives. Social gatherings, celebrations, or group events may increase during this period.\n\nCommunication will play an important role in maintaining harmony in relationships. Expressing your thoughts clearly and listening to others will strengthen bonds.",
+    "family_kn": "ಕುಟುಂಬ ಜೀವನ ಸಾಮಾನ್ಯವಾಗಿ ಉತ್ತಮವಾಗಿರಬಹುದು. ಸ್ನೇಹಿತರು ಮತ್ತು ಸಂಬಂಧಿಕರೊಂದಿಗೆ ಸಮಯ ಕಳೆಯುವ ಅವಕಾಶಗಳು ಹೆಚ್ಚಾಗಬಹುದು. ಕುಟುಂಬ ಸಮಾರಂಭಗಳು ಅಥವಾ ಸಾಮಾಜಿಕ ಕಾರ್ಯಕ್ರಮಗಳಲ್ಲಿ ಭಾಗವಹಿಸುವ ಸಾಧ್ಯತೆ ಇದೆ.\n\nಸಂಬಂಧಗಳಲ್ಲಿ ಶಾಂತಿಯನ್ನು ಕಾಪಾಡಲು ಉತ್ತಮ ಸಂವಹನ ಅಗತ್ಯ. ನಿಮ್ಮ ಆಲೋಚನೆಗಳನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ಹೇಳುವುದು ಮತ್ತು ಇತರರನ್ನು ಕೇಳುವುದು ಸಂಬಂಧಗಳನ್ನು ಗಟ್ಟಿಗೊಳಿಸುತ್ತದೆ.",
+
+    "health_en": "Health may remain stable during this month, but mental stress or fatigue may arise due to increased activity and responsibilities.\n\nMaintaining a balanced routine with adequate rest, healthy food, and regular exercise will support overall well-being. Practicing breathing exercises or meditation can help reduce stress.",
+    "health_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಆರೋಗ್ಯ ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಿರವಾಗಿರಬಹುದು. ಆದರೆ ಕೆಲಸದ ಚಟುವಟಿಕೆಗಳು ಹೆಚ್ಚಾದ ಕಾರಣ ದಣಿವು ಅಥವಾ ಮಾನಸಿಕ ಒತ್ತಡ ಉಂಟಾಗಬಹುದು.\n\nಸರಿಯಾದ ವಿಶ್ರಾಂತಿ, ಆರೋಗ್ಯಕರ ಆಹಾರ ಮತ್ತು ವ್ಯಾಯಾಮ ಆರೋಗ್ಯವನ್ನು ಕಾಪಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಪ್ರಾಣಾಯಾಮ ಮತ್ತು ಧ್ಯಾನ ಮನಶಾಂತಿಯನ್ನು ನೀಡುತ್ತದೆ.",
+
+    "growth_en": "April may encourage Mithuna Rashi natives to expand their vision and focus on future aspirations. You may feel inspired to learn new skills, explore innovative ideas, or engage in meaningful discussions.\n\nThis is a good time to build strong connections and work towards long-term goals.",
+    "growth_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ಮಿಥುನ ರಾಶಿಯವರಿಗೆ ಭವಿಷ್ಯದ ಗುರಿಗಳನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಂಡು ಹೊಸ ಕೌಶಲ್ಯಗಳನ್ನು ಕಲಿಯಲು ಮತ್ತು ಹೊಸ ಆಲೋಚನೆಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು.\n\nಹೊಸ ಸಂಪರ್ಕಗಳನ್ನು ನಿರ್ಮಿಸಿ ಮತ್ತು ದೀರ್ಘಕಾಲದ ಗುರಿಗಳತ್ತ ಮುಂದುವರಿಯಲು ಇದು ಉತ್ತಮ ಸಮಯ.",
+
+    "remedy_en": "To enhance positivity and success during this month:\n\nWorship Lord Vishnu and chant\n“Om Namo Bhagavate Vasudevaya” regularly.",
+    "remedy_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಶುಭಫಲಗಳನ್ನು ಹೆಚ್ಚಿಸಲು:\n\nಶ್ರೀ ವಿಷ್ಣುವನ್ನು ಪೂಜಿಸಿ ಮತ್ತು\n“ಓಂ ನಮೋ ಭಗವತೇ ವಾಸುದೇವಾಯ” ಮಂತ್ರವನ್ನು ಜಪಿಸಿ.",
+
+    "conclusion_en": "April 2026 can be a productive and socially active month for Mithuna Rashi natives. By maintaining clear communication, financial discipline, and a balanced routine, you can make the most of the opportunities that come your way.",
+    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ಮಿಥುನ ರಾಶಿಯವರಿಗೆ ಚಟುವಟಿಕೆಗಳು ಮತ್ತು ಅವಕಾಶಗಳಿಂದ ಕೂಡಿದ ತಿಂಗಳು ಆಗಬಹುದು. ಸ್ಪಷ್ಟ ಸಂವಹನ, ಹಣಕಾಸಿನ ಶಿಸ್ತು ಮತ್ತು ಸಮತೋಲನದ ಜೀವನಶೈಲಿಯಿಂದ ಉತ್ತಮ ಫಲಿತಾಂಶಗಳನ್ನು ಪಡೆಯಬಹುದು."
+  },
   "karka": {
     "month": "April 2026",
-    "intro_en": "April highlights career responsibilities and long-term goals for Karka natives.",
-    "intro_kn": "ಏಪ್ರಿಲ್ ಕರ್ಕ ರಾಶಿಯವರಿಗೆ ಉದ್ಯೋಗ ಜವಾಬ್ದಾರಿಗಳ ಮೇಲೆ ಗಮನಹರಿಸುವ ಸಮಯ.",
-    "career_en": "Dedication and discipline will bring appreciation.",
-    "career_kn": "ಪರಿಶ್ರಮದಿಂದ ಮೆಚ್ಚುಗೆ ದೊರೆಯಬಹುದು.",
-    "finance_en": "Income may remain steady but family expenses may rise.",
-    "finance_kn": "ಕುಟುಂಬ ಖರ್ಚುಗಳು ಹೆಚ್ಚಾಗಬಹುದು.",
-    "family_en": "Family support may provide emotional stability.",
-    "family_kn": "ಕುಟುಂಬದವರ ಸಹಕಾರ ದೊರೆಯಬಹುದು.",
-    "health_en": "Work stress may cause fatigue.",
-    "health_kn": "ಕೆಲಸದ ಒತ್ತಡದಿಂದ ದಣಿವು ಉಂಟಾಗಬಹುದು.",
-    "growth_en": "Focus on leadership and discipline.",
-    "growth_kn": "ನಾಯಕತ್ವ ಮತ್ತು ಶಿಸ್ತನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸುವ ಸಮಯ.",
-    "remedy_en": "Offer water to the Sun and chant 'Om Suryaya Namah'.",
-    "remedy_kn": "ಸೂರ್ಯನಿಗೆ ಅರ್ಘ್ಯ ನೀಡಿ 'ಓಂ ಸೂರ್ಯಾಯ ನಮಃ' ಜಪಿಸಿ.",
-    "conclusion_en": "Steady progress in career and reputation.",
-    "conclusion_kn": "ಉದ್ಯೋಗದಲ್ಲಿ ಬೆಳವಣಿಗೆ ಸಾಧ್ಯ."
-  },
+    "intro_en": "April 2026 may bring focus on career responsibilities, reputation, and long-term goals for Karka Rashi natives. During this period, the Sun’s transit activates areas related to professional growth and public recognition. This month may encourage you to work with dedication and determination toward your ambitions.\n\nIt is a favorable time to strengthen your position in society and take steps toward future success.",
+    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ಕರ್ಕ ರಾಶಿಯವರಿಗೆ ಉದ್ಯೋಗ ಜವಾಬ್ದಾರಿಗಳು, ಗೌರವ ಮತ್ತು ದೀರ್ಘಕಾಲದ ಗುರಿಗಳ ಮೇಲೆ ಗಮನಹರಿಸುವ ಸಮಯವಾಗಿರಬಹುದು. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನ ಸಂಚಾರವು ವೃತ್ತಿ ಬೆಳವಣಿಗೆ ಮತ್ತು ಸಮಾಜದಲ್ಲಿ ಗುರುತಿನ ವಿಷಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ.\n\nಈ ಸಮಯದಲ್ಲಿ ಪರಿಶ್ರಮ ಮತ್ತು ದೃಢತೆಯಿಂದ ಕೆಲಸ ಮಾಡಿದರೆ ಭವಿಷ್ಯದ ಯಶಸ್ಸಿಗೆ ಬಲವಾದ ನೆಲೆ ನಿರ್ಮಿಸಬಹುದು.",
 
+    "career_en": "Career matters may become more important during this month. Increased responsibilities at work may require patience, discipline, and focused effort. Your dedication and sincerity can attract appreciation from seniors and colleagues.\n\nThose working in administration, government services, management, education, or public service sectors may see progress. Business owners may also experience opportunities to expand their activities or improve their reputation.\n\nHowever, it is important to avoid unnecessary stress and maintain a balanced approach to work.",
+    "career_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಉದ್ಯೋಗ ಮತ್ತು ವೃತ್ತಿ ವಿಷಯಗಳು ಪ್ರಮುಖವಾಗಬಹುದು. ಕೆಲಸದ ಜವಾಬ್ದಾರಿಗಳು ಹೆಚ್ಚಾಗಬಹುದು ಮತ್ತು ಅವುಗಳನ್ನು ನಿಭಾಯಿಸಲು ಸಹನೆ ಮತ್ತು ಶಿಸ್ತಿನ ಅಗತ್ಯವಿರಬಹುದು. ನಿಮ್ಮ ಪರಿಶ್ರಮ ಮತ್ತು ನಿಷ್ಠೆ ಮೇಲಾಧಿಕಾರಿಗಳ ಮೆಚ್ಚುಗೆಯನ್ನು ಪಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\nಆಡಳಿತ, ಸರ್ಕಾರಿ ಸೇವೆ, ನಿರ್ವಹಣೆ, ಶಿಕ್ಷಣ ಅಥವಾ ಸಾರ್ವಜನಿಕ ಸೇವಾ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವವರಿಗೆ ಬೆಳವಣಿಗೆ ಸಾಧ್ಯ. ವ್ಯಾಪಾರಸ್ಥರು ತಮ್ಮ ವ್ಯವಹಾರವನ್ನು ವಿಸ್ತರಿಸುವ ಅವಕಾಶಗಳನ್ನು ಕಾಣಬಹುದು.\n\nಆದರೆ ಕೆಲಸದ ಒತ್ತಡದಿಂದ ದೂರವಿದ್ದು ಸಮತೋಲನ ಕಾಪಾಡಿಕೊಳ್ಳುವುದು ಮುಖ್ಯ.",
+
+    "finance_en": "Financial stability may gradually improve during this month. Income sources may remain steady, but responsibilities related to family or household expenses may increase.\n\nIt is advisable to plan your finances carefully and avoid unnecessary risks. Long-term financial planning and disciplined spending will help maintain stability.",
+    "finance_kn": "ಹಣಕಾಸಿನ ದೃಷ್ಟಿಯಿಂದ ನಿಧಾನವಾದ ಸ್ಥಿರತೆ ಕಾಣಿಸಬಹುದು. ಆದಾಯ ಸಾಮಾನ್ಯವಾಗಿ ಮುಂದುವರಿಯಬಹುದು, ಆದರೆ ಮನೆ ಅಥವಾ ಕುಟುಂಬದ ಜವಾಬ್ದಾರಿಗಳಿಂದ ಖರ್ಚು ಹೆಚ್ಚಾಗಬಹುದು.\n\nಹಣಕಾಸಿನಲ್ಲಿ ಜಾಗ್ರತೆ ವಹಿಸಿ ಮತ್ತು ಅಪಾಯಕರ ನಿರ್ಧಾರಗಳನ್ನು ತಪ್ಪಿಸಿ. ದೀರ್ಘಕಾಲದ ಯೋಜನೆ ಮತ್ತು ಶಿಸ್ತಿನ ಖರ್ಚುಗಳಿಂದ ಸ್ಥಿರತೆ ಕಾಪಾಡಬಹುದು.",
+
+    "family_en": "Family life may bring emotional comfort and support during this period. You may feel a stronger connection with your loved ones and spend more time with family members.\n\nAt times, work responsibilities may reduce the time available for family, so maintaining balance will be important. Showing understanding and affection will strengthen relationships.",
+    "family_kn": "ಈ ಸಮಯದಲ್ಲಿ ಕುಟುಂಬದವರಿಂದ ಸಹಕಾರ ಮತ್ತು ಮನಶಾಂತಿ ದೊರೆಯಬಹುದು. ಮನೆಯವರೊಂದಿಗೆ ಹೆಚ್ಚು ಸಮಯ ಕಳೆಯುವ ಅವಕಾಶವೂ ಇರಬಹುದು.\n\nಕೆಲಸದ ಒತ್ತಡದಿಂದ ಕೆಲವೊಮ್ಮೆ ಕುಟುಂಬದವರಿಗೆ ಸಮಯ ಕಡಿಮೆ ಸಿಗಬಹುದು. ಆದ್ದರಿಂದ ಕೆಲಸ ಮತ್ತು ಕುಟುಂಬದ ನಡುವೆ ಸಮತೋಲನ ಕಾಪಾಡಿಕೊಳ್ಳುವುದು ಮುಖ್ಯ.",
+
+    "health_en": "Health may remain generally stable, but stress related to work responsibilities may cause fatigue or emotional strain. Maintaining a healthy routine and proper rest will be important.\n\nRegular exercise, balanced diet, and relaxation practices such as meditation can help maintain both physical and mental well-being.",
+    "health_kn": "ಆರೋಗ್ಯ ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಿರವಾಗಿರಬಹುದು. ಆದರೆ ಕೆಲಸದ ಒತ್ತಡದಿಂದ ದಣಿವು ಅಥವಾ ಮಾನಸಿಕ ಒತ್ತಡ ಉಂಟಾಗಬಹುದು.\n\nನಿಯಮಿತ ವ್ಯಾಯಾಮ, ಸಮತೋಲನದ ಆಹಾರ ಮತ್ತು ಧ್ಯಾನ ಮುಂತಾದ ಅಭ್ಯಾಸಗಳು ದೇಹ ಮತ್ತು ಮನಸ್ಸಿನ ಆರೋಗ್ಯವನ್ನು ಕಾಪಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತವೆ.",
+
+    "growth_en": "April may encourage Karka Rashi natives to focus on long-term achievements and personal development. You may feel motivated to work towards your ambitions and build a stronger reputation.\n\nThis is a good time to develop discipline, strengthen leadership qualities, and plan for future success.",
+    "growth_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ಕರ್ಕ ರಾಶಿಯವರಿಗೆ ದೀರ್ಘಕಾಲದ ಸಾಧನೆಗಳತ್ತ ಗಮನಹರಿಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು. ನಿಮ್ಮ ಗುರಿಗಳತ್ತ ಪರಿಶ್ರಮದಿಂದ ಕೆಲಸ ಮಾಡಲು ಮತ್ತು ಉತ್ತಮ ಹೆಸರು ಗಳಿಸಲು ಇದು ಸಹಾಯಕ ಸಮಯ.\n\nನಾಯಕತ್ವ ಗುಣಗಳನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸಲು ಮತ್ತು ಭವಿಷ್ಯದ ಯಶಸ್ಸಿಗೆ ಯೋಜನೆ ರೂಪಿಸಲು ಇದು ಉತ್ತಮ ಸಮಯ.",
+
+    "remedy_en": "To maintain positivity and success during this month:\n\nOffer water to the Sun in the morning and chant\n“Om Suryaya Namah.”",
+    "remedy_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಶುಭಫಲಗಳನ್ನು ಹೆಚ್ಚಿಸಲು:\n\nಪ್ರತಿ ಬೆಳಗ್ಗೆ ಸೂರ್ಯನಿಗೆ ಅರ್ಘ್ಯ ನೀಡಿ\n“ಓಂ ಸೂರ್ಯಾಯ ನಮಃ” ಮಂತ್ರವನ್ನು ಜಪಿಸಿ.",
+
+    "conclusion_en": "April 2026 may bring important opportunities for professional growth and recognition for Karka Rashi natives. With dedication, patience, and balanced efforts, you can move steadily toward your goals.",
+    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ಕರ್ಕ ರಾಶಿಯವರಿಗೆ ಉದ್ಯೋಗದಲ್ಲಿ ಬೆಳವಣಿಗೆ ಮತ್ತು ಗೌರವದ ಅವಕಾಶಗಳನ್ನು ತರಬಹುದು. ಸಹನೆ, ಪರಿಶ್ರಮ ಮತ್ತು ಸಮತೋಲನದಿಂದ ಕೆಲಸ ಮಾಡಿದರೆ ನಿಮ್ಮ ಗುರಿಗಳತ್ತ ಸ್ಥಿರವಾಗಿ ಮುಂದೆ ಸಾಗಬಹುದು."
+  },
   "simha": {
     "month": "April 2026",
-    "intro_en": "April encourages expansion, learning, and travel opportunities.",
-    "intro_kn": "ಏಪ್ರಿಲ್ ಸಿಂಹ ರಾಶಿಯವರಿಗೆ ಹೊಸ ಕಲಿಕೆ ಮತ್ತು ಅವಕಾಶಗಳನ್ನು ತರಬಹುದು.",
-    "career_en": "Confidence and leadership will bring recognition.",
-    "career_kn": "ನಾಯಕತ್ವದಿಂದ ಮೆಚ್ಚುಗೆ ದೊರೆಯಬಹುದು.",
-    "finance_en": "Financial matters may improve gradually.",
-    "finance_kn": "ಹಣಕಾಸಿನಲ್ಲಿ ನಿಧಾನವಾದ ಸುಧಾರಣೆ ಕಾಣಬಹುದು.",
-    "family_en": "Family gatherings and social events may increase.",
-    "family_kn": "ಕುಟುಂಬ ಸಮಾರಂಭಗಳು ಹೆಚ್ಚಾಗಬಹುದು.",
-    "health_en": "Avoid stress and maintain balance.",
-    "health_kn": "ಒತ್ತಡ ತಪ್ಪಿಸಿ.",
-    "growth_en": "Learning and spiritual growth may occur.",
-    "growth_kn": "ಹೊಸ ಕಲಿಕೆ ಸಾಧ್ಯ.",
-    "remedy_en": "Chant 'Om Suryaya Namah'.",
-    "remedy_kn": "'ಓಂ ಸೂರ್ಯಾಯ ನಮಃ' ಜಪಿಸಿ.",
-    "conclusion_en": "A month of growth and expansion.",
-    "conclusion_kn": "ಬೆಳವಣಿಗೆಯ ತಿಂಗಳು."
-  },
+    "intro_en": "April 2026 may bring opportunities for expansion, learning, and personal growth for Simha Rashi natives. During this period, the Sun’s transit encourages optimism, confidence, and the pursuit of higher goals. You may feel motivated to explore new possibilities, travel, or enhance your knowledge.\n\nThis month may inspire you to think beyond routine activities and focus on long-term success and personal development.",
+    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ಸಿಂಹ ರಾಶಿಯವರಿಗೆ ಬೆಳವಣಿಗೆ, ಹೊಸ ಕಲಿಕೆ ಮತ್ತು ಆತ್ಮವಿಕಾಸದ ಅವಕಾಶಗಳನ್ನು ತರಬಹುದು. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನ ಸಂಚಾರವು ಆತ್ಮವಿಶ್ವಾಸ, ಧೈರ್ಯ ಮತ್ತು ಉನ್ನತ ಗುರಿಗಳತ್ತ ಗಮನ ಹರಿಸಲು ಪ್ರೇರೇಪಿಸುತ್ತದೆ.\n\nಈ ತಿಂಗಳು ಹೊಸ ಅವಕಾಶಗಳನ್ನು ಅನ್ವೇಷಿಸಲು, ಪ್ರಯಾಣ ಮಾಡಲು ಅಥವಾ ನಿಮ್ಮ ಜ್ಞಾನವನ್ನು ವಿಸ್ತರಿಸಲು ಪ್ರೇರಣೆ ನೀಡಬಹುದು.",
 
+    "career_en": "Professional life may bring new opportunities during this month. You may feel more confident in expressing your ideas and taking initiative at work. Support from mentors, seniors, or influential people may help you move forward.\n\nThose working in education, management, government services, law, or leadership roles may experience progress and recognition. Business owners may benefit from expanding their activities or exploring new markets.\n\nHowever, it is important to remain disciplined and avoid overconfidence while making important decisions.",
+    "career_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಉದ್ಯೋಗ ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಸ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು. ನಿಮ್ಮ ಆಲೋಚನೆಗಳನ್ನು ಧೈರ್ಯವಾಗಿ ವ್ಯಕ್ತಪಡಿಸಲು ಮತ್ತು ಕೆಲಸದಲ್ಲಿ ಮುಂದಾಳತ್ವ ವಹಿಸಲು ಅವಕಾಶ ಸಿಗಬಹುದು. ಹಿರಿಯರು ಅಥವಾ ಗುರುಗಳಿಂದ ಸಹಕಾರ ದೊರೆಯಬಹುದು.\n\nಶಿಕ್ಷಣ, ಆಡಳಿತ, ಸರ್ಕಾರಿ ಸೇವೆ, ಕಾನೂನು ಅಥವಾ ನಾಯಕತ್ವ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವವರಿಗೆ ಬೆಳವಣಿಗೆ ಮತ್ತು ಗೌರವ ದೊರೆಯಬಹುದು. ವ್ಯಾಪಾರಸ್ಥರು ತಮ್ಮ ವ್ಯವಹಾರವನ್ನು ವಿಸ್ತರಿಸುವ ಅವಕಾಶಗಳನ್ನು ಪಡೆಯಬಹುದು.\n\nಆದರೆ ಮಹತ್ವದ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವಾಗ ಅತಿಯಾದ ಆತ್ಮವಿಶ್ವಾಸವನ್ನು ತಪ್ಪಿಸುವುದು ಮುಖ್ಯ.",
+
+    "finance_en": "Financial matters may show gradual improvement during this period. Opportunities related to investments, professional growth, or business expansion may arise.\n\nHowever, it is advisable to maintain financial discipline and avoid unnecessary risks. Proper planning and thoughtful decision-making will help strengthen financial stability.",
+    "finance_kn": "ಹಣಕಾಸಿನ ವಿಷಯಗಳಲ್ಲಿ ನಿಧಾನವಾದ ಸುಧಾರಣೆ ಕಾಣಬಹುದು. ಹೂಡಿಕೆಗಳು, ಉದ್ಯೋಗ ಬೆಳವಣಿಗೆ ಅಥವಾ ವ್ಯವಹಾರ ವಿಸ್ತರಣೆಗೆ ಸಂಬಂಧಿಸಿದ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು.\n\nಆದರೆ ಹಣಕಾಸಿನಲ್ಲಿ ಶಿಸ್ತನ್ನು ಪಾಲಿಸಿ ಮತ್ತು ಅಪಾಯಕರ ನಿರ್ಧಾರಗಳನ್ನು ತಪ್ಪಿಸಬೇಕು. ಜಾಣ್ಮೆಯ ಯೋಜನೆಗಳು ಭವಿಷ್ಯದ ಸ್ಥಿರತೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತವೆ.",
+
+    "family_en": "Family relationships may remain supportive during this month. You may spend time with relatives, mentors, or respected elders who provide guidance and encouragement.\n\nThere may also be opportunities to participate in family gatherings, religious activities, or social events. Maintaining patience and understanding will help strengthen relationships.",
+    "family_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಕುಟುಂಬದವರ ಸಹಕಾರ ದೊರೆಯಬಹುದು. ಸಂಬಂಧಿಕರು, ಗುರುಗಳು ಅಥವಾ ಹಿರಿಯರೊಂದಿಗೆ ಸಮಯ ಕಳೆಯುವ ಅವಕಾಶ ಸಿಗಬಹುದು ಮತ್ತು ಅವರು ಉತ್ತಮ ಮಾರ್ಗದರ್ಶನ ನೀಡಬಹುದು.\n\nಕುಟುಂಬ ಸಮಾರಂಭಗಳು, ಧಾರ್ಮಿಕ ಕಾರ್ಯಕ್ರಮಗಳು ಅಥವಾ ಸಾಮಾಜಿಕ ಕಾರ್ಯಕ್ರಮಗಳಲ್ಲಿ ಭಾಗವಹಿಸುವ ಅವಕಾಶಗಳೂ ಇರಬಹುದು. ಸಹನೆ ಮತ್ತು ಅರ್ಥೈಸಿಕೊಳ್ಳುವಿಕೆ ಸಂಬಂಧಗಳನ್ನು ಗಟ್ಟಿಗೊಳಿಸುತ್ತದೆ.",
+
+    "health_en": "Health may remain generally stable, but it is important to avoid excessive stress or overexertion. Maintaining a balanced lifestyle with proper rest and regular physical activity will help maintain energy levels.\n\nSpending time in nature, practicing meditation, or engaging in spiritual activities may help maintain mental peace.",
+    "health_kn": "ಆರೋಗ್ಯ ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಿರವಾಗಿರಬಹುದು. ಆದರೆ ಅತಿಯಾದ ಕೆಲಸ ಅಥವಾ ಒತ್ತಡವನ್ನು ತಪ್ಪಿಸಬೇಕು. ಸರಿಯಾದ ವಿಶ್ರಾಂತಿ ಮತ್ತು ವ್ಯಾಯಾಮ ದೇಹದ ಶಕ್ತಿಯನ್ನು ಕಾಪಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\nಪ್ರಕೃತಿಯಲ್ಲಿ ಸಮಯ ಕಳೆಯುವುದು, ಧ್ಯಾನ ಮಾಡುವುದು ಅಥವಾ ಆಧ್ಯಾತ್ಮಿಕ ಚಟುವಟಿಕೆಗಳಲ್ಲಿ ಭಾಗವಹಿಸುವುದು ಮನಶಾಂತಿಯನ್ನು ನೀಡುತ್ತದೆ.",
+
+    "growth_en": "April may encourage Simha Rashi natives to expand their vision and pursue higher knowledge. You may feel motivated to learn new skills, travel for knowledge, or engage in spiritual and philosophical studies.\n\nThis period can help you gain clarity about your life direction and long-term ambitions.",
+    "growth_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ಸಿಂಹ ರಾಶಿಯವರಿಗೆ ಹೊಸ ಕೌಶಲ್ಯಗಳನ್ನು ಕಲಿಯಲು ಮತ್ತು ಜ್ಞಾನವನ್ನು ವಿಸ್ತರಿಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು. ಶಿಕ್ಷಣ, ಪ್ರಯಾಣ ಅಥವಾ ಆಧ್ಯಾತ್ಮಿಕ ಅಧ್ಯಯನಗಳತ್ತ ಆಸಕ್ತಿ ಹೆಚ್ಚಾಗಬಹುದು.\n\nಈ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಜೀವನದ ಗುರಿಗಳು ಮತ್ತು ಭವಿಷ್ಯದ ದಿಕ್ಕಿನ ಬಗ್ಗೆ ಸ್ಪಷ್ಟತೆ ದೊರೆಯಬಹುದು.",
+
+    "remedy_en": "To enhance positive energies during this month:\n\nOffer water to the Sun in the morning and chant\n“Om Suryaya Namah.”",
+    "remedy_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಶುಭಫಲಗಳನ್ನು ಹೆಚ್ಚಿಸಲು:\n\nಪ್ರತಿ ಬೆಳಗ್ಗೆ ಸೂರ್ಯನಿಗೆ ಅರ್ಘ್ಯ ನೀಡಿ\n“ಓಂ ಸೂರ್ಯಾಯ ನಮಃ” ಮಂತ್ರವನ್ನು ಜಪಿಸಿ.",
+
+    "conclusion_en": "April 2026 may bring opportunities for growth, learning, and expansion for Simha Rashi natives. By maintaining discipline, confidence, and a positive outlook, you can make meaningful progress toward your goals.",
+    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ಸಿಂಹ ರಾಶಿಯವರಿಗೆ ಬೆಳವಣಿಗೆ ಮತ್ತು ಹೊಸ ಅವಕಾಶಗಳನ್ನು ತರಬಹುದು. ಆತ್ಮವಿಶ್ವಾಸ ಮತ್ತು ಶಿಸ್ತಿನಿಂದ ಕಾರ್ಯನಿರ್ವಹಿಸಿದರೆ ನಿಮ್ಮ ಗುರಿಗಳತ್ತ ಉತ್ತಮ ಪ್ರಗತಿ ಸಾಧಿಸಬಹುದು."
+  },
   "kanya": {
     "month": "April 2026",
-    "intro_en": "April may bring transformation and deeper self-understanding.",
-    "intro_kn": "ಏಪ್ರಿಲ್ ಕನ್ಯಾ ರಾಶಿಯವರಿಗೆ ಪರಿವರ್ತನೆಯ ಸಮಯವಾಗಿರಬಹುದು.",
-    "career_en": "Careful planning and analysis will support progress.",
-    "career_kn": "ಯೋಜನೆಗಳಿಂದ ಯಶಸ್ಸು ಸಾಧ್ಯ.",
-    "finance_en": "Financial discipline is necessary.",
-    "finance_kn": "ಹಣಕಾಸಿನಲ್ಲಿ ಶಿಸ್ತು ಅಗತ್ಯ.",
-    "family_en": "Family relationships require understanding.",
-    "family_kn": "ಕುಟುಂಬದಲ್ಲಿ ಸಹನೆ ಅಗತ್ಯ.",
-    "health_en": "Digestive issues may occur if routine is disturbed.",
-    "health_kn": "ಆಹಾರದಲ್ಲಿ ಜಾಗ್ರತೆ ಅಗತ್ಯ.",
-    "growth_en": "Spiritual learning and self-development are supported.",
-    "growth_kn": "ಆತ್ಮವಿಕಾಸ ಸಾಧ್ಯ.",
-    "remedy_en": "Chant 'Om Namah Shivaya'.",
-    "remedy_kn": "'ಓಂ ನಮಃ ಶಿವಾಯ' ಜಪಿಸಿ.",
-    "conclusion_en": "A reflective and transformative month.",
-    "conclusion_kn": "ಪರಿವರ್ತನೆಯ ಸಮಯ."
-  },
+    "intro_en": "April 2026 may bring a period of transformation, deeper understanding, and careful decision-making for Kanya Rashi natives. During this time, the Sun’s transit may encourage you to focus on financial matters, emotional strength, and long-term stability.\n\nThis month may help you review your priorities and make thoughtful choices that support future growth.",
+    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ಕನ್ಯಾ ರಾಶಿಯವರಿಗೆ ಪರಿವರ್ತನೆ, ಆಂತರಿಕ ಅರಿವು ಮತ್ತು ಜಾಣ್ಮೆಯ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯವಾಗಿರಬಹುದು. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನ ಸಂಚಾರವು ಹಣಕಾಸಿನ ವಿಷಯಗಳು, ಮನೋಬಲ ಮತ್ತು ದೀರ್ಘಕಾಲದ ಸ್ಥಿರತೆಯ ಮೇಲೆ ಗಮನಹರಿಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು.\n\nಈ ತಿಂಗಳು ನಿಮ್ಮ ಆದ್ಯತೆಗಳನ್ನು ಮರುಪರಿಶೀಲಿಸಿ ಮತ್ತು ಭವಿಷ್ಯಕ್ಕೆ ಅನುಕೂಲವಾಗುವ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡಬಹುದು.",
 
-  "tula": {
+    "career_en": "Professional life may require patience and careful planning during this period. Work responsibilities may increase, and some tasks may require additional effort and concentration.\n\nIndividuals working in research, finance, healthcare, analysis, education, or consulting fields may experience gradual progress. Your analytical skills and attention to detail can help you manage responsibilities effectively.\n\nBusiness owners should avoid impulsive decisions and focus on strengthening existing plans. Strategic thinking and consistent effort will bring better results.",
+    "career_kn": "ಈ ಅವಧಿಯಲ್ಲಿ ಉದ್ಯೋಗ ಕ್ಷೇತ್ರದಲ್ಲಿ ಸಹನೆ ಮತ್ತು ಯೋಜನೆ ಅಗತ್ಯವಾಗಬಹುದು. ಕೆಲಸದ ಜವಾಬ್ದಾರಿಗಳು ಹೆಚ್ಚಾಗಬಹುದು ಮತ್ತು ಕೆಲವು ಕೆಲಸಗಳಿಗೆ ಹೆಚ್ಚು ಗಮನ ಮತ್ತು ಪರಿಶ್ರಮ ಬೇಕಾಗಬಹುದು.\n\nಸಂಶೋಧನೆ, ಹಣಕಾಸು, ವೈದ್ಯಕೀಯ, ವಿಶ್ಲೇಷಣೆ, ಶಿಕ್ಷಣ ಅಥವಾ ಸಲಹೆಗಾರಿಕೆ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವವರಿಗೆ ನಿಧಾನವಾದ ಪ್ರಗತಿ ಕಾಣಬಹುದು. ನಿಮ್ಮ ವಿಶ್ಲೇಷಣಾ ಸಾಮರ್ಥ್ಯ ಮತ್ತು ಸೂಕ್ಷ್ಮ ಗಮನದಿಂದ ಕೆಲಸಗಳನ್ನು ಉತ್ತಮವಾಗಿ ನಿರ್ವಹಿಸಬಹುದು.\n\nವ್ಯಾಪಾರಸ್ಥರು ತುರ್ತು ನಿರ್ಧಾರಗಳನ್ನು ತಪ್ಪಿಸಿ ಮತ್ತು ಈಗಿರುವ ಯೋಜನೆಗಳನ್ನು ಬಲಪಡಿಸಲು ಗಮನಹರಿಸಬೇಕು.",
+
+    "finance_en": "Financial matters may require careful management during this month. There may be expenses related to health, family responsibilities, or unexpected situations.\n\nIt is advisable to avoid risky investments and focus on long-term financial planning. Maintaining financial discipline and saving regularly will help create stability.",
+    "finance_kn": "ಹಣಕಾಸಿನ ವಿಷಯಗಳಲ್ಲಿ ಜಾಗ್ರತೆ ಅಗತ್ಯವಾಗಬಹುದು. ಆರೋಗ್ಯ, ಕುಟುಂಬ ಜವಾಬ್ದಾರಿಗಳು ಅಥವಾ ಅನಿರೀಕ್ಷಿತ ಕಾರಣಗಳಿಂದ ಕೆಲವು ಖರ್ಚುಗಳು ಉಂಟಾಗಬಹುದು.\n\nಆದ್ದರಿಂದ ಅಪಾಯಕರ ಹೂಡಿಕೆಗಳನ್ನು ತಪ್ಪಿಸಿ ಮತ್ತು ದೀರ್ಘಕಾಲದ ಹಣಕಾಸಿನ ಯೋಜನೆಗಳ ಮೇಲೆ ಗಮನಹರಿಸಿ. ಶಿಸ್ತಿನ ಉಳಿತಾಯದಿಂದ ಸ್ಥಿರತೆ ಕಾಪಾಡಬಹುದು.",
+
+    "family_en": "Family life may require understanding and emotional balance. Minor misunderstandings may arise due to differences in opinions, so open communication will be important.\n\nSpending quality time with family members and showing patience will help strengthen relationships. Support from elders or experienced individuals may provide valuable guidance.",
+    "family_kn": "ಕುಟುಂಬ ಜೀವನದಲ್ಲಿ ಪರಸ್ಪರ ಅರ್ಥೈಸಿಕೊಳ್ಳುವಿಕೆ ಅಗತ್ಯವಾಗಬಹುದು. ಅಭಿಪ್ರಾಯ ಭಿನ್ನತೆಯಿಂದ ಸಣ್ಣ ಸಮಸ್ಯೆಗಳು ಉಂಟಾಗಬಹುದು, ಆದ್ದರಿಂದ ತೆರೆಯಾದ ಸಂವಹನ ಮುಖ್ಯ.\n\nಕುಟುಂಬದವರೊಂದಿಗೆ ಸಮಯ ಕಳೆಯುವುದು ಮತ್ತು ಸಹನೆ ತೋರಿಸುವುದು ಸಂಬಂಧಗಳನ್ನು ಗಟ್ಟಿಗೊಳಿಸುತ್ತದೆ. ಹಿರಿಯರಿಂದ ಉತ್ತಮ ಮಾರ್ಗದರ್ಶನ ದೊರೆಯಬಹುದು.",
+
+    "health_en": "Health may remain generally stable, but digestive issues or stress may occasionally occur. Maintaining a balanced diet and regular routine will be beneficial.\n\nPracticing yoga, meditation, and breathing exercises can help maintain both physical health and mental peace.",
+    "health_kn": "ಆರೋಗ್ಯ ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಿರವಾಗಿರಬಹುದು. ಆದರೆ ಜೀರ್ಣಕ್ರಿಯೆ ಸಂಬಂಧಿತ ಸಮಸ್ಯೆಗಳು ಅಥವಾ ಮಾನಸಿಕ ಒತ್ತಡ ಕಾಣಿಸಬಹುದು.\n\nಸಮತೋಲನದ ಆಹಾರ ಮತ್ತು ನಿಯಮಿತ ಜೀವನಶೈಲಿ ಆರೋಗ್ಯವನ್ನು ಕಾಪಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಯೋಗ, ಧ್ಯಾನ ಮತ್ತು ಪ್ರಾಣಾಯಾಮ ಅಭ್ಯಾಸಗಳು ಮನಶಾಂತಿಯನ್ನು ನೀಡುತ್ತವೆ.",
+
+    "growth_en": "April may encourage Kanya Rashi natives to focus on inner strength and personal development. This period can help you understand your priorities more clearly and work toward meaningful goals.\n\nYou may also feel inclined toward spiritual learning, meditation, or gaining deeper knowledge about life.",
+    "growth_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ಕನ್ಯಾ ರಾಶಿಯವರಿಗೆ ಆತ್ಮವಿಕಾಸ ಮತ್ತು ಮನೋಬಲವನ್ನು ಹೆಚ್ಚಿಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು. ಈ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಗುರಿಗಳನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ಅರ್ಥಮಾಡಿಕೊಂಡು ಅವುಗಳತ್ತ ಮುಂದುವರಿಯಲು ಸಹಾಯವಾಗಬಹುದು.\n\nಧ್ಯಾನ, ಆಧ್ಯಾತ್ಮಿಕ ಅಧ್ಯಯನ ಅಥವಾ ಜೀವನದ ಗಾಢ ಅರ್ಥಗಳನ್ನು ತಿಳಿದುಕೊಳ್ಳುವ ಆಸಕ್ತಿ ಹೆಚ್ಚಾಗಬಹುದು.",
+
+    "remedy_en": "To maintain positive energy during this month:\n\nChant “Om Namah Shivaya” regularly and offer prayers to Lord Shiva.",
+    "remedy_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಶುಭಫಲಗಳನ್ನು ಹೆಚ್ಚಿಸಲು:\n\n“ಓಂ ನಮಃ ಶಿವಾಯ” ಮಂತ್ರವನ್ನು ನಿಯಮಿತವಾಗಿ ಜಪಿಸಿ ಮತ್ತು ಶಿವನನ್ನು ಪೂಜಿಸಿ.",
+
+    "conclusion_en": "April 2026 may bring a period of reflection and transformation for Kanya Rashi natives. With patience, discipline, and thoughtful decisions, you can strengthen your foundation for future success.",
+    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ಕನ್ಯಾ ರಾಶಿಯವರಿಗೆ ಆತ್ಮಪರಿಶೀಲನೆ ಮತ್ತು ಪರಿವರ್ತನೆಯ ಸಮಯವಾಗಿರಬಹುದು. ಸಹನೆ, ಶಿಸ್ತು ಮತ್ತು ಜಾಣ್ಮೆಯ ನಿರ್ಧಾರಗಳಿಂದ ಭವಿಷ್ಯದ ಯಶಸ್ಸಿಗೆ ಬಲವಾದ ನೆಲೆ ನಿರ್ಮಿಸಬಹುದು."
+  },
+    "tula": {
     "month": "April 2026",
-    "intro_en": "April focuses on relationships, partnerships, and cooperation.",
-    "intro_kn": "ಏಪ್ರಿಲ್ ತುಲಾ ರಾಶಿಯವರಿಗೆ ಸಂಬಂಧಗಳ ಮೇಲೆ ಗಮನಹರಿಸುವ ಸಮಯ.",
-    "career_en": "Teamwork and collaboration may bring success.",
-    "career_kn": "ತಂಡದ ಕೆಲಸದಿಂದ ಯಶಸ್ಸು ಸಾಧ್ಯ.",
-    "finance_en": "Joint financial decisions may arise.",
-    "finance_kn": "ಸಂಯುಕ್ತ ಹಣಕಾಸಿನ ನಿರ್ಧಾರಗಳು ಬರಬಹುದು.",
-    "family_en": "Relationships require patience and understanding.",
-    "family_kn": "ಸಹನೆ ಅಗತ್ಯ.",
-    "health_en": "Mental stress may occur due to responsibilities.",
-    "health_kn": "ಮಾನಸಿಕ ಒತ್ತಡ ಉಂಟಾಗಬಹುದು.",
-    "growth_en": "Diplomacy and balance will support progress.",
-    "growth_kn": "ಸಮತೋಲನದಿಂದ ಯಶಸ್ಸು.",
-    "remedy_en": "Chant 'Om Shreem Mahalakshmyai Namah'.",
-    "remedy_kn": "'ಓಂ ಶ್ರೀಂ ಮಹಾಲಕ್ಷ್ಮ್ಯೈ ನಮಃ' ಜಪಿಸಿ.",
-    "conclusion_en": "A month to strengthen partnerships.",
-    "conclusion_kn": "ಸಂಬಂಧಗಳನ್ನು ಗಟ್ಟಿಗೊಳಿಸುವ ಸಮಯ."
-  },
+    "intro_en": "April 2026 may bring important developments in relationships, partnerships, and decision-making for Tula Rashi natives. During this period, the Sun’s transit may highlight matters related to cooperation, agreements, and mutual understanding.\n\nThis month encourages balance, diplomacy, and thoughtful communication in both personal and professional life.",
+    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ತುಲಾ ರಾಶಿಯವರಿಗೆ ಸಂಬಂಧಗಳು, ಪಾಲುದಾರಿಕೆಗಳು ಮತ್ತು ಮಹತ್ವದ ನಿರ್ಧಾರಗಳ ಮೇಲೆ ಗಮನಹರಿಸುವ ಸಮಯವಾಗಿರಬಹುದು. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನ ಸಂಚಾರವು ಸಹಕಾರ, ಒಪ್ಪಂದಗಳು ಮತ್ತು ಪರಸ್ಪರ ಅರ್ಥೈಸಿಕೊಳ್ಳುವಿಕೆ ಸಂಬಂಧಿತ ವಿಷಯಗಳನ್ನು ಪ್ರಮುಖವಾಗಿಸಬಹುದು.\n\nಈ ತಿಂಗಳು ವೈಯಕ್ತಿಕ ಮತ್ತು ವೃತ್ತಿ ಜೀವನದಲ್ಲಿ ಸಮತೋಲನ, ಶಾಂತ ಸಂವಹನ ಮತ್ತು ಜಾಣ್ಮೆಯ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು ಪ್ರೇರೇಪಿಸುತ್ತದೆ.",
 
+    "career_en": "Professional life may involve collaboration and teamwork during this period. Opportunities to work with partners, colleagues, or new contacts may arise. Your ability to maintain harmony and diplomacy can help you handle responsibilities effectively.\n\nIndividuals working in law, consulting, business partnerships, design, arts, or public relations may see positive developments. Business owners may explore new agreements or collaborations that support growth.\n\nHowever, it is important to review agreements carefully and avoid making decisions under pressure.",
+    "career_kn": "ಈ ಅವಧಿಯಲ್ಲಿ ಉದ್ಯೋಗ ಕ್ಷೇತ್ರದಲ್ಲಿ ಸಹಕಾರ ಮತ್ತು ತಂಡದ ಕೆಲಸ ಪ್ರಮುಖವಾಗಬಹುದು. ಪಾಲುದಾರರು, ಸಹೋದ್ಯೋಗಿಗಳು ಅಥವಾ ಹೊಸ ಸಂಪರ್ಕಗಳೊಂದಿಗೆ ಕೆಲಸ ಮಾಡುವ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು.\n\nಕಾನೂನು, ಸಲಹೆಗಾರಿಕೆ, ವ್ಯವಹಾರ ಪಾಲುದಾರಿಕೆ, ವಿನ್ಯಾಸ, ಕಲೆ ಅಥವಾ ಸಾರ್ವಜನಿಕ ಸಂಪರ್ಕ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವವರಿಗೆ ಉತ್ತಮ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು. ವ್ಯಾಪಾರಸ್ಥರು ಹೊಸ ಒಪ್ಪಂದಗಳು ಅಥವಾ ಸಹಕಾರದ ಮೂಲಕ ಬೆಳವಣಿಗೆಯನ್ನು ಕಾಣಬಹುದು.\n\nಆದರೆ ಒಪ್ಪಂದಗಳನ್ನು ಜಾಗ್ರತೆಯಿಂದ ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಒತ್ತಡದಲ್ಲಿ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದನ್ನು ತಪ್ಪಿಸಿ.",
+
+    "finance_en": "Financial matters may require balanced planning during this month. Joint financial decisions or shared expenses may arise. Maintaining clarity in financial agreements will be important.\n\nAvoid unnecessary spending and focus on maintaining stability. Careful financial management and disciplined spending will help maintain security.",
+    "finance_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಹಣಕಾಸಿನ ವಿಷಯಗಳಲ್ಲಿ ಸಮತೋಲನದ ಯೋಜನೆ ಅಗತ್ಯವಾಗಬಹುದು. ಸಂಯುಕ್ತ ಹಣಕಾಸು ನಿರ್ಧಾರಗಳು ಅಥವಾ ಹಂಚಿಕೆ ಖರ್ಚುಗಳು ಉಂಟಾಗಬಹುದು.\n\nಆದ್ದರಿಂದ ಹಣಕಾಸಿನ ಒಪ್ಪಂದಗಳಲ್ಲಿ ಸ್ಪಷ್ಟತೆ ಕಾಪಾಡಿಕೊಳ್ಳುವುದು ಮುಖ್ಯ. ಅನಾವಶ್ಯಕ ಖರ್ಚುಗಳನ್ನು ತಪ್ಪಿಸಿ ಮತ್ತು ಹಣಕಾಸಿನ ಸ್ಥಿರತೆಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಲು ಪ್ರಯತ್ನಿಸಬೇಕು.",
+
+    "family_en": "Relationships may become an important focus during this month. Understanding and cooperation will play a significant role in maintaining harmony.\n\nMarried couples may need to maintain patience and open communication to avoid misunderstandings. Unmarried individuals may receive proposals or develop meaningful connections.\n\nSpending time with loved ones and maintaining emotional balance will strengthen relationships.",
+    "family_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಸಂಬಂಧಗಳು ಪ್ರಮುಖವಾಗಬಹುದು. ಪರಸ್ಪರ ಅರ್ಥೈಸಿಕೊಳ್ಳುವಿಕೆ ಮತ್ತು ಸಹಕಾರವು ಸಂಬಂಧಗಳನ್ನು ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\nವಿವಾಹಿತರಾದವರು ಸಹನೆ ಮತ್ತು ಸ್ಪಷ್ಟ ಸಂವಹನದಿಂದ ಸಣ್ಣ ಸಮಸ್ಯೆಗಳನ್ನು ತಪ್ಪಿಸಬಹುದು. ಅವಿವಾಹಿತರಿಗೆ ಹೊಸ ಪರಿಚಯಗಳು ಅಥವಾ ಮದುವೆ ಮಾತುಕತೆಗಳು ಬರಬಹುದು.\n\nಕುಟುಂಬದವರೊಂದಿಗೆ ಸಮಯ ಕಳೆಯುವುದು ಸಂಬಂಧಗಳನ್ನು ಗಟ್ಟಿಗೊಳಿಸುತ್ತದೆ.",
+
+    "health_en": "Health may remain generally stable, but mental stress or fatigue may occur due to increased responsibilities or emotional involvement.\n\nMaintaining a balanced lifestyle with regular exercise, proper rest, and healthy food will support overall well-being. Meditation or relaxation techniques may help maintain mental peace.",
+    "health_kn": "ಆರೋಗ್ಯ ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಿರವಾಗಿರಬಹುದು. ಆದರೆ ಕೆಲಸದ ಜವಾಬ್ದಾರಿಗಳು ಅಥವಾ ಭಾವನಾತ್ಮಕ ಒತ್ತಡದಿಂದ ದಣಿವು ಉಂಟಾಗಬಹುದು.\n\nನಿಯಮಿತ ವ್ಯಾಯಾಮ, ಸಮತೋಲನದ ಆಹಾರ ಮತ್ತು ಸರಿಯಾದ ವಿಶ್ರಾಂತಿ ಆರೋಗ್ಯವನ್ನು ಕಾಪಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಧ್ಯಾನ ಮತ್ತು ಮನಶಾಂತಿ ಅಭ್ಯಾಸಗಳು ಸಹ ಉಪಯುಕ್ತ.",
+
+    "growth_en": "April may encourage Tula Rashi natives to develop patience, diplomacy, and balanced decision-making. You may gain valuable insights through interactions with others.\n\nThis period can help you strengthen partnerships and build relationships that support long-term success.",
+    "growth_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ತುಲಾ ರಾಶಿಯವರಿಗೆ ಸಹನೆ, ಸಮತೋಲನ ಮತ್ತು ಜಾಣ್ಮೆಯ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.\n\nಇತರರೊಂದಿಗೆ ಸಂಪರ್ಕಗಳಿಂದ ಹೊಸ ಅನುಭವಗಳು ಮತ್ತು ಮಾರ್ಗದರ್ಶನ ದೊರೆಯಬಹುದು. ಈ ಸಮಯದಲ್ಲಿ ನಿರ್ಮಿಸುವ ಸಂಬಂಧಗಳು ಭವಿಷ್ಯದಲ್ಲಿ ಲಾಭಕರವಾಗಬಹುದು.",
+
+    "remedy_en": "To maintain harmony and positive energy during this month:\n\nWorship Goddess Lakshmi on Fridays and chant\n“Om Shreem Mahalakshmyai Namah.”",
+    "remedy_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಶುಭಫಲಗಳನ್ನು ಹೆಚ್ಚಿಸಲು:\n\nಪ್ರತಿ ಶುಕ್ರವಾರ ಲಕ್ಷ್ಮೀ ದೇವಿಯನ್ನು ಪೂಜಿಸಿ ಮತ್ತು\n“ಓಂ ಶ್ರೀಂ ಮಹಾಲಕ್ಷ್ಮ್ಯೈ ನಮಃ” ಮಂತ್ರವನ್ನು ಜಪಿಸಿ.",
+
+    "conclusion_en": "April 2026 may bring opportunities to strengthen relationships and partnerships for Tula Rashi natives. By maintaining balance, patience, and clear communication, you can create harmony and move forward toward your goals.",
+    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ತುಲಾ ರಾಶಿಯವರಿಗೆ ಸಂಬಂಧಗಳನ್ನು ಗಟ್ಟಿಗೊಳಿಸಲು ಮತ್ತು ಹೊಸ ಅವಕಾಶಗಳನ್ನು ಪಡೆಯಲು ಸಹಾಯಕವಾಗಬಹುದು. ಸಮತೋಲನ, ಸಹನೆ ಮತ್ತು ಸ್ಪಷ್ಟ ಸಂವಹನದಿಂದ ಯಶಸ್ಸಿನತ್ತ ಮುಂದೆ ಸಾಗಬಹುದು."
+  },
   "vrischika": {
     "month": "April 2026",
-    "intro_en": "April highlights discipline, routine improvement, and overcoming challenges.",
-    "intro_kn": "ಏಪ್ರಿಲ್ ವೃಶ್ಚಿಕ ರಾಶಿಯವರಿಗೆ ಶಿಸ್ತು ಮತ್ತು ಪರಿಶ್ರಮದ ಸಮಯ.",
-    "career_en": "Work responsibilities may increase requiring focus and discipline.",
-    "career_kn": "ಉದ್ಯೋಗದಲ್ಲಿ ಜವಾಬ್ದಾರಿಗಳು ಹೆಚ್ಚಾಗಬಹುದು.",
-    "finance_en": "Financial stability remains but careful planning is required.",
-    "finance_kn": "ಹಣಕಾಸಿನಲ್ಲಿ ಜಾಗ್ರತೆ ಅಗತ್ಯ.",
-    "family_en": "Family relationships require patience.",
-    "family_kn": "ಕುಟುಂಬದಲ್ಲಿ ಸಹನೆ ಅಗತ್ಯ.",
-    "health_en": "Health awareness becomes important.",
-    "health_kn": "ಆರೋಗ್ಯದ ಕಡೆ ಗಮನಹರಿಸಿ.",
-    "growth_en": "Challenges may strengthen determination.",
-    "growth_kn": "ಸವಾಲುಗಳು ಆತ್ಮವಿಶ್ವಾಸ ಹೆಚ್ಚಿಸುತ್ತವೆ.",
-    "remedy_en": "Chant 'Om Namah Shivaya'.",
-    "remedy_kn": "'ಓಂ ನಮಃ ಶಿವಾಯ' ಜಪಿಸಿ.",
-    "conclusion_en": "Consistent effort will bring improvement.",
-    "conclusion_kn": "ಪರಿಶ್ರಮದಿಂದ ಯಶಸ್ಸು ಸಾಧ್ಯ."
-  },
+    "intro_en": "April 2026 may bring a period of discipline, effort, and improvement in daily routines for Vruschika Rashi natives. During this time, the Sun’s transit may highlight areas related to work responsibilities, health awareness, and overcoming challenges.\n\nThis month encourages determination, patience, and consistent effort in order to achieve stability and progress.",
+    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ವೃಶ್ಚಿಕ ರಾಶಿಯವರಿಗೆ ಶಿಸ್ತು, ಪರಿಶ್ರಮ ಮತ್ತು ದಿನನಿತ್ಯದ ಕಾರ್ಯಗಳಲ್ಲಿ ಸುಧಾರಣೆಯನ್ನು ತರಬಹುದಾದ ಸಮಯವಾಗಿರಬಹುದು. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನ ಸಂಚಾರವು ಕೆಲಸದ ಜವಾಬ್ದಾರಿಗಳು, ಆರೋಗ್ಯದ ಕಡೆ ಗಮನ ಮತ್ತು ಸವಾಲುಗಳನ್ನು ಎದುರಿಸುವ ವಿಷಯಗಳನ್ನು ಪ್ರಮುಖವಾಗಿಸುತ್ತದೆ.\n\nಈ ತಿಂಗಳು ಸಹನೆ, ದೃಢತೆ ಮತ್ತು ನಿರಂತರ ಪ್ರಯತ್ನದಿಂದ ಯಶಸ್ಸಿನತ್ತ ಸಾಗಲು ಪ್ರೇರೇಪಿಸುತ್ತದೆ.",
 
+    "career_en": "Professional life may become more demanding during this period. Increased responsibilities at work may require discipline and focused effort. Your ability to handle challenges calmly will help you maintain progress.\n\nIndividuals working in technical fields, administration, healthcare, engineering, research, or defense-related professions may experience steady development. Consistency and dedication will play an important role in achieving results.\n\nBusiness owners may need to focus on improving systems, managing employees effectively, and strengthening their daily operations.",
+    "career_kn": "ಈ ಅವಧಿಯಲ್ಲಿ ಉದ್ಯೋಗದಲ್ಲಿ ಜವಾಬ್ದಾರಿಗಳು ಹೆಚ್ಚಾಗಬಹುದು. ಕೆಲಸವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನಿರ್ವಹಿಸಲು ಶಿಸ್ತು ಮತ್ತು ಏಕಾಗ್ರತೆ ಅಗತ್ಯವಾಗಬಹುದು. ಸವಾಲುಗಳನ್ನು ಶಾಂತವಾಗಿ ಎದುರಿಸುವ ನಿಮ್ಮ ಸಾಮರ್ಥ್ಯ ಯಶಸ್ಸಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\nತಾಂತ್ರಿಕ ಕ್ಷೇತ್ರ, ಆಡಳಿತ, ವೈದ್ಯಕೀಯ, ಇಂಜಿನಿಯರಿಂಗ್, ಸಂಶೋಧನೆ ಅಥವಾ ರಕ್ಷಣಾ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವವರಿಗೆ ನಿಧಾನವಾದ ಪ್ರಗತಿ ಕಾಣಬಹುದು.\n\nವ್ಯಾಪಾರಸ್ಥರು ತಮ್ಮ ವ್ಯವಹಾರದ ವ್ಯವಸ್ಥೆಯನ್ನು ಸುಧಾರಿಸಲು ಮತ್ತು ದಿನನಿತ್ಯದ ಕಾರ್ಯಗಳನ್ನು ಉತ್ತಮವಾಗಿ ನಿರ್ವಹಿಸಲು ಗಮನ ಕೊಡಬೇಕು.",
+
+    "finance_en": "Financial matters may remain stable but require careful management. Expenses related to health, maintenance, or responsibilities may arise during this period.\n\nAvoid unnecessary loans or risky financial decisions. Maintaining financial discipline and focusing on long-term stability will be beneficial.",
+    "finance_kn": "ಹಣಕಾಸಿನ ವಿಷಯಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಿರವಾಗಿರಬಹುದು. ಆದರೆ ಆರೋಗ್ಯ, ದುರಸ್ತಿ ಅಥವಾ ಜವಾಬ್ದಾರಿಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಖರ್ಚುಗಳು ಸಂಭವಿಸಬಹುದು.\n\nಅನಾವಶ್ಯಕ ಸಾಲಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದನ್ನು ಅಥವಾ ಅಪಾಯಕರ ಹಣಕಾಸಿನ ನಿರ್ಧಾರಗಳನ್ನು ತಪ್ಪಿಸಬೇಕು. ಹಣಕಾಸಿನಲ್ಲಿ ಶಿಸ್ತು ಮತ್ತು ದೀರ್ಘಕಾಲದ ಸ್ಥಿರತೆಯ ಮೇಲೆ ಗಮನಹರಿಸುವುದು ಉತ್ತಮ.",
+
+    "family_en": "Family relationships may require patience and understanding. Differences in opinions may occasionally arise, so maintaining calm communication will be important.\n\nSpending quality time with family members and showing emotional support will help maintain harmony in relationships.",
+    "family_kn": "ಕುಟುಂಬ ಸಂಬಂಧಗಳಲ್ಲಿ ಸಹನೆ ಮತ್ತು ಪರಸ್ಪರ ಅರ್ಥೈಸಿಕೊಳ್ಳುವಿಕೆ ಅಗತ್ಯವಾಗಬಹುದು. ಕೆಲವೊಮ್ಮೆ ಅಭಿಪ್ರಾಯ ಭಿನ್ನತೆಗಳು ಉಂಟಾಗಬಹುದು, ಆದ್ದರಿಂದ ಶಾಂತ ಸಂವಹನ ಮುಖ್ಯ.\n\nಕುಟುಂಬದವರೊಂದಿಗೆ ಸಮಯ ಕಳೆಯುವುದು ಮತ್ತು ಸಹಕಾರ ತೋರಿಸುವುದು ಸಂಬಂಧಗಳನ್ನು ಉತ್ತಮವಾಗಿರಿಸುತ್ತದೆ.",
+
+    "health_en": "Health awareness becomes important during this month. Maintaining a disciplined routine with proper diet, exercise, and rest will help maintain physical strength.\n\nStress or fatigue may occur if responsibilities increase, so relaxation and mental balance will be important.",
+    "health_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಆರೋಗ್ಯದ ಕಡೆ ಗಮನಹರಿಸುವುದು ಮುಖ್ಯ. ಸರಿಯಾದ ಆಹಾರ, ವ್ಯಾಯಾಮ ಮತ್ತು ವಿಶ್ರಾಂತಿ ದೇಹದ ಶಕ್ತಿಯನ್ನು ಕಾಪಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\nಕೆಲಸದ ಒತ್ತಡದಿಂದ ದಣಿವು ಅಥವಾ ಮಾನಸಿಕ ಒತ್ತಡ ಉಂಟಾಗಬಹುದು, ಆದ್ದರಿಂದ ಮನಶಾಂತಿ ಕಾಪಾಡಿಕೊಳ್ಳುವುದು ಅಗತ್ಯ.",
+
+    "growth_en": "April may encourage Vruschika Rashi natives to develop discipline, patience, and resilience. Challenges during this period can help strengthen your inner confidence and determination.\n\nThis month may also inspire self-improvement and the development of better habits that support long-term success.",
+    "growth_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ವೃಶ್ಚಿಕ ರಾಶಿಯವರಿಗೆ ಶಿಸ್ತು, ಸಹನೆ ಮತ್ತು ಮನೋಬಲವನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು.\n\nಈ ಅವಧಿಯ ಸವಾಲುಗಳು ನಿಮ್ಮ ಆತ್ಮವಿಶ್ವಾಸವನ್ನು ಹೆಚ್ಚಿಸಿ ಭವಿಷ್ಯದ ಯಶಸ್ಸಿಗೆ ಸಹಾಯ ಮಾಡಬಹುದು.",
+
+    "remedy_en": "To maintain strength and positivity during this month:\n\nChant “Om Namah Shivaya” regularly and offer prayers to Lord Shiva.",
+    "remedy_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಶುಭಫಲಗಳನ್ನು ಹೆಚ್ಚಿಸಲು:\n\n“ಓಂ ನಮಃ ಶಿವಾಯ” ಮಂತ್ರವನ್ನು ನಿಯಮಿತವಾಗಿ ಜಪಿಸಿ ಮತ್ತು ಶಿವನನ್ನು ಪೂಜಿಸಿ.",
+
+    "conclusion_en": "April 2026 may bring opportunities for improvement and discipline for Vruschika Rashi natives. With patience, determination, and consistent effort, you can overcome challenges and move steadily toward your goals.",
+    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ವೃಶ್ಚಿಕ ರಾಶಿಯವರಿಗೆ ಶಿಸ್ತು ಮತ್ತು ಬೆಳವಣಿಗೆ ತರಬಹುದಾದ ಸಮಯವಾಗಿರಬಹುದು. ಸಹನೆ ಮತ್ತು ದೃಢತೆಯಿಂದ ಪ್ರಯತ್ನಿಸಿದರೆ ಸವಾಲುಗಳನ್ನು ಜಯಿಸಿ ಯಶಸ್ಸಿನತ್ತ ಮುಂದೆ ಸಾಗಬಹುದು."
+  },
   "dhanus": {
     "month": "April 2026",
-    "intro_en": "April brings creativity, enthusiasm, and personal expression.",
-    "intro_kn": "ಏಪ್ರಿಲ್ ಧನು ರಾಶಿಯವರಿಗೆ ಸೃಜನಶೀಲತೆಯ ಸಮಯ.",
-    "career_en": "Creative ideas may bring recognition.",
-    "career_kn": "ಸೃಜನಾತ್ಮಕ ಆಲೋಚನೆಗಳಿಂದ ಯಶಸ್ಸು.",
-    "finance_en": "Financial balance remains but avoid luxury spending.",
-    "finance_kn": "ಅನಾವಶ್ಯಕ ಖರ್ಚು ತಪ್ಪಿಸಿ.",
-    "family_en": "Family life may bring happiness.",
-    "family_kn": "ಕುಟುಂಬ ಸಂತೋಷಕರವಾಗಿರಬಹುದು.",
-    "health_en": "Health remains stable with proper routine.",
-    "health_kn": "ಆರೋಗ್ಯ ಉತ್ತಮವಾಗಿರಬಹುದು.",
-    "growth_en": "Focus on creativity and learning.",
-    "growth_kn": "ಹೊಸ ಕಲಿಕೆ ಸಾಧ್ಯ.",
-    "remedy_en": "Chant 'Om Gurave Namah'.",
-    "remedy_kn": "'ಓಂ ಗುರುವೇ ನಮಃ' ಜಪಿಸಿ.",
-    "conclusion_en": "A joyful and creative month.",
-    "conclusion_kn": "ಸಂತೋಷದ ತಿಂಗಳು."
-  },
+    "intro_en": "April 2026 may bring a period of creativity, enthusiasm, and personal expression for Dhanu Rashi natives. During this time, the Sun’s transit may encourage you to focus on talents, learning, and activities that bring joy and inspiration.\n\nThis month may support creative pursuits, educational growth, and positive developments in personal interests.",
+    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ಧನು ರಾಶಿಯವರಿಗೆ ಸೃಜನಶೀಲತೆ, ಉತ್ಸಾಹ ಮತ್ತು ವ್ಯಕ್ತಿತ್ವದ ಅಭಿವ್ಯಕ್ತಿಯನ್ನು ಹೆಚ್ಚಿಸುವ ಸಮಯವಾಗಿರಬಹುದು. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನ ಸಂಚಾರವು ನಿಮ್ಮ ಪ್ರತಿಭೆ, ಕಲಿಕೆ ಮತ್ತು ಆಸಕ್ತಿಯ ಚಟುವಟಿಕೆಗಳ ಮೇಲೆ ಗಮನಹರಿಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು.\n\nಈ ತಿಂಗಳು ಸೃಜನಾತ್ಮಕ ಕಾರ್ಯಗಳು, ಶಿಕ್ಷಣ ಮತ್ತು ವೈಯಕ್ತಿಕ ಆಸಕ್ತಿಗಳಲ್ಲಿ ಬೆಳವಣಿಗೆ ತರಬಹುದು.",
 
+    "career_en": "Professional life may bring opportunities to showcase your skills and ideas during this month. Creative thinking and innovative approaches may help you gain recognition at work.\n\nIndividuals working in education, creative fields, entertainment, consulting, media, or marketing may experience positive progress. Your ability to communicate ideas effectively can help you build stronger professional relationships.\n\nBusiness owners may benefit from exploring new ideas or promoting their services more actively.",
+    "career_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಉದ್ಯೋಗ ಕ್ಷೇತ್ರದಲ್ಲಿ ನಿಮ್ಮ ಕೌಶಲ್ಯ ಮತ್ತು ಆಲೋಚನೆಗಳನ್ನು ಪ್ರದರ್ಶಿಸುವ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು. ಸೃಜನಾತ್ಮಕ ಚಿಂತನೆ ಮತ್ತು ಹೊಸ ವಿಧಾನಗಳು ನಿಮ್ಮ ಕೆಲಸಕ್ಕೆ ಮೆಚ್ಚುಗೆಯನ್ನು ತಂದುಕೊಡಬಹುದು.\n\nಶಿಕ್ಷಣ, ಸೃಜನಾತ್ಮಕ ಕ್ಷೇತ್ರಗಳು, ಮನರಂಜನೆ, ಸಲಹೆಗಾರಿಕೆ, ಮಾಧ್ಯಮ ಅಥವಾ ಮಾರ್ಕೆಟಿಂಗ್ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವವರಿಗೆ ಉತ್ತಮ ಬೆಳವಣಿಗೆ ಕಾಣಬಹುದು.\n\nವ್ಯಾಪಾರಸ್ಥರು ಹೊಸ ಆಲೋಚನೆಗಳನ್ನು ಅನುಸರಿಸುವುದು ಅಥವಾ ತಮ್ಮ ಸೇವೆಗಳನ್ನು ಹೆಚ್ಚು ಪ್ರಚಾರ ಮಾಡುವುದರಿಂದ ಲಾಭ ಪಡೆಯಬಹುದು.",
+
+    "finance_en": "Financial matters may remain balanced during this period. Opportunities to earn through creative projects, education, or professional activities may arise.\n\nHowever, it is advisable to avoid unnecessary spending on luxury items or entertainment. Maintaining financial discipline and focusing on savings will help ensure stability.",
+    "finance_kn": "ಈ ಅವಧಿಯಲ್ಲಿ ಹಣಕಾಸಿನ ಸ್ಥಿತಿ ಸಮತೋಲನದಲ್ಲಿರಬಹುದು. ಸೃಜನಾತ್ಮಕ ಯೋಜನೆಗಳು, ಶಿಕ್ಷಣ ಅಥವಾ ವೃತ್ತಿ ಚಟುವಟಿಕೆಗಳಿಂದ ಆದಾಯದ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು.\n\nಆದರೆ ಐಷಾರಾಮಿ ವಸ್ತುಗಳು ಅಥವಾ ಮನರಂಜನೆಗೆ ಅನಾವಶ್ಯಕ ಖರ್ಚುಗಳನ್ನು ತಪ್ಪಿಸುವುದು ಉತ್ತಮ. ಹಣಕಾಸಿನ ಶಿಸ್ತು ಮತ್ತು ಉಳಿತಾಯದಿಂದ ಸ್ಥಿರತೆ ಕಾಪಾಡಬಹುದು.",
+
+    "family_en": "Family life may bring happiness and emotional satisfaction during this month. Spending time with loved ones and participating in family activities can strengthen relationships.\n\nParents may feel proud of their children’s achievements. Romantic relationships may also bring pleasant moments if mutual understanding and respect are maintained.",
+    "family_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಕುಟುಂಬ ಜೀವನ ಸಂತೋಷಕರವಾಗಿರಬಹುದು. ಮನೆಯವರೊಂದಿಗೆ ಸಮಯ ಕಳೆಯುವುದು ಮತ್ತು ಕುಟುಂಬ ಚಟುವಟಿಕೆಗಳಲ್ಲಿ ಭಾಗವಹಿಸುವುದು ಸಂಬಂಧಗಳನ್ನು ಗಟ್ಟಿಗೊಳಿಸುತ್ತದೆ.\n\nಮಕ್ಕಳ ಸಾಧನೆಗಳಿಂದ ಪೋಷಕರಿಗೆ ಸಂತೋಷ ದೊರೆಯಬಹುದು. ಪ್ರೇಮ ಸಂಬಂಧಗಳಲ್ಲಿಯೂ ಪರಸ್ಪರ ಗೌರವ ಮತ್ತು ಅರ್ಥೈಸಿಕೊಳ್ಳುವಿಕೆ ಇದ್ದರೆ ಉತ್ತಮ ಕ್ಷಣಗಳು ದೊರೆಯಬಹುದು.",
+
+    "health_en": "Health may remain generally stable during this month. However, maintaining a balanced routine with regular exercise, proper diet, and sufficient rest will be important.\n\nOutdoor activities, sports, or relaxation practices such as meditation can help maintain both physical and mental well-being.",
+    "health_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಆರೋಗ್ಯ ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಿರವಾಗಿರಬಹುದು. ಆದರೆ ನಿಯಮಿತ ವ್ಯಾಯಾಮ, ಸರಿಯಾದ ಆಹಾರ ಮತ್ತು ಸಮರ್ಪಕ ವಿಶ್ರಾಂತಿ ಕಾಪಾಡಿಕೊಳ್ಳುವುದು ಮುಖ್ಯ.\n\nಹೊರಾಂಗಣ ಚಟುವಟಿಕೆಗಳು, ಕ್ರೀಡೆ ಅಥವಾ ಧ್ಯಾನ ಮುಂತಾದ ಅಭ್ಯಾಸಗಳು ದೇಹ ಮತ್ತು ಮನಸ್ಸಿನ ಆರೋಗ್ಯವನ್ನು ಉತ್ತಮವಾಗಿರಿಸುತ್ತವೆ.",
+
+    "growth_en": "April may inspire Dhanu Rashi natives to focus on creativity, learning, and self-expression. This period may encourage you to develop new skills and explore interests that bring joy and fulfillment.\n\nIt is also a good time to strengthen confidence and work toward long-term personal goals.",
+    "growth_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ಧನು ರಾಶಿಯವರಿಗೆ ಸೃಜನಶೀಲತೆ ಮತ್ತು ಹೊಸ ಕಲಿಕೆಯತ್ತ ಗಮನಹರಿಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು. ಹೊಸ ಕೌಶಲ್ಯಗಳನ್ನು ಕಲಿಯಲು ಮತ್ತು ನಿಮ್ಮ ಆಸಕ್ತಿಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ಇದು ಉತ್ತಮ ಸಮಯ.\n\nಆತ್ಮವಿಶ್ವಾಸವನ್ನು ಹೆಚ್ಚಿಸಿ ಮತ್ತು ದೀರ್ಘಕಾಲದ ಗುರಿಗಳತ್ತ ಮುಂದುವರಿಯಲು ಇದು ಸಹಾಯಕವಾಗಬಹುದು.",
+
+    "remedy_en": "To maintain positivity and success during this month:\n\nChant “Om Gurave Namah” and offer prayers to Lord Vishnu or Guru.",
+    "remedy_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಶುಭಫಲಗಳನ್ನು ಹೆಚ್ಚಿಸಲು:\n\n“ಓಂ ಗುರುವೇ ನಮಃ” ಮಂತ್ರವನ್ನು ಜಪಿಸಿ ಮತ್ತು ವಿಷ್ಣು ದೇವರನ್ನು ಪೂಜಿಸಿ.",
+
+    "conclusion_en": "April 2026 may bring creativity, learning opportunities, and joyful experiences for Dhanu Rashi natives. By maintaining discipline and focusing on personal growth, you can make meaningful progress toward your goals.",
+    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ಧನು ರಾಶಿಯವರಿಗೆ ಸೃಜನಶೀಲತೆ ಮತ್ತು ಹೊಸ ಅವಕಾಶಗಳನ್ನು ತರಬಹುದು. ಶಿಸ್ತು ಮತ್ತು ಆತ್ಮವಿಕಾಸದ ಮೇಲೆ ಗಮನಹರಿಸಿದರೆ ಯಶಸ್ಸಿನತ್ತ ಉತ್ತಮ ಪ್ರಗತಿ ಸಾಧಿಸಬಹುದು."
+  },
   "makara": {
     "month": "April 2026",
-    "intro_en": "April focuses on home, family responsibilities, and stability.",
-    "intro_kn": "ಏಪ್ರಿಲ್ ಮಕರ ರಾಶಿಯವರಿಗೆ ಮನೆ ಮತ್ತು ಕುಟುಂಬದ ಜವಾಬ್ದಾರಿಗಳ ಸಮಯ.",
-    "career_en": "Steady effort and patience will support career progress.",
-    "career_kn": "ಸಹನೆ ಮತ್ತು ಪರಿಶ್ರಮದಿಂದ ಬೆಳವಣಿಗೆ ಸಾಧ್ಯ.",
-    "finance_en": "Home-related expenses may increase.",
-    "finance_kn": "ಮನೆ ಖರ್ಚುಗಳು ಹೆಚ್ಚಾಗಬಹುದು.",
-    "family_en": "Family matters become a priority.",
-    "family_kn": "ಕುಟುಂಬ ಪ್ರಮುಖವಾಗಬಹುದು.",
-    "health_en": "Avoid fatigue caused by work pressure.",
-    "health_kn": "ದಣಿವು ತಪ್ಪಿಸಿ.",
-    "growth_en": "Focus on stability and long-term planning.",
-    "growth_kn": "ದೀರ್ಘಕಾಲದ ಯೋಜನೆಗಳಿಗೆ ಇದು ಉತ್ತಮ ಸಮಯ.",
-    "remedy_en": "Chant 'Om Sham Shanicharaya Namah'.",
-    "remedy_kn": "'ಓಂ ಶಂ ಶನೈಶ್ಚರಾಯ ನಮಃ' ಜಪಿಸಿ.",
-    "conclusion_en": "A steady month focused on stability.",
-    "conclusion_kn": "ಸ್ಥಿರತೆಯ ತಿಂಗಳು."
-  },
+    "intro_en": "April 2026 may bring attention toward home, family responsibilities, and emotional stability for Makara Rashi natives. During this period, the Sun’s transit may highlight matters related to domestic life, property, and personal comfort.\n\nThis month encourages you to focus on building strong foundations in both personal and professional life.",
+    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ಮಕರ ರಾಶಿಯವರಿಗೆ ಮನೆ, ಕುಟುಂಬದ ಜವಾಬ್ದಾರಿಗಳು ಮತ್ತು ಮನಶಾಂತಿಯ ಮೇಲೆ ಗಮನಹರಿಸುವ ಸಮಯವಾಗಿರಬಹುದು. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನ ಸಂಚಾರವು ಮನೆ, ಆಸ್ತಿ ಮತ್ತು ವೈಯಕ್ತಿಕ ಜೀವನದ ವಿಷಯಗಳನ್ನು ಪ್ರಮುಖವಾಗಿಸಬಹುದು.\n\nಈ ತಿಂಗಳು ವೈಯಕ್ತಿಕ ಮತ್ತು ವೃತ್ತಿ ಜೀವನದಲ್ಲಿ ಬಲವಾದ ನೆಲೆ ನಿರ್ಮಿಸಲು ಪ್ರೇರೇಪಿಸುತ್ತದೆ.",
 
+    "career_en": "Professional life may require patience and steady effort during this period. Work responsibilities may increase, and you may need to handle multiple tasks simultaneously.\n\nIndividuals working in administration, real estate, construction, agriculture, management, or government-related fields may see gradual progress.\n\nBusiness owners may focus on improving systems, strengthening internal management, and planning long-term strategies rather than making quick changes.",
+    "career_kn": "ಈ ಅವಧಿಯಲ್ಲಿ ಉದ್ಯೋಗ ಕ್ಷೇತ್ರದಲ್ಲಿ ಸಹನೆ ಮತ್ತು ನಿರಂತರ ಪರಿಶ್ರಮ ಅಗತ್ಯವಾಗಬಹುದು. ಕೆಲಸದ ಜವಾಬ್ದಾರಿಗಳು ಹೆಚ್ಚಾಗಬಹುದು ಮತ್ತು ಒಂದೇ ಸಮಯದಲ್ಲಿ ಹಲವಾರು ಕಾರ್ಯಗಳನ್ನು ನಿರ್ವಹಿಸಬೇಕಾಗಬಹುದು.\n\nಆಡಳಿತ, ರಿಯಲ್ ಎಸ್ಟೇಟ್, ನಿರ್ಮಾಣ, ಕೃಷಿ, ನಿರ್ವಹಣೆ ಅಥವಾ ಸರ್ಕಾರಿ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವವರಿಗೆ ನಿಧಾನವಾದ ಬೆಳವಣಿಗೆ ಕಾಣಬಹುದು.\n\nವ್ಯಾಪಾರಸ್ಥರು ತ್ವರಿತ ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡುವುದಕ್ಕಿಂತ ವ್ಯವಹಾರದ ವ್ಯವಸ್ಥೆಯನ್ನು ಬಲಪಡಿಸಲು ಮತ್ತು ದೀರ್ಘಕಾಲದ ಯೋಜನೆಗಳನ್ನು ರೂಪಿಸಲು ಗಮನಹರಿಸಬೇಕು.",
+
+    "finance_en": "Financial matters may require careful planning during this month. Expenses related to home, property maintenance, or family responsibilities may arise.\n\nIt is advisable to manage finances wisely and avoid unnecessary luxury spending. Long-term financial planning and disciplined savings will help maintain stability.",
+    "finance_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಹಣಕಾಸಿನ ವಿಷಯಗಳಲ್ಲಿ ಜಾಗ್ರತೆ ಅಗತ್ಯವಾಗಬಹುದು. ಮನೆ, ಆಸ್ತಿ ದುರಸ್ತಿ ಅಥವಾ ಕುಟುಂಬದ ಜವಾಬ್ದಾರಿಗಳಿಂದ ಖರ್ಚುಗಳು ಹೆಚ್ಚಾಗಬಹುದು.\n\nಆದ್ದರಿಂದ ಹಣಕಾಸನ್ನು ಜಾಣ್ಮೆಯಿಂದ ನಿರ್ವಹಿಸಿ ಮತ್ತು ಅನಾವಶ್ಯಕ ಐಷಾರಾಮಿ ಖರ್ಚುಗಳನ್ನು ತಪ್ಪಿಸಬೇಕು. ದೀರ್ಘಕಾಲದ ಹಣಕಾಸಿನ ಯೋಜನೆ ಮತ್ತು ಉಳಿತಾಯದಿಂದ ಸ್ಥಿರತೆ ಕಾಪಾಡಬಹುದು.",
+
+    "family_en": "Family matters may become a priority during this period. Spending time with family members and taking care of domestic responsibilities may bring emotional satisfaction.\n\nSupport from parents or elders may provide guidance and comfort. Maintaining patience and understanding in family discussions will help strengthen relationships.",
+    "family_kn": "ಈ ಅವಧಿಯಲ್ಲಿ ಕುಟುಂಬದ ವಿಷಯಗಳು ಪ್ರಮುಖವಾಗಬಹುದು. ಮನೆಯವರೊಂದಿಗೆ ಸಮಯ ಕಳೆಯುವುದು ಮತ್ತು ಮನೆಯ ಜವಾಬ್ದಾರಿಗಳನ್ನು ನಿಭಾಯಿಸುವುದು ಮನಶಾಂತಿಯನ್ನು ನೀಡಬಹುದು.\n\nತಂದೆ-ತಾಯಿ ಅಥವಾ ಹಿರಿಯರಿಂದ ಸಹಕಾರ ಮತ್ತು ಮಾರ್ಗದರ್ಶನ ದೊರೆಯಬಹುದು. ಕುಟುಂಬದ ವಿಚಾರಗಳಲ್ಲಿ ಸಹನೆ ಮತ್ತು ಅರ್ಥೈಸಿಕೊಳ್ಳುವಿಕೆ ಸಂಬಂಧಗಳನ್ನು ಗಟ್ಟಿಗೊಳಿಸುತ್ತದೆ.",
+
+    "health_en": "Health may remain generally stable, but it is important to maintain a balanced lifestyle. Work pressure or responsibilities may occasionally cause fatigue.\n\nRegular exercise, proper diet, and adequate rest will help maintain physical strength and mental balance.",
+    "health_kn": "ಆರೋಗ್ಯ ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಿರವಾಗಿರಬಹುದು. ಆದರೆ ಕೆಲಸದ ಒತ್ತಡದಿಂದ ಕೆಲವೊಮ್ಮೆ ದಣಿವು ಕಾಣಿಸಬಹುದು.\n\nನಿಯಮಿತ ವ್ಯಾಯಾಮ, ಸರಿಯಾದ ಆಹಾರ ಮತ್ತು ಸಮರ್ಪಕ ವಿಶ್ರಾಂತಿ ದೇಹ ಮತ್ತು ಮನಸ್ಸಿನ ಆರೋಗ್ಯವನ್ನು ಕಾಪಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+
+    "growth_en": "April may encourage Makara Rashi natives to focus on stability, discipline, and long-term planning. This period may help you develop patience and strengthen your ability to manage responsibilities.\n\nBuilding strong foundations now may support future success and personal growth.",
+    "growth_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ಮಕರ ರಾಶಿಯವರಿಗೆ ಸ್ಥಿರತೆ, ಶಿಸ್ತು ಮತ್ತು ದೀರ್ಘಕಾಲದ ಯೋಜನೆಗಳ ಮೇಲೆ ಗಮನಹರಿಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು.\n\nಈ ಸಮಯದಲ್ಲಿ ಸಹನೆ ಮತ್ತು ಜವಾಬ್ದಾರಿಗಳನ್ನು ನಿರ್ವಹಿಸುವ ಸಾಮರ್ಥ್ಯ ಹೆಚ್ಚಾಗಬಹುದು. ಈಗ ನಿರ್ಮಿಸುವ ಬಲವಾದ ನೆಲೆ ಭವಿಷ್ಯದ ಯಶಸ್ಸಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+
+    "remedy_en": "To maintain positivity and stability during this month:\n\nOffer prayers to Lord Shani and chant\n“Om Sham Shanicharaya Namah.”",
+    "remedy_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಶುಭಫಲಗಳನ್ನು ಹೆಚ್ಚಿಸಲು:\n\nಶನಿ ದೇವರನ್ನು ಪೂಜಿಸಿ ಮತ್ತು\n“ಓಂ ಶಂ ಶನೈಶ್ಚರಾಯ ನಮಃ” ಮಂತ್ರವನ್ನು ಜಪಿಸಿ.",
+
+    "conclusion_en": "April 2026 may bring opportunities for stability and careful progress for Makara Rashi natives. With patience, discipline, and thoughtful planning, you can build a strong foundation for future success.",
+    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ಮಕರ ರಾಶಿಯವರಿಗೆ ಸ್ಥಿರತೆ ಮತ್ತು ನಿಧಾನವಾದ ಬೆಳವಣಿಗೆ ತರಬಹುದು. ಸಹನೆ, ಶಿಸ್ತು ಮತ್ತು ಜಾಣ್ಮೆಯ ಯೋಜನೆಯಿಂದ ಭವಿಷ್ಯದ ಯಶಸ್ಸಿಗೆ ಬಲವಾದ ನೆಲೆ ನಿರ್ಮಿಸಬಹುದು."
+  },
   "kumbha": {
     "month": "April 2026",
-    "intro_en": "April brings communication, networking, and learning opportunities.",
-    "intro_kn": "ಏಪ್ರಿಲ್ ಕುಂಭ ರಾಶಿಯವರಿಗೆ ಹೊಸ ಸಂಪರ್ಕಗಳು ಮತ್ತು ಕಲಿಕೆಯ ಅವಕಾಶಗಳು.",
-    "career_en": "Communication and teamwork will help career progress.",
-    "career_kn": "ಸಂವಹನದಿಂದ ಯಶಸ್ಸು.",
-    "finance_en": "Financial matters remain stable with careful spending.",
-    "finance_kn": "ಹಣಕಾಸು ಸ್ಥಿರವಾಗಿರಬಹುದು.",
-    "family_en": "Relationships with siblings and friends may strengthen.",
-    "family_kn": "ಸಹೋದರರು ಮತ್ತು ಸ್ನೇಹಿತರೊಂದಿಗೆ ಸಂಪರ್ಕ ಹೆಚ್ಚಾಗಬಹುದು.",
-    "health_en": "Avoid stress caused by excessive work.",
-    "health_kn": "ಅತಿಯಾದ ಕೆಲಸ ತಪ್ಪಿಸಿ.",
-    "growth_en": "Learning new skills will support personal growth.",
-    "growth_kn": "ಹೊಸ ಕೌಶಲ್ಯಗಳು ಬೆಳವಣಿಗೆ ತರಬಹುದು.",
-    "remedy_en": "Chant 'Om Hanumate Namah'.",
-    "remedy_kn": "'ಓಂ ಹನುಮತೇ ನಮಃ' ಜಪಿಸಿ.",
-    "conclusion_en": "A dynamic month with learning opportunities.",
-    "conclusion_kn": "ಚಟುವಟಿಕೆಗಳ ತಿಂಗಳು."
-  },
+    "intro_en": "April 2026 may bring increased activity, communication, and new learning opportunities for Kumbha Rashi natives. During this period, the Sun’s transit may encourage you to take initiative, develop new ideas, and interact with people around you.\n\nThis month may inspire you to improve your skills, strengthen communication, and explore new possibilities for personal and professional growth.",
+    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ಕುಂಭ ರಾಶಿಯವರಿಗೆ ಚಟುವಟಿಕೆಗಳು, ಸಂವಹನ ಮತ್ತು ಹೊಸ ಕಲಿಕೆಯ ಅವಕಾಶಗಳನ್ನು ಹೆಚ್ಚಿಸಬಹುದು. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನ ಸಂಚಾರವು ಹೊಸ ಆಲೋಚನೆಗಳನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸಲು, ಮುಂದಾಳತ್ವ ತಾಳಲು ಮತ್ತು ಜನರೊಂದಿಗೆ ಸಂಪರ್ಕ ಬೆಳೆಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು.\n\nಈ ತಿಂಗಳು ನಿಮ್ಮ ಕೌಶಲ್ಯಗಳನ್ನು ಹೆಚ್ಚಿಸಲು, ಸಂವಹನವನ್ನು ಬಲಪಡಿಸಲು ಮತ್ತು ಬೆಳವಣಿಗೆಗೆ ಹೊಸ ಅವಕಾಶಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.",
 
+    "career_en": "Professional life may become more dynamic during this month. Communication skills, teamwork, and networking may play an important role in achieving success.\n\nIndividuals working in communication, marketing, writing, teaching, consulting, or technology-related fields may experience positive developments.\n\nBusiness owners may benefit from expanding their network, improving marketing strategies, and exploring new opportunities for growth.",
+    "career_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಉದ್ಯೋಗ ಕ್ಷೇತ್ರ ಹೆಚ್ಚು ಚುರುಕಾಗಿರಬಹುದು. ಸಂವಹನ ಕೌಶಲ್ಯ, ತಂಡದ ಸಹಕಾರ ಮತ್ತು ಹೊಸ ಸಂಪರ್ಕಗಳು ಯಶಸ್ಸಿಗೆ ಪ್ರಮುಖವಾಗಬಹುದು.\n\nಸಂವಹನ, ಮಾರ್ಕೆಟಿಂಗ್, ಬರವಣಿಗೆ, ಬೋಧನೆ, ಸಲಹೆಗಾರಿಕೆ ಅಥವಾ ತಂತ್ರಜ್ಞಾನ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವವರಿಗೆ ಉತ್ತಮ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು.\n\nವ್ಯಾಪಾರಸ್ಥರು ತಮ್ಮ ಸಂಪರ್ಕ ವಲಯವನ್ನು ವಿಸ್ತರಿಸುವುದು ಮತ್ತು ಹೊಸ ಮಾರ್ಕೆಟಿಂಗ್ ವಿಧಾನಗಳನ್ನು ಅನುಸರಿಸುವುದರಿಂದ ಲಾಭ ಪಡೆಯಬಹುದು.",
+
+    "finance_en": "Financial matters may remain generally stable during this period. Opportunities to earn through new projects, communication-based activities, or short-term ventures may arise.\n\nHowever, it is advisable to manage expenses carefully and avoid unnecessary financial commitments. Planning and disciplined spending will help maintain financial balance.",
+    "finance_kn": "ಈ ಅವಧಿಯಲ್ಲಿ ಹಣಕಾಸಿನ ಸ್ಥಿತಿ ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಿರವಾಗಿರಬಹುದು. ಹೊಸ ಯೋಜನೆಗಳು ಅಥವಾ ಸಂಪರ್ಕಗಳ ಮೂಲಕ ಆದಾಯದ ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು.\n\nಆದರೆ ಖರ್ಚುಗಳನ್ನು ಜಾಗ್ರತೆಯಿಂದ ನಿರ್ವಹಿಸುವುದು ಮುಖ್ಯ. ಅನಾವಶ್ಯಕ ಹಣಕಾಸಿನ ಬದ್ಧತೆಗಳನ್ನು ತಪ್ಪಿಸಿ ಮತ್ತು ಶಿಸ್ತಿನ ಖರ್ಚಿನಿಂದ ಸ್ಥಿರತೆ ಕಾಪಾಡಿಕೊಳ್ಳಿ.",
+
+    "family_en": "Family relationships may remain supportive during this month. Communication with siblings, relatives, or close friends may increase.\n\nSpending time with loved ones and maintaining open communication will help strengthen relationships and avoid misunderstandings.",
+    "family_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಕುಟುಂಬ ಸಂಬಂಧಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಉತ್ತಮವಾಗಿರಬಹುದು. ಸಹೋದರರು, ಸಂಬಂಧಿಕರು ಅಥವಾ ಸ್ನೇಹಿತರೊಂದಿಗೆ ಸಂಪರ್ಕ ಹೆಚ್ಚಾಗಬಹುದು.\n\nಕುಟುಂಬದವರೊಂದಿಗೆ ಸಮಯ ಕಳೆಯುವುದು ಮತ್ತು ತೆರೆಯಾದ ಸಂವಹನ ಸಂಬಂಧಗಳನ್ನು ಗಟ್ಟಿಗೊಳಿಸುತ್ತದೆ.",
+
+    "health_en": "Health may remain stable during this month, but it is important to avoid stress caused by excessive work or mental pressure.\n\nMaintaining a balanced routine with regular exercise, proper rest, and healthy food will support both physical and mental well-being.",
+    "health_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಆರೋಗ್ಯ ಸಾಮಾನ್ಯವಾಗಿ ಉತ್ತಮವಾಗಿರಬಹುದು. ಆದರೆ ಹೆಚ್ಚು ಕೆಲಸ ಅಥವಾ ಮಾನಸಿಕ ಒತ್ತಡವನ್ನು ತಪ್ಪಿಸಬೇಕು.\n\nನಿಯಮಿತ ವ್ಯಾಯಾಮ, ಸರಿಯಾದ ಆಹಾರ ಮತ್ತು ಸಮರ್ಪಕ ವಿಶ್ರಾಂತಿ ದೇಹ ಮತ್ತು ಮನಸ್ಸಿನ ಆರೋಗ್ಯವನ್ನು ಕಾಪಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+
+    "growth_en": "April may encourage Kumbha Rashi natives to develop new skills and explore innovative ideas. This period may help you expand your vision and pursue activities that support long-term progress.\n\nLearning, communication, and networking may play a key role in personal development.",
+    "growth_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ಕುಂಭ ರಾಶಿಯವರಿಗೆ ಹೊಸ ಕೌಶಲ್ಯಗಳನ್ನು ಕಲಿಯಲು ಮತ್ತು ಹೊಸ ಆಲೋಚನೆಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು.\n\nಈ ಸಮಯದಲ್ಲಿ ಕಲಿಕೆ, ಸಂವಹನ ಮತ್ತು ಸಂಪರ್ಕಗಳು ವ್ಯಕ್ತಿತ್ವ ಅಭಿವೃದ್ಧಿಗೆ ಸಹಾಯ ಮಾಡಬಹುದು.",
+
+    "remedy_en": "To maintain positivity and protection during this month:\n\nWorship Lord Hanuman and chant\n“Om Hanumate Namah.”",
+    "remedy_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಶುಭಫಲಗಳನ್ನು ಹೆಚ್ಚಿಸಲು:\n\nಹನುಮಂತನನ್ನು ಪೂಜಿಸಿ ಮತ್ತು\n“ಓಂ ಹನುಮತೇ ನಮಃ” ಮಂತ್ರವನ್ನು ಜಪಿಸಿ.",
+
+    "conclusion_en": "April 2026 may bring opportunities for learning, communication, and growth for Kumbha Rashi natives. With focus, discipline, and clear communication, you can make meaningful progress in your goals.",
+    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ಕುಂಭ ರಾಶಿಯವರಿಗೆ ಕಲಿಕೆ ಮತ್ತು ಬೆಳವಣಿಗೆಯ ಅವಕಾಶಗಳನ್ನು ತರಬಹುದು. ಏಕಾಗ್ರತೆ ಮತ್ತು ಶಿಸ್ತಿನಿಂದ ಕಾರ್ಯನಿರ್ವಹಿಸಿದರೆ ಉತ್ತಮ ಫಲಿತಾಂಶಗಳನ್ನು ಪಡೆಯಬಹುದು."
+  },
   "meena": {
     "month": "April 2026",
-    "intro_en": "April highlights financial planning and personal stability.",
-    "intro_kn": "ಏಪ್ರಿಲ್ ಮೀನ ರಾಶಿಯವರಿಗೆ ಹಣಕಾಸಿನ ಯೋಜನೆಗಳ ಸಮಯ.",
-    "career_en": "Work may remain steady with gradual improvement.",
-    "career_kn": "ಉದ್ಯೋಗ ಜೀವನ ಸ್ಥಿರವಾಗಿರಬಹುದು.",
-    "finance_en": "Savings and financial discipline will help stability.",
-    "finance_kn": "ಉಳಿತಾಯ ಮುಖ್ಯ.",
-    "family_en": "Family support may provide emotional comfort.",
-    "family_kn": "ಕುಟುಂಬದವರ ಸಹಕಾರ ದೊರೆಯಬಹುದು.",
-    "health_en": "Maintain proper diet, rest, and exercise.",
-    "health_kn": "ಸರಿಯಾದ ಆಹಾರ ಮತ್ತು ವಿಶ್ರಾಂತಿ ಅಗತ್ಯ.",
-    "growth_en": "Spiritual learning and self-reflection may increase.",
-    "growth_kn": "ಧ್ಯಾನ ಮತ್ತು ಆತ್ಮಪರಿಶೀಲನೆ ಸಾಧ್ಯ.",
-    "remedy_en": "Chant 'Om Namo Narayanaya'.",
-    "remedy_kn": "'ಓಂ ನಮೋ ನಾರಾಯಣಾಯ' ಜಪಿಸಿ.",
-    "conclusion_en": "A month of stability and thoughtful decisions.",
-    "conclusion_kn": "ಸ್ಥಿರತೆಯ ತಿಂಗಳು."
+    "intro_en": "April 2026 may bring attention toward finances, personal values, and stability for Meena Rashi natives. During this period, the Sun’s transit may encourage you to focus on financial planning, family responsibilities, and building a secure future.\n\nThis month may help you strengthen your resources and make thoughtful decisions related to wealth and personal priorities.",
+    "intro_kn": "ಏಪ್ರಿಲ್ 2026 ಮೀನ ರಾಶಿಯವರಿಗೆ ಹಣಕಾಸು, ವೈಯಕ್ತಿಕ ಮೌಲ್ಯಗಳು ಮತ್ತು ಸ್ಥಿರತೆಯ ಮೇಲೆ ಗಮನಹರಿಸುವ ಸಮಯವಾಗಿರಬಹುದು. ಈ ಅವಧಿಯಲ್ಲಿ ಸೂರ್ಯನ ಸಂಚಾರವು ಹಣಕಾಸಿನ ಯೋಜನೆ, ಕುಟುಂಬ ಜವಾಬ್ದಾರಿಗಳು ಮತ್ತು ಭವಿಷ್ಯದ ಭದ್ರತೆಯ ಬಗ್ಗೆ ಯೋಚಿಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು.\n\nಈ ತಿಂಗಳು ನಿಮ್ಮ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಬಲಪಡಿಸಲು ಮತ್ತು ಜಾಣ್ಮೆಯ ಹಣಕಾಸಿನ ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡಬಹುದು.",
+
+    "career_en": "Professional life may remain steady during this period. You may focus on maintaining stability and improving your efficiency at work. Your ability to work patiently and responsibly may bring appreciation from colleagues or seniors.\n\nIndividuals working in finance, education, counseling, spiritual services, arts, or social service fields may see gradual progress.\n\nBusiness owners may benefit from maintaining consistency and focusing on improving customer relationships.",
+    "career_kn": "ಈ ಅವಧಿಯಲ್ಲಿ ಉದ್ಯೋಗ ಜೀವನ ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಿರವಾಗಿರಬಹುದು. ಕೆಲಸದಲ್ಲಿ ಸ್ಥಿರತೆ ಮತ್ತು ಕಾರ್ಯಕ್ಷಮತೆಯನ್ನು ಹೆಚ್ಚಿಸಲು ನೀವು ಪ್ರಯತ್ನಿಸಬಹುದು. ಸಹನೆ ಮತ್ತು ಜವಾಬ್ದಾರಿಯಿಂದ ಕೆಲಸ ಮಾಡುವುದರಿಂದ ಮೇಲಾಧಿಕಾರಿಗಳ ಮೆಚ್ಚುಗೆ ದೊರೆಯಬಹುದು.\n\nಹಣಕಾಸು, ಶಿಕ್ಷಣ, ಸಲಹೆಗಾರಿಕೆ, ಆಧ್ಯಾತ್ಮಿಕ ಸೇವೆಗಳು, ಕಲೆ ಅಥವಾ ಸಾಮಾಜಿಕ ಸೇವಾ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವವರಿಗೆ ನಿಧಾನವಾದ ಬೆಳವಣಿಗೆ ಕಾಣಬಹುದು.\n\nವ್ಯಾಪಾರಸ್ಥರು ಗ್ರಾಹಕರೊಂದಿಗೆ ಉತ್ತಮ ಸಂಬಂಧವನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳುವುದರಿಂದ ಲಾಭ ಪಡೆಯಬಹುದು.",
+
+    "finance_en": "Financial matters may require careful planning during this month. Opportunities to improve savings or strengthen financial stability may arise.\n\nHowever, it is important to avoid unnecessary spending and maintain discipline in financial decisions. Long-term planning and careful management of resources will help maintain balance.",
+    "finance_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಹಣಕಾಸಿನ ವಿಷಯಗಳಲ್ಲಿ ಜಾಗ್ರತೆ ಅಗತ್ಯವಾಗಬಹುದು. ಉಳಿತಾಯವನ್ನು ಹೆಚ್ಚಿಸಲು ಅಥವಾ ಹಣಕಾಸಿನ ಸ್ಥಿರತೆಯನ್ನು ಬಲಪಡಿಸಲು ಅವಕಾಶಗಳು ದೊರೆಯಬಹುದು.\n\nಆದರೆ ಅನಾವಶ್ಯಕ ಖರ್ಚುಗಳನ್ನು ತಪ್ಪಿಸಿ ಮತ್ತು ಹಣಕಾಸಿನ ನಿರ್ಧಾರಗಳಲ್ಲಿ ಶಿಸ್ತನ್ನು ಪಾಲಿಸಬೇಕು. ದೀರ್ಘಕಾಲದ ಯೋಜನೆಗಳು ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳ ಜಾಣ್ಮೆಯ ನಿರ್ವಹಣೆ ಸ್ಥಿರತೆಯನ್ನು ಕಾಪಾಡುತ್ತದೆ.",
+
+    "family_en": "Family relationships may bring emotional comfort during this period. Spending time with family members and sharing responsibilities may strengthen bonds.\n\nClear communication and mutual respect will help maintain harmony in relationships.",
+    "family_kn": "ಈ ಅವಧಿಯಲ್ಲಿ ಕುಟುಂಬದವರಿಂದ ಸಹಕಾರ ಮತ್ತು ಮನಶಾಂತಿ ದೊರೆಯಬಹುದು. ಮನೆಯವರೊಂದಿಗೆ ಸಮಯ ಕಳೆಯುವುದು ಮತ್ತು ಜವಾಬ್ದಾರಿಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದು ಸಂಬಂಧಗಳನ್ನು ಗಟ್ಟಿಗೊಳಿಸುತ್ತದೆ.\n\nಸ್ಪಷ್ಟ ಸಂವಹನ ಮತ್ತು ಪರಸ್ಪರ ಗೌರವ ಸಂಬಂಧಗಳಲ್ಲಿ ಶಾಂತಿಯನ್ನು ಕಾಪಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+
+    "health_en": "Health may remain generally stable, but maintaining a balanced routine will be important. Proper diet, adequate rest, and regular physical activity will support overall well-being.\n\nPracticing meditation or spiritual activities may help maintain mental peace.",
+    "health_kn": "ಆರೋಗ್ಯ ಸಾಮಾನ್ಯವಾಗಿ ಉತ್ತಮವಾಗಿರಬಹುದು. ಆದರೆ ಸಮತೋಲನದ ಜೀವನಶೈಲಿಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳುವುದು ಮುಖ್ಯ.\n\nಸರಿಯಾದ ಆಹಾರ, ಸಮರ್ಪಕ ವಿಶ್ರಾಂತಿ ಮತ್ತು ವ್ಯಾಯಾಮ ಆರೋಗ್ಯವನ್ನು ಕಾಪಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಧ್ಯಾನ ಅಥವಾ ಆಧ್ಯಾತ್ಮಿಕ ಚಟುವಟಿಕೆಗಳು ಮನಶಾಂತಿಯನ್ನು ನೀಡುತ್ತವೆ.",
+
+    "growth_en": "April may encourage Meena Rashi natives to focus on self-awareness and personal values. This period may help you gain clarity about priorities and strengthen your sense of purpose.\n\nSpiritual learning, meditation, and personal reflection may bring deeper understanding and inner peace.",
+    "growth_kn": "ಏಪ್ರಿಲ್ ತಿಂಗಳು ಮೀನ ರಾಶಿಯವರಿಗೆ ಆತ್ಮಪರಿಶೀಲನೆ ಮತ್ತು ವೈಯಕ್ತಿಕ ಮೌಲ್ಯಗಳತ್ತ ಗಮನಹರಿಸಲು ಪ್ರೇರೇಪಿಸಬಹುದು.\n\nಧ್ಯಾನ, ಆಧ್ಯಾತ್ಮಿಕ ಅಧ್ಯಯನ ಮತ್ತು ಆತ್ಮಪರಿಶೀಲನೆ ಮನಶಾಂತಿ ಮತ್ತು ಸ್ಪಷ್ಟತೆ ನೀಡಬಹುದು.",
+
+    "remedy_en": "To maintain positivity and prosperity during this month:\n\nChant “Om Namo Narayanaya” regularly and offer prayers to Lord Vishnu.",
+    "remedy_kn": "ಈ ತಿಂಗಳಲ್ಲಿ ಶುಭಫಲಗಳನ್ನು ಹೆಚ್ಚಿಸಲು:\n\n“ಓಂ ನಮೋ ನಾರಾಯಣಾಯ” ಮಂತ್ರವನ್ನು ಜಪಿಸಿ ಮತ್ತು ವಿಷ್ಣು ದೇವರನ್ನು ಪೂಜಿಸಿ.",
+
+    "conclusion_en": "April 2026 may bring stability, thoughtful decisions, and personal growth for Meena Rashi natives. With discipline and clarity in priorities, you can build a secure foundation for the future.",
+    "conclusion_kn": "ಏಪ್ರಿಲ್ 2026 ಮೀನ ರಾಶಿಯವರಿಗೆ ಸ್ಥಿರತೆ ಮತ್ತು ಆತ್ಮವಿಕಾಸದ ಅವಕಾಶಗಳನ್ನು ತರಬಹುದು. ಶಿಸ್ತು ಮತ್ತು ಸ್ಪಷ್ಟ ಗುರಿಗಳೊಂದಿಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸಿದರೆ ಭವಿಷ್ಯದ ಯಶಸ್ಸಿಗೆ ಉತ್ತಮ ನೆಲೆ ನಿರ್ಮಿಸಬಹುದು."
   }
 }

@@ -294,6 +294,7 @@ body {
     display: flex;
     gap: 20px;
     justify-content: center;
+    align-items: stretch;
     margin-top: 40px;
     margin-bottom: 40px;
     flex-wrap: wrap;
@@ -438,11 +439,16 @@ body {
     text-align: center;
     color: var(--text-light);
     box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sidebar-cta img {
     width: 100%;
     max-width: 250px;
+    height: 200px;
+    object-fit: cover;
     border-radius: 4px;
     margin-bottom: 15px;
     border: 1px solid rgba(255,255,255,0.2);
@@ -479,6 +485,13 @@ body {
     font-size: 0.9rem;
     margin-bottom: 15px;
     opacity: 0.9;
+    flex-grow: 1;
+}
+
+.sidebar-cta .btn {
+    margin-top: auto;
+    width: 100%;
+    max-width: 200px;
 }
 
 /* Buttons */
@@ -549,4 +562,25 @@ body {
         border-top: 2px dashed #D4AF37;
         padding-top: 30px;
     }
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0,0,0,0.4);
+    color: rgba(255,255,255,0.6);
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+.site-footer a {
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.site-footer a:hover {
+    color: #D4AF37;
+    text-decoration: underline;
 }

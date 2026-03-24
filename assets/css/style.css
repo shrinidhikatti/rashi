@@ -564,6 +564,49 @@ body {
     }
 }
 
+/* Fixed Consultation Button */
+.btn-consult-fixed {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--font-heading-en);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 50px;
+    color: #1A0000 !important;
+    background: linear-gradient(135deg, #FFF2A8 0%, #D4AF37 50%, #996B1C 100%);
+    border: 2px solid #FFF2A8;
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.6), 0 0 0 0 rgba(212, 175, 55, 0.4);
+    animation: consultPulse 2s ease-in-out infinite;
+    cursor: pointer;
+}
+
+.btn-consult-fixed:hover {
+    background: linear-gradient(135deg, #FFEF80 0%, #F3C34B 50%, #B8860B 100%);
+    box-shadow: 0 6px 25px rgba(212, 175, 55, 0.9), 0 0 30px rgba(212, 175, 55, 0.5);
+    transform: translateX(-50%) translateY(-2px);
+}
+
+@keyframes consultPulse {
+    0%   { box-shadow: 0 4px 20px rgba(212,175,55,0.6), 0 0 0 0 rgba(212,175,55,0.5); }
+    50%  { box-shadow: 0 4px 30px rgba(212,175,55,0.9), 0 0 0 12px rgba(212,175,55,0); }
+    100% { box-shadow: 0 4px 20px rgba(212,175,55,0.6), 0 0 0 0 rgba(212,175,55,0); }
+}
+
+/* Add padding to body so content doesn't hide behind fixed button */
+.index-body, .prediction-body {
+    padding-bottom: 80px;
+}
+
 /* Footer */
 .site-footer {
     text-align: center;

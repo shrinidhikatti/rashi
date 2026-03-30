@@ -581,6 +581,7 @@ body {
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
+    width: auto;
     border-radius: 50px;
     color: #1A0000 !important;
     background: linear-gradient(135deg, #FFF2A8 0%, #D4AF37 50%, #996B1C 100%);
@@ -605,6 +606,20 @@ body {
 /* Add padding to body so content doesn't hide behind fixed button */
 .index-body, .prediction-body {
     padding-bottom: 80px;
+}
+
+@media (max-width: 480px) {
+    .btn-consult-fixed {
+        left: 15px;
+        right: 15px;
+        transform: none;
+        width: auto;
+        max-width: none;
+        font-size: 0.78rem;
+        padding: 12px 15px;
+        letter-spacing: 0.8px;
+        text-align: center;
+    }
 }
 
 /* Footer */

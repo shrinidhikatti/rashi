@@ -622,6 +622,229 @@ body {
     }
 }
 
+/* =========================================================================
+   KUNDALI FUNNEL — LEAD GATE + PRICING CARDS
+   ========================================================================= */
+
+.btn-kundali-cta {
+    display: inline-block;
+    padding: 14px 32px;
+    font-size: 1rem;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #D4AF37, #996B1C);
+    color: #1A0000 !important;
+    border: 2px solid #FFF2A8;
+    box-shadow: 0 4px 20px rgba(212,175,55,0.4);
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.btn-kundali-cta:hover {
+    background: linear-gradient(135deg, #FFF2A8, #D4AF37);
+    box-shadow: 0 6px 28px rgba(212,175,55,0.7);
+    transform: translateY(-2px);
+}
+
+.kundali-funnel-section {
+    margin: 10px auto 50px;
+    padding: 40px 24px;
+    background: rgba(0,0,0,0.35);
+    border: 1px solid rgba(212,175,55,0.35);
+    border-radius: 14px;
+    max-width: 900px;
+}
+
+.funnel-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.funnel-subtitle {
+    text-align: center;
+    color: var(--gold-light);
+    opacity: 0.8;
+    margin-bottom: 28px;
+    font-size: 0.95rem;
+}
+
+/* Lead Gate */
+.lead-gate-box {
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.lead-gate-teaser {
+    text-align: center;
+    background: rgba(139,35,35,0.35);
+    border: 1px dashed rgba(212,175,55,0.5);
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    color: var(--gold-light);
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+
+.lead-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.lead-form input {
+    padding: 14px 18px;
+    border-radius: 8px;
+    border: 1px solid rgba(212,175,55,0.35);
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+    font-size: 1rem;
+    font-family: var(--font-body-en);
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.lead-form input:focus {
+    border-color: var(--gold-primary);
+}
+
+.lead-form input::placeholder {
+    color: rgba(255,255,255,0.38);
+}
+
+.lead-submit-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.lead-error {
+    color: #ff7070;
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 8px;
+}
+
+/* Pricing Cards */
+.pricing-section {
+    margin-top: 40px;
+}
+
+.pricing-section-title {
+    text-align: center;
+    color: var(--gold-light);
+    margin-bottom: 28px;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.pricing-card {
+    background: linear-gradient(145deg, #3A0808, #1A0000);
+    border: 1px solid rgba(212,175,55,0.35);
+    border-radius: 12px;
+    padding: 28px 18px;
+    text-align: center;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+}
+
+.pricing-card-featured {
+    border-color: var(--gold-primary);
+    box-shadow: 0 0 28px rgba(212,175,55,0.2);
+    background: linear-gradient(145deg, #5A1010, #2A0404);
+}
+
+.pricing-badge {
+    display: inline-block;
+    font-family: var(--font-heading-en);
+    font-size: 0.68rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+    background: rgba(212,175,55,0.12);
+    color: var(--gold-light);
+    border: 1px solid rgba(212,175,55,0.3);
+}
+
+.pricing-card-featured .pricing-badge {
+    background: var(--gold-primary);
+    color: #1A0000;
+    border-color: var(--gold-primary);
+}
+
+.pricing-price {
+    font-size: 2.4rem;
+    font-family: var(--font-heading-en);
+    color: var(--gold-primary);
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.pricing-name {
+    font-size: 1rem;
+    color: var(--text-light);
+    margin-bottom: 18px;
+    font-family: var(--font-heading-en);
+    letter-spacing: 0.5px;
+}
+
+.pricing-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 22px;
+    text-align: left;
+    width: 100%;
+}
+
+.pricing-features li {
+    padding: 6px 0 6px 22px;
+    color: rgba(255,255,255,0.8);
+    font-size: 0.88rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    position: relative;
+}
+
+.pricing-features li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--gold-primary);
+}
+
+.pricing-btn {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-top: auto;
+    font-size: 0.82rem;
+    padding: 11px 16px;
+}
+
+@media (max-width: 700px) {
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+    .funnel-title { font-size: 1.4rem; }
+}
+
 /* Footer */
 .site-footer {
     text-align: center;

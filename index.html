@@ -160,12 +160,92 @@
             </div> <!-- End Rashi Grid -->
 
             <!-- Book Consultation Button Below Grid -->
-            <div style="margin-top: 40px; margin-bottom: 20px;">
+            <div style="margin-top: 40px; margin-bottom: 10px;">
                 <a href="https://astrovastushrivmjoshi.com/services/astrology-consultation/#asto-cons"
                     class="btn btn-cta-large english-heading">
                     Book Your Consultation @₹199 Only
                 </a>
             </div>
+
+            <!-- Kundali Funnel CTA -->
+            <div style="margin: 20px 0 40px;">
+                <a href="#kundali-funnel" class="btn btn-kundali-cta english-heading" onclick="document.getElementById('kundali-funnel').scrollIntoView({behavior:'smooth'});return false;">
+                    Get Full Kundali · Check Price ↓
+                </a>
+            </div>
+
+            <!-- ===================== KUNDALI FUNNEL SECTION ===================== -->
+            <div id="kundali-funnel" class="kundali-funnel-section">
+
+                <h2 class="english-heading gold-text funnel-title">Get Your Personalized Kundali</h2>
+                <p class="funnel-subtitle">Enter your details — pricing revealed instantly</p>
+
+                <!-- Lead Gate Form -->
+                <div id="lead-gate-box" class="lead-gate-box">
+                    <div class="lead-gate-teaser">
+                        🔒 Price hidden · Submit to reveal
+                    </div>
+                    <form id="lead-form" class="lead-form">
+                        <input type="text" id="lead-name" placeholder="Your Name" required autocomplete="name">
+                        <input type="tel" id="lead-whatsapp" placeholder="WhatsApp Number (10 digits)" required maxlength="10" pattern="[6-9][0-9]{9}">
+                        <button type="submit" class="btn btn-primary lead-submit-btn english-heading">
+                            Get Full Kundali · Check Price →
+                        </button>
+                    </form>
+                    <p id="lead-error" class="lead-error" style="display:none;">Please enter your name and a valid 10-digit WhatsApp number.</p>
+                </div>
+
+                <!-- Pricing Cards (hidden until form submit) -->
+                <div id="pricing-section" class="pricing-section" style="display:none;">
+                    <p class="pricing-section-title english-heading">Choose Your Plan</p>
+                    <div class="pricing-grid">
+
+                        <!-- ₹49 Mini Kundali -->
+                        <div class="pricing-card">
+                            <div class="pricing-badge">Starter</div>
+                            <div class="pricing-price">₹49</div>
+                            <div class="pricing-name">Mini Kundali</div>
+                            <ul class="pricing-features">
+                                <li>Instant WhatsApp PDF</li>
+                                <li>Rashi overview</li>
+                                <li>Lucky dates</li>
+                                <li>1 key prediction</li>
+                            </ul>
+                            <a href="https://astrovastushrivmjoshi.com/horoscopebook/" class="btn btn-primary pricing-btn english-heading" target="_blank">Buy Now — ₹49</a>
+                        </div>
+
+                        <!-- ₹499 Full Kundali PDF -->
+                        <div class="pricing-card pricing-card-featured">
+                            <div class="pricing-badge">Most Popular</div>
+                            <div class="pricing-price">₹499</div>
+                            <div class="pricing-name">Full Kundali PDF</div>
+                            <ul class="pricing-features">
+                                <li>15-page detailed chart</li>
+                                <li>12 houses analysis</li>
+                                <li>Dasha forecast</li>
+                                <li>Remedies + mantras</li>
+                            </ul>
+                            <a href="https://astrovastushrivmjoshi.com/horoscopebook/" class="btn btn-primary pricing-btn english-heading" target="_blank">Buy Now — ₹499</a>
+                        </div>
+
+                        <!-- ₹1,700 Book + Home Delivery -->
+                        <div class="pricing-card">
+                            <div class="pricing-badge">Premium</div>
+                            <div class="pricing-price">₹1,700</div>
+                            <div class="pricing-name">Book + Home Delivery</div>
+                            <ul class="pricing-features">
+                                <li>Printed Kundali book</li>
+                                <li>Free courier delivery</li>
+                                <li>1:1 30-min consultation call</li>
+                            </ul>
+                            <a href="https://astrovastushrivmjoshi.com/horoscopebook/" class="btn btn-primary pricing-btn english-heading" target="_blank">Buy Now — ₹1,700</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- ===================== END KUNDALI FUNNEL ===================== -->
 
             <!-- CTA Cards -->
             <div class="index-cta-row">
@@ -195,6 +275,52 @@
        class="btn-consult-fixed english-heading">
         📞 Book Your Consultation @₹199 Only
     </a>
+
+    <script>
+    (function () {
+        var form = document.getElementById('lead-form');
+        if (!form) return;
+
+        // Replace with your Google Apps Script webhook URL
+        var SHEET_URL = 'YOUR_GOOGLE_APPS_SCRIPT_WEBHOOK_URL';
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            var name = document.getElementById('lead-name').value.trim();
+            var wa   = document.getElementById('lead-whatsapp').value.trim();
+            var errEl = document.getElementById('lead-error');
+
+            if (!name || !/^[6-9][0-9]{9}$/.test(wa)) {
+                errEl.style.display = 'block';
+                return;
+            }
+            errEl.style.display = 'none';
+
+            // Save lead to Google Sheet (silent — won't block UX if it fails)
+            if (SHEET_URL !== 'YOUR_GOOGLE_APPS_SCRIPT_WEBHOOK_URL') {
+                fetch(SHEET_URL, {
+                    method: 'POST',
+                    body: JSON.stringify({ name: name, whatsapp: wa, source: 'rashi-page', timestamp: new Date().toISOString() }),
+                    headers: { 'Content-Type': 'text/plain' }
+                }).catch(function () {});
+            }
+
+            // Append lead data to horoscopebook buy links
+            document.querySelectorAll('.pricing-btn').forEach(function (link) {
+                var url = new URL(link.href);
+                url.searchParams.set('name', name);
+                url.searchParams.set('wa', wa);
+                link.href = url.toString();
+            });
+
+            // Hide form, reveal pricing
+            document.getElementById('lead-gate-box').style.display = 'none';
+            var ps = document.getElementById('pricing-section');
+            ps.style.display = 'block';
+            ps.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    })();
+    </script>
 
 </body>
 

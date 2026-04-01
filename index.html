@@ -282,7 +282,7 @@
         if (!form) return;
 
         // Replace with your Google Apps Script webhook URL
-        var SHEET_URL = 'YOUR_GOOGLE_APPS_SCRIPT_WEBHOOK_URL';
+        var SHEET_URL = 'https://script.google.com/macros/s/AKfycbx-MLIpXYyYVVEUjWEZLpqa-UyghG0OAGekTLFwItEY2Mh20gBiawll_5guh8DMeUqa/exec';
 
         form.addEventListener('submit', function (e) {
             e.preventDefault();
@@ -297,13 +297,11 @@
             errEl.style.display = 'none';
 
             // Save lead to Google Sheet (silent — won't block UX if it fails)
-            if (SHEET_URL !== 'YOUR_GOOGLE_APPS_SCRIPT_WEBHOOK_URL') {
-                fetch(SHEET_URL, {
-                    method: 'POST',
-                    body: JSON.stringify({ name: name, whatsapp: wa, source: 'rashi-page', timestamp: new Date().toISOString() }),
-                    headers: { 'Content-Type': 'text/plain' }
-                }).catch(function () {});
-            }
+            fetch(SHEET_URL, {
+                method: 'POST',
+                body: JSON.stringify({ name: name, whatsapp: wa, source: 'rashi-page', timestamp: new Date().toLocaleString('en-IN') }),
+                headers: { 'Content-Type': 'text/plain' }
+            }).catch(function () {});
 
             // Append lead data to horoscopebook buy links
             document.querySelectorAll('.pricing-btn').forEach(function (link) {

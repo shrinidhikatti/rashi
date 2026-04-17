@@ -200,45 +200,50 @@
                     <p class="pricing-section-title english-heading">Choose Your Plan</p>
                     <div class="pricing-grid">
 
-                        <!-- ₹49 Mini Kundali -->
+                        <!-- ₹99 Basic WhatsApp Message -->
                         <div class="pricing-card">
                             <div class="pricing-badge">Starter</div>
-                            <div class="pricing-price">₹49</div>
-                            <div class="pricing-name">Mini Kundali</div>
+                            <div class="pricing-price">₹99</div>
+                            <div class="pricing-name">Basic WhatsApp Message</div>
                             <ul class="pricing-features">
-                                <li>Instant WhatsApp PDF</li>
-                                <li>Rashi overview</li>
-                                <li>Lucky dates</li>
-                                <li>1 key prediction</li>
+                                <li>Basic analysis of your Janma Kundali</li>
+                                <li>Rashi &amp; Lagna based predictions</li>
+                                <li>Lucky Number, Lucky Color, Lucky Days</li>
+                                <li>General guidance for Career, Health, Finance</li>
+                                <li>Simple and effective remedies</li>
+                                <li>Report sent directly on WhatsApp</li>
                             </ul>
-                            <a href="https://astrovastushrivmjoshi.com/horoscopebook/?plan=mini" class="btn btn-primary pricing-btn english-heading" target="_blank">Buy Now — ₹49</a>
+                            <a href="https://horoscopebook.astrovastushrivmjoshi.com/?plan=basic" class="btn btn-primary pricing-btn english-heading" target="_blank">Buy Now — ₹99</a>
                         </div>
 
-                        <!-- ₹499 Full Kundali PDF -->
+                        <!-- ₹499 Advanced Life Report -->
                         <div class="pricing-card pricing-card-featured">
                             <div class="pricing-badge">Most Popular</div>
                             <div class="pricing-price">₹499</div>
-                            <div class="pricing-name">Full Kundali PDF</div>
+                            <div class="pricing-name">Advanced Life Report</div>
                             <ul class="pricing-features">
-                                <li>15-page detailed chart</li>
-                                <li>12 houses analysis</li>
-                                <li>Dasha forecast</li>
-                                <li>Remedies + mantras</li>
+                                <li>200+ pages detailed report</li>
+                                <li>Marriage, career &amp; health analysis</li>
+                                <li>Turning Points &amp; Golden Periods</li>
+                                <li>Personalized Remedies</li>
+                                <li>Planetary flaws (Graha Dosha) &amp; Remedies</li>
                             </ul>
-                            <a href="https://astrovastushrivmjoshi.com/horoscopebook/?plan=full" class="btn btn-primary pricing-btn english-heading" target="_blank">Buy Now — ₹499</a>
+                            <a href="https://horoscopebook.astrovastushrivmjoshi.com/?plan=advanced" class="btn btn-primary pricing-btn english-heading" target="_blank">Buy Now — ₹499</a>
                         </div>
 
-                        <!-- ₹1,700 Book + Home Delivery -->
+                        <!-- ₹1,799 Printed Premium Book -->
                         <div class="pricing-card">
                             <div class="pricing-badge">Premium</div>
-                            <div class="pricing-price">₹1,700</div>
-                            <div class="pricing-name">Book + Home Delivery</div>
+                            <div class="pricing-price">₹1,799</div>
+                            <div class="pricing-name">Advanced Life Report</div>
                             <ul class="pricing-features">
-                                <li>Printed Kundali book</li>
-                                <li>Free courier delivery</li>
-                                <li>1:1 30-min consultation call</li>
+                                <li>100 pages Printed Premium Book</li>
+                                <li>Personalized with your name</li>
+                                <li>High Quality Design</li>
+                                <li>Suitable for gifting</li>
+                                <li>Powerful life guidance</li>
                             </ul>
-                            <a href="https://astrovastushrivmjoshi.com/horoscopebook/?plan=premium" class="btn btn-primary pricing-btn english-heading" target="_blank">Buy Now — ₹1,700</a>
+                            <a href="https://horoscopebook.astrovastushrivmjoshi.com/?plan=premium" class="btn btn-primary pricing-btn english-heading" target="_blank">Buy Now — ₹1,799</a>
                         </div>
 
                     </div>
@@ -259,7 +264,7 @@
                     <img src="assets/img/horoscope.PNG" alt="Horoscope Book">
                     <h4>Horoscope Book</h4>
                     <p>Get Your Complete Life Predictions Book</p>
-                    <a href="https://astrovastushrivmjoshi.com/horoscopebook/" class="btn btn-primary">Buy Now</a>
+                    <a href="https://horoscopebook.astrovastushrivmjoshi.com" class="btn btn-primary">Buy Now</a>
                 </div>
             </div>
 
@@ -275,6 +280,7 @@
        class="btn-consult-fixed english-heading">
         📞 Book Your Consultation @₹199 Only
     </a>
+
 
     <script>
     (function () {
@@ -303,6 +309,11 @@
                 headers: { 'Content-Type': 'text/plain' }
             }).catch(function () {});
 
+            // Save lead to sessionStorage so rashi detail page skips popup
+            sessionStorage.setItem('lead_name', name);
+            sessionStorage.setItem('lead_wa', wa);
+            sessionStorage.setItem('kundali_popup_shown', '1');
+
             // Append lead data to horoscopebook buy links
             document.querySelectorAll('.pricing-btn').forEach(function (link) {
                 var url = new URL(link.href);
@@ -318,6 +329,7 @@
             ps.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
     })();
+
     </script>
 
 </body>

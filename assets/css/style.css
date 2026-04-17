@@ -798,6 +798,15 @@ body {
     margin-bottom: 4px;
 }
 
+.pricing-original {
+    font-size: 1.1rem;
+    color: rgba(255,255,255,0.4);
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
 .pricing-name {
     font-size: 1rem;
     color: var(--text-light);

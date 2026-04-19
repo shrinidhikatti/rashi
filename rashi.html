@@ -140,22 +140,19 @@
     </a>
 
     <!-- ===== Kundali Popup ===== -->
-    <div id="kundali-popup-overlay" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.72);backdrop-filter:blur(4px);align-items:center;justify-content:center;padding:16px;">
-        <div style="position:relative;width:100%;max-width:400px;background:linear-gradient(160deg,#1a0a00 0%,#2b0d00 100%);border:1px solid #8B6914;border-radius:14px;padding:32px 28px 28px;box-shadow:0 20px 60px rgba(0,0,0,0.8);">
+    <div id="kundali-popup-overlay" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.75);backdrop-filter:blur(4px);align-items:center;justify-content:center;padding:16px;">
+        <div style="position:relative;width:100%;max-width:380px;background:linear-gradient(160deg,#1a0a00 0%,#2b0d00 100%);border:1px solid #8B6914;border-radius:16px;padding:36px 28px 32px;box-shadow:0 20px 60px rgba(0,0,0,0.85);text-align:center;">
             <button id="kundali-popup-close" style="position:absolute;top:12px;right:14px;background:rgba(255,255,255,0.08);border:none;color:#ccc;font-size:1.3rem;width:30px;height:30px;border-radius:50%;cursor:pointer;line-height:1;">&times;</button>
-            <h2 class="english-heading gold-text" style="font-size:1.3rem;text-align:center;margin-bottom:6px;">Get Your Personalized Kundali</h2>
-            <p style="text-align:center;color:rgba(255,255,255,0.6);font-size:0.85rem;margin-bottom:18px;">Enter your details — pricing revealed instantly</p>
-            <div class="lead-gate-teaser" style="margin-bottom:16px;">🔒 Price hidden · Submit to reveal</div>
-            <form id="popup-lead-form">
-                <input type="text" id="popup-name" placeholder="Your Name" required autocomplete="name"
-                    style="width:100%;padding:12px 14px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.18);border-radius:8px;color:#fff;font-size:0.95rem;margin-bottom:12px;box-sizing:border-box;outline:none;">
-                <input type="tel" id="popup-wa" placeholder="WhatsApp Number (10 digits)" required maxlength="10" pattern="[6-9][0-9]{9}"
-                    style="width:100%;padding:12px 14px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.18);border-radius:8px;color:#fff;font-size:0.95rem;margin-bottom:6px;box-sizing:border-box;outline:none;">
-                <p id="popup-error" style="display:none;color:#e74c3c;font-size:0.8rem;margin-bottom:10px;">Please enter your name and a valid 10-digit WhatsApp number.</p>
-                <button type="submit" class="btn btn-primary english-heading" style="width:100%;padding:14px;font-size:1rem;margin-top:6px;">
-                    Get Full Kundali · Check Price →
-                </button>
-            </form>
+            <div style="font-size:2.2rem;margin-bottom:12px;">🔮</div>
+            <h2 class="english-heading gold-text" style="font-size:1.25rem;margin-bottom:10px;">Your Stars Have a Message</h2>
+            <p style="color:rgba(255,255,255,0.75);font-size:0.95rem;line-height:1.6;margin-bottom:22px;">
+                Curious what the planets truly hold for you?<br>
+                Get your <strong style="color:#F3C34B;">personalized Kundali</strong> — your complete life blueprint from the stars.
+            </p>
+            <a href="https://horoscopebook.astrovastushrivmjoshi.com/" target="_blank" class="btn btn-primary english-heading" style="display:block;padding:14px;font-size:1rem;text-decoration:none;">
+                ✨ Get My Kundali Now
+            </a>
+            <p style="margin-top:14px;font-size:0.78rem;color:rgba(255,255,255,0.35);cursor:pointer;" id="popup-skip">No thanks, I'll continue reading</p>
         </div>
     </div>
     <!-- ===== End Popup ===== -->
@@ -225,72 +222,26 @@
     </script>
 
     <script>
-    // ===== 5-Second Kundali Popup =====
+    // ===== 10-Second Kundali Popup =====
     (function () {
-        var SHEET_URL = 'https://script.google.com/macros/s/AKfycbx-MLIpXYyYVVEUjWEZLpqa-UyghG0OAGekTLFwItEY2Mh20gBiawll_5guh8DMeUqa/exec';
         var overlay  = document.getElementById('kundali-popup-overlay');
         var closeBtn = document.getElementById('kundali-popup-close');
-        var form     = document.getElementById('popup-lead-form');
-        var errEl    = document.getElementById('popup-error');
-        var rashi    = new URLSearchParams(window.location.search).get('rashi') || '';
+        var skipBtn  = document.getElementById('popup-skip');
 
         function showPopup() { overlay.style.display = 'flex'; }
         function hidePopup() { overlay.style.display = 'none'; }
 
-        // If lead already captured from index page, skip popup entirely
-        var savedName = sessionStorage.getItem('lead_name');
-        var savedWa   = sessionStorage.getItem('lead_wa');
-
-        function buildPricingUrl() {
-            var url = 'https://horoscopebook.astrovastushrivmjoshi.com/pricing?from=rashi';
-            if (savedName && savedWa) {
-                url += '&name=' + encodeURIComponent(savedName) + '&wa=' + encodeURIComponent(savedWa);
-            }
-            return url;
-        }
-
-        // Wire up sidebar Buy Now with saved params
-        var sidebarBtn = document.getElementById('sidebar-kundali-btn');
-        if (sidebarBtn) sidebarBtn.href = buildPricingUrl();
-
-        if (savedName && savedWa) {
-            // Already have their details — no popup needed, just update links
-            sessionStorage.setItem('kundali_popup_shown', '1');
-        } else if (!sessionStorage.getItem('kundali_popup_shown')) {
-            // New visitor — show popup after 5 seconds
+        if (!sessionStorage.getItem('kundali_popup_shown')) {
             setTimeout(function () {
                 showPopup();
                 sessionStorage.setItem('kundali_popup_shown', '1');
-            }, 5000);
+            }, 10000);
         }
 
         closeBtn.addEventListener('click', hidePopup);
+        if (skipBtn) skipBtn.addEventListener('click', hidePopup);
         overlay.addEventListener('click', function (e) {
             if (e.target === overlay) hidePopup();
-        });
-
-        form.addEventListener('submit', function (e) {
-            e.preventDefault();
-            var name = document.getElementById('popup-name').value.trim();
-            var wa   = document.getElementById('popup-wa').value.trim();
-
-            if (!name || !/^[6-9][0-9]{9}$/.test(wa)) {
-                errEl.style.display = 'block';
-                return;
-            }
-            errEl.style.display = 'none';
-            hidePopup();
-
-            fetch(SHEET_URL, {
-                method: 'POST',
-                body: JSON.stringify({ name: name, whatsapp: wa, source: 'rashi-popup', rashi: rashi, timestamp: new Date().toLocaleString('en-IN') }),
-                headers: { 'Content-Type': 'text/plain' }
-            }).catch(function () {});
-
-            // Save and go to pricing page with prefilled details
-            sessionStorage.setItem('lead_name', name);
-            sessionStorage.setItem('lead_wa', wa);
-            window.location.href = buildPricingUrl();
         });
     })();
     </script>

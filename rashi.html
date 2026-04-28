@@ -51,9 +51,6 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
                 <p id="intro-en" style="max-width:700px;margin:15px auto 0;font-size:1rem;line-height:1.8;"></p>
                 <p id="intro-kn" class="kannada-text" style="max-width:700px;margin:10px auto 0;font-size:1.1rem;line-height:1.8;"></p>
 
-                <a href="https://astrovastushrivmjoshi.com/services/astrology-consultation/#asto-cons" class="btn btn-cta-large english-heading">
-                    Book Your Consultation @₹199 Only
-                </a>
             </div>
 
             <!-- Content Layout -->
@@ -113,24 +110,6 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
 
                 </div> <!-- End Main Content -->
 
-                <!-- Sidebar -->
-                <div class="sidebar">
-
-                    <div class="sidebar-cta">
-                        <img src="assets/img/matchmaking.png" alt="Perfect Match">
-                        <h4>Perfect Match-Making</h4>
-                        <p>Get Your Horoscope Matching Professionally</p>
-                        <a href="#" class="btn btn-primary">Enquire Now</a>
-                    </div>
-
-                    <div class="sidebar-cta">
-                        <img src="assets/img/horoscope.PNG" alt="Horoscope Book">
-                        <h4>Horoscope Book</h4>
-                        <p>Get Your Complete Life Predictions Book</p>
-                        <a id="sidebar-kundali-btn" href="https://horoscopebook.astrovastushrivmjoshi.com/pricing" class="btn btn-primary">Buy Now</a>
-                    </div>
-
-                </div> <!-- End Sidebar -->
 
             </div> <!-- End Content Wrapper -->
 
@@ -150,35 +129,109 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
         </div> <!-- End Prediction Container -->
     </div>
 
-    <!-- Fixed Consultation Button -->
-    <a href="https://astrovastushrivmjoshi.com/services/astrology-consultation/#asto-cons"
-       class="btn-consult-fixed english-heading">
-        📞 Book Your Consultation @₹199 Only
-    </a>
 
     <!-- ===== Kundali Popup ===== -->
-    <div id="kundali-popup-overlay" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.82);backdrop-filter:blur(5px);align-items:center;justify-content:center;padding:16px;">
-        <div style="position:relative;width:100%;max-width:380px;background:linear-gradient(160deg,#1a0a00 0%,#2b0d00 100%);border:2px solid #8B6914;border-radius:16px;padding:36px 24px 28px;box-shadow:0 20px 60px rgba(0,0,0,0.9);text-align:center;">
-            <button id="kundali-popup-close" style="position:absolute;top:12px;right:14px;background:rgba(255,255,255,0.1);border:none;color:#ccc;font-size:1.3rem;width:30px;height:30px;border-radius:50%;cursor:pointer;line-height:1;">&times;</button>
+    <style>
+        @keyframes popupIn {
+            from { opacity:0; transform:scale(0.85) translateY(20px); }
+            to   { opacity:1; transform:scale(1) translateY(0); }
+        }
+        @keyframes pulseCTA {
+            0%,100% { box-shadow: 0 0 0 0 rgba(243,195,75,0.5); }
+            50%      { box-shadow: 0 0 0 12px rgba(243,195,75,0); }
+        }
+        @keyframes shimmer {
+            0%   { background-position: -200% center; }
+            100% { background-position: 200% center; }
+        }
+        #kundali-popup-overlay { display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.88);backdrop-filter:blur(6px);align-items:center;justify-content:center;padding:16px; }
+        #kundali-popup-box {
+            position:relative;width:100%;max-width:400px;
+            background:linear-gradient(150deg,#1c0800 0%,#320f00 50%,#1a0600 100%);
+            border:2px solid #c9952a;border-radius:20px;
+            padding:40px 28px 32px;
+            box-shadow:0 0 60px rgba(243,195,75,0.2), 0 24px 80px rgba(0,0,0,0.95);
+            text-align:center;
+            animation: popupIn 0.4s cubic-bezier(0.34,1.56,0.64,1) forwards;
+        }
+        #kundali-popup-close {
+            position:absolute;top:14px;right:16px;
+            background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);
+            color:#aaa;font-size:1.2rem;width:32px;height:32px;
+            border-radius:50%;cursor:pointer;line-height:1;transition:all 0.2s;
+        }
+        #kundali-popup-close:hover { background:rgba(255,255,255,0.18);color:#fff; }
+        .popup-stars { font-size:1.6rem;letter-spacing:4px;margin-bottom:10px; }
+        .popup-badge {
+            display:inline-block;background:linear-gradient(90deg,#8B2323,#c0392b);
+            color:#fff;font-size:0.72rem;font-weight:700;letter-spacing:0.12em;
+            text-transform:uppercase;padding:4px 14px;border-radius:20px;margin-bottom:14px;
+        }
+        .popup-warning-box {
+            background:linear-gradient(135deg,rgba(139,105,20,0.25),rgba(80,40,0,0.3));
+            border:1.5px solid rgba(201,149,42,0.6);border-radius:12px;
+            padding:18px 16px;margin-bottom:22px;
+        }
+        .popup-warning-icon { font-size:2rem;margin-bottom:6px; }
+        .popup-warning-title {
+            color:#F3C34B;font-size:1.05rem;font-weight:800;
+            letter-spacing:0.04em;line-height:1.4;margin:0 0 8px;
+            text-transform:uppercase;
+        }
+        .popup-warning-sub {
+            color:rgba(255,255,255,0.7);font-size:0.85rem;line-height:1.5;margin:0;
+        }
+        .popup-cta-btn {
+            display:block;width:100%;
+            background:linear-gradient(90deg,#c9952a,#F3C34B,#c9952a);
+            background-size:200% auto;
+            color:#1a0600;font-size:1.05rem;font-weight:800;
+            letter-spacing:0.04em;text-transform:uppercase;
+            padding:16px 20px;border-radius:50px;
+            text-decoration:none;margin-bottom:6px;
+            animation: pulseCTA 2s ease-in-out infinite, shimmer 3s linear infinite;
+            transition:transform 0.2s;
+        }
+        .popup-cta-btn:hover { transform:scale(1.03); }
+        .popup-skip-link {
+            margin-top:14px;font-size:0.78rem;
+            color:rgba(255,255,255,0.28);cursor:pointer;
+            text-decoration:underline;display:block;
+        }
+        .popup-skip-link:hover { color:rgba(255,255,255,0.5); }
+    </style>
 
-            <!-- Highlighted notice box -->
-            <div style="background:rgba(139,105,20,0.2);border:1.5px solid #8B6914;border-radius:10px;padding:16px 14px;margin-bottom:20px;">
-                <div style="font-size:1.8rem;margin-bottom:8px;">⚠️</div>
-                <p style="color:#F3C34B;font-size:1rem;font-weight:700;letter-spacing:0.03em;line-height:1.5;margin:0;" class="english-heading">
+    <div id="kundali-popup-overlay">
+        <div id="kundali-popup-box">
+            <button id="kundali-popup-close">&times;</button>
+
+            <div class="popup-stars">✨ 🔮 ✨</div>
+            <div class="popup-badge">Important Notice</div>
+
+            <div class="popup-warning-box">
+                <div class="popup-warning-icon">⚠️</div>
+                <p class="popup-warning-title english-heading">
                     This is only a<br>Monthly Prediction.
                 </p>
-                <p style="color:rgba(255,255,255,0.65);font-size:0.82rem;margin:8px 0 0;" class="english-heading">
-                    Want your complete life report?<br>Click the button below 👇
+                <p class="popup-warning-sub english-heading">
+                    Your <strong style="color:#F3C34B;">complete life report</strong> covers Career, Marriage,<br>
+                    Health, Wealth & your entire future — personalised for YOU.
                 </p>
             </div>
 
-            <a href="https://horoscopebook.astrovastushrivmjoshi.com/" target="_blank" class="btn btn-primary english-heading" style="display:block;padding:15px;font-size:1rem;text-decoration:none;letter-spacing:0.02em;">
-                👉 Get Your Full Life Report
+            <a href="https://horoscopebook.astrovastushrivmjoshi.com/" target="_blank" class="popup-cta-btn english-heading">
+                🌟 Get My Full Life Report
             </a>
-            <p style="margin-top:16px;font-size:0.78rem;color:rgba(255,255,255,0.3);cursor:pointer;" id="popup-skip">No thanks, I'll continue reading</p>
+            <span class="popup-skip-link english-heading" id="popup-skip">No thanks, I'll continue reading</span>
         </div>
     </div>
     <!-- ===== End Popup ===== -->
+
+    <!-- Fixed Golden Consultation Button -->
+    <a href="https://horoscopebook.astrovastushrivmjoshi.com/"
+       class="btn-consult-fixed english-heading">
+        📖 Book Your Detailed Horoscope Book Now
+    </a>
 
     <script>
         const RASHI_META = {
@@ -245,7 +298,7 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
     </script>
 
     <script>
-    // ===== 10-Second Kundali Popup =====
+    // ===== Kundali Popup — shows on every page load & every rashi switch =====
     (function () {
         var overlay  = document.getElementById('kundali-popup-overlay');
         var closeBtn = document.getElementById('kundali-popup-close');
@@ -254,12 +307,9 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
         function showPopup() { overlay.style.display = 'flex'; }
         function hidePopup() { overlay.style.display = 'none'; }
 
-        if (!sessionStorage.getItem('kundali_popup_shown')) {
-            setTimeout(function () {
-                showPopup();
-                sessionStorage.setItem('kundali_popup_shown', '1');
-            }, 10000);
-        }
+        // Always show after 10s — no sessionStorage gate so every refresh
+        // and every rashi navigation triggers it fresh
+        setTimeout(showPopup, 10000);
 
         closeBtn.addEventListener('click', hidePopup);
         if (skipBtn) skipBtn.addEventListener('click', hidePopup);

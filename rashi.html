@@ -115,11 +115,11 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
 
             <!-- Bottom Disclaimer/Footer -->
             <div style="text-align:center;margin-top:40px;border-top:1px solid rgba(212,175,55,0.4);padding-top:20px;">
-                <p class="kannada-text" style="font-size:0.85rem;opacity:0.8;">
+                <p class="kannada-text" style="font-size:0.85rem;opacity:0.8;color:#FFE9B0;">
                     ಸೂಚನೆ: ಈ ಭವಿಷ್ಯವು ಸಾಮಾನ್ಯ ಗ್ರಹಗತಿಗಳ ಆಧಾರದ ಮೇಲೆ ರಚಿಸಲಾಗಿದೆ. ವೈಯಕ್ತಿಕ ಜಾತಕ ಪರಿಶೀಲನೆಗೆ ದಯವಿಟ್ಟು ಸಂಪರ್ಕಿಸಿ.
                 </p>
                 <div style="margin-top:15px;">
-                    <a href="index.html" style="color:#8B2323;text-decoration:underline;font-weight:bold;font-family:var(--font-kannada);">← Back to All Rashis</a>
+                    <a href="index.html" style="color:#F3C34B;text-decoration:underline;font-weight:bold;font-family:var(--font-kannada);">← Back to All Rashis</a>
                 </div>
                 <div class="site-footer" style="margin-top: 20px; border-top: none;">
                     <p>Designed &amp; Developed by <a href="https://www.prashanvitech.com/" target="_blank">Shrinidhi Katti</a></p>
@@ -130,99 +130,218 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
     </div>
 
 
-    <!-- ===== Kundali Popup ===== -->
+    <!-- ===== Kundali Popup (Navy Cosmic — matches horoscopebook) ===== -->
     <style>
         @keyframes popupIn {
-            from { opacity:0; transform:scale(0.85) translateY(20px); }
+            from { opacity:0; transform:scale(0.9) translateY(24px); }
             to   { opacity:1; transform:scale(1) translateY(0); }
         }
         @keyframes pulseCTA {
-            0%,100% { box-shadow: 0 0 0 0 rgba(243,195,75,0.5); }
-            50%      { box-shadow: 0 0 0 12px rgba(243,195,75,0); }
+            0%,100% { box-shadow: 0 8px 24px rgba(32, 214, 128, 0.5), 0 0 0 0 rgba(32, 214, 128, 0.6); }
+            50%      { box-shadow: 0 8px 24px rgba(32, 214, 128, 0.5), 0 0 0 14px rgba(32, 214, 128, 0); }
         }
-        @keyframes shimmer {
-            0%   { background-position: -200% center; }
-            100% { background-position: 200% center; }
+        @keyframes twinkle {
+            0%,100% { opacity: 0.5; }
+            50%     { opacity: 1; }
         }
-        #kundali-popup-overlay { display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.88);backdrop-filter:blur(6px);align-items:center;justify-content:center;padding:16px; }
+        @keyframes orbFloat {
+            0%,100% { transform: translateY(0) rotate(0deg); }
+            50%     { transform: translateY(-6px) rotate(8deg); }
+        }
+
+        #kundali-popup-overlay {
+            display:none;
+            position:fixed; inset:0; z-index:9999;
+            background:rgba(0,0,0,0.85);
+            backdrop-filter:blur(8px);
+            -webkit-backdrop-filter:blur(8px);
+            align-items:center; justify-content:center; padding:16px;
+        }
+
         #kundali-popup-box {
-            position:relative;width:100%;max-width:400px;
-            background:linear-gradient(150deg,#1c0800 0%,#320f00 50%,#1a0600 100%);
-            border:2px solid #c9952a;border-radius:20px;
-            padding:40px 28px 32px;
-            box-shadow:0 0 60px rgba(243,195,75,0.2), 0 24px 80px rgba(0,0,0,0.95);
+            position:relative; width:100%; max-width:430px;
+            background:
+                radial-gradient(circle at 15% 8%, rgba(75, 110, 210, 0.4) 0%, transparent 55%),
+                radial-gradient(circle at 90% 95%, rgba(212, 175, 55, 0.18) 0%, transparent 45%),
+                linear-gradient(160deg, #0A1530 0%, #18234A 50%, #0A1530 100%);
+            border: 1.5px solid rgba(212, 175, 55, 0.55);
+            border-radius:22px;
+            overflow:hidden;
+            box-shadow:
+                0 0 80px rgba(75, 110, 210, 0.35),
+                0 24px 80px rgba(0,0,0,0.95);
+            animation: popupIn 0.45s cubic-bezier(0.34,1.56,0.64,1) forwards;
+        }
+
+        /* Decorative star dots inside popup */
+        #kundali-popup-box::before {
+            content:'';
+            position:absolute; inset:0;
+            background-image:
+                radial-gradient(1.5px 1.5px at 30px 40px, #FFE066 100%, transparent),
+                radial-gradient(1px 1px at 90px 80px, rgba(255,255,255,0.7) 100%, transparent),
+                radial-gradient(2px 2px at 220px 30px, #F3C34B 100%, transparent),
+                radial-gradient(1px 1px at 380px 110px, rgba(255,255,255,0.6) 100%, transparent),
+                radial-gradient(1.5px 1.5px at 60px 280px, #FFE066 100%, transparent),
+                radial-gradient(1px 1px at 350px 320px, rgba(255,255,255,0.7) 100%, transparent),
+                radial-gradient(1.5px 1.5px at 200px 450px, #F3C34B 100%, transparent);
+            opacity:0.6;
+            animation: twinkle 3.5s ease-in-out infinite;
+            pointer-events:none;
+        }
+
+        #kundali-popup-content {
+            position:relative; z-index:1;
+            padding:38px 28px 26px;
             text-align:center;
-            animation: popupIn 0.4s cubic-bezier(0.34,1.56,0.64,1) forwards;
         }
+
         #kundali-popup-close {
-            position:absolute;top:14px;right:16px;
-            background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);
-            color:#aaa;font-size:1.2rem;width:32px;height:32px;
-            border-radius:50%;cursor:pointer;line-height:1;transition:all 0.2s;
+            position:absolute; top:14px; right:14px;
+            background:rgba(255,255,255,0.1);
+            border:1px solid rgba(255,255,255,0.18);
+            color:#ddd; font-size:1.2rem;
+            width:32px; height:32px;
+            border-radius:50%; cursor:pointer; line-height:1;
+            z-index:5; transition:all 0.2s;
         }
-        #kundali-popup-close:hover { background:rgba(255,255,255,0.18);color:#fff; }
-        .popup-stars { font-size:1.6rem;letter-spacing:4px;margin-bottom:10px; }
-        .popup-badge {
-            display:inline-block;background:linear-gradient(90deg,#8B2323,#c0392b);
-            color:#fff;font-size:0.72rem;font-weight:700;letter-spacing:0.12em;
-            text-transform:uppercase;padding:4px 14px;border-radius:20px;margin-bottom:14px;
+        #kundali-popup-close:hover { background:rgba(255,255,255,0.22); color:#fff; }
+
+        .popup-orb {
+            font-size:2.6rem;
+            display:inline-block;
+            animation: orbFloat 3s ease-in-out infinite;
+            filter: drop-shadow(0 0 18px rgba(243, 195, 75, 0.6));
+            margin-bottom:6px;
         }
-        .popup-warning-box {
-            background:linear-gradient(135deg,rgba(139,105,20,0.25),rgba(80,40,0,0.3));
-            border:1.5px solid rgba(201,149,42,0.6);border-radius:12px;
-            padding:18px 16px;margin-bottom:22px;
+        .popup-tag {
+            display:inline-block;
+            font-family:'Cinzel', serif;
+            font-size:0.68rem; letter-spacing:0.22em;
+            color:#F3C34B; text-transform:uppercase;
+            padding:5px 16px;
+            border:1px solid rgba(243, 195, 75, 0.45);
+            border-radius:20px;
+            margin-bottom:18px;
+            background: rgba(243, 195, 75, 0.05);
         }
-        .popup-warning-icon { font-size:2rem;margin-bottom:6px; }
-        .popup-warning-title {
-            color:#F3C34B;font-size:1.05rem;font-weight:800;
-            letter-spacing:0.04em;line-height:1.4;margin:0 0 8px;
-            text-transform:uppercase;
+        .popup-headline {
+            font-family:'Cinzel', serif;
+            font-size:1.5rem; font-weight:700;
+            color:#fff; line-height:1.3;
+            margin:0 0 8px;
+            text-shadow:0 2px 14px rgba(0,0,0,0.5);
         }
-        .popup-warning-sub {
-            color:rgba(255,255,255,0.7);font-size:0.85rem;line-height:1.5;margin:0;
+        .popup-headline .gold-accent {
+            background: linear-gradient(135deg, #FFF2A8, #F3C34B, #C49221);
+            -webkit-background-clip:text; background-clip:text;
+            color:transparent;
         }
+        .popup-sub {
+            color:rgba(255,255,255,0.72);
+            font-size:0.92rem; line-height:1.55;
+            margin:0 0 22px;
+            font-family: var(--font-body-en);
+        }
+
+        .popup-features {
+            list-style:none;
+            text-align:left;
+            background: rgba(255,255,255,0.04);
+            border:1px solid rgba(212, 175, 55, 0.25);
+            border-radius:14px;
+            padding:14px 18px;
+            margin:0 0 22px;
+        }
+        .popup-features li {
+            display:flex; align-items:center; gap:11px;
+            font-size:0.86rem;
+            color:rgba(255,255,255,0.88);
+            padding:5px 0;
+            font-family: var(--font-body-en);
+        }
+        .popup-features li::before {
+            content:'✓';
+            flex-shrink:0;
+            width:20px; height:20px;
+            background: linear-gradient(135deg, #F3C34B, #C49221);
+            color:#0A1530;
+            font-weight:800; font-size:0.78rem;
+            border-radius:50%;
+            display:flex; align-items:center; justify-content:center;
+        }
+
+        /* Vibrant emerald-green CTA — drives clicks, contrasts navy */
         .popup-cta-btn {
-            display:block;width:100%;
-            background:linear-gradient(90deg,#c9952a,#F3C34B,#c9952a);
-            background-size:200% auto;
-            color:#1a0600;font-size:1.05rem;font-weight:800;
-            letter-spacing:0.04em;text-transform:uppercase;
-            padding:16px 20px;border-radius:50px;
-            text-decoration:none;margin-bottom:6px;
-            animation: pulseCTA 2s ease-in-out infinite, shimmer 3s linear infinite;
-            transition:transform 0.2s;
+            display:flex; align-items:center; justify-content:center; gap:6px;
+            width:100%;
+            background: linear-gradient(135deg, #0F9D58 0%, #20D680 50%, #0F9D58 100%);
+            color:#fff;
+            font-family:'Cinzel', serif;
+            font-size:1.02rem; font-weight:700;
+            letter-spacing:0.06em; text-transform:uppercase;
+            padding:16px 22px;
+            border-radius:50px;
+            text-decoration:none;
+            border:1px solid rgba(180, 255, 220, 0.35);
+            animation: pulseCTA 1.8s ease-in-out infinite;
+            transition: transform 0.2s ease;
         }
-        .popup-cta-btn:hover { transform:scale(1.03); }
+        .popup-cta-btn:hover { transform: translateY(-2px); }
+        .popup-cta-arrow {
+            display:inline-block;
+            transition: transform 0.25s;
+        }
+        .popup-cta-btn:hover .popup-cta-arrow { transform: translateX(5px); }
+
+        .popup-trust {
+            font-size:0.74rem;
+            color:rgba(255,255,255,0.55);
+            margin-top:14px;
+            font-family: var(--font-body-en);
+        }
+        .popup-trust strong { color:#F3C34B; font-weight:600; }
+
         .popup-skip-link {
-            margin-top:14px;font-size:0.78rem;
-            color:rgba(255,255,255,0.28);cursor:pointer;
-            text-decoration:underline;display:block;
+            margin-top:8px;
+            font-size:0.76rem;
+            color:rgba(255,255,255,0.32);
+            cursor:pointer;
+            text-decoration:underline;
+            display:block;
+            font-family: var(--font-body-en);
         }
-        .popup-skip-link:hover { color:rgba(255,255,255,0.5); }
+        .popup-skip-link:hover { color:rgba(255,255,255,0.6); }
     </style>
 
     <div id="kundali-popup-overlay">
         <div id="kundali-popup-box">
             <button id="kundali-popup-close">&times;</button>
+            <div id="kundali-popup-content">
+                <div class="popup-orb">🔮</div>
+                <span class="popup-tag">Personalised Report</span>
 
-            <div class="popup-stars">✨ 🔮 ✨</div>
-            <div class="popup-badge">Important Notice</div>
+                <h2 class="popup-headline">
+                    Discover Your <span class="gold-accent">Complete Life Story</span>
+                </h2>
+                <p class="popup-sub">
+                    Monthly predictions show only a glimpse.<br>
+                    Unlock your full life blueprint today.
+                </p>
 
-            <div class="popup-warning-box">
-                <div class="popup-warning-icon">⚠️</div>
-                <p class="popup-warning-title english-heading">
-                    This is only a<br>Monthly Prediction.
-                </p>
-                <p class="popup-warning-sub english-heading">
-                    Your <strong style="color:#F3C34B;">complete life report</strong> covers Career, Marriage,<br>
-                    Health, Wealth & your entire future — personalised for YOU.
-                </p>
+                <ul class="popup-features">
+                    <li>Career, Marriage &amp; Wealth predictions</li>
+                    <li>Health, Family &amp; relationships guidance</li>
+                    <li>Personalised remedies — crafted for YOU</li>
+                    <li>Trusted by 100+ happy customers</li>
+                </ul>
+
+                <a href="https://horoscopebook.astrovastushrivmjoshi.com/" target="_blank" class="popup-cta-btn">
+                    Get My Life Report <span class="popup-cta-arrow">→</span>
+                </a>
+                <div class="popup-trust">🔒 Personalised by <strong>Shri V M Joshi</strong></div>
+                <span class="popup-skip-link" id="popup-skip">No thanks, I'll keep reading</span>
             </div>
-
-            <a href="https://horoscopebook.astrovastushrivmjoshi.com/" target="_blank" class="popup-cta-btn english-heading">
-                🌟 Get My Full Life Report
-            </a>
-            <span class="popup-skip-link english-heading" id="popup-skip">No thanks, I'll continue reading</span>
         </div>
     </div>
     <!-- ===== End Popup ===== -->
@@ -270,7 +389,7 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
                     var d = data[rashiKey];
                     if (!d) {
                         document.querySelector('.prediction-content-wrapper').innerHTML =
-                            '<p style="text-align:center;padding:40px;color:#8B2323;font-size:1.1rem;">ಭವಿಷ್ಯ ಶೀಘ್ರದಲ್ಲಿ ಲಭ್ಯವಾಗುತ್ತದೆ — Predictions coming soon.</p>';
+                            '<p style="text-align:center;padding:40px;color:#F3C34B;font-size:1.1rem;">ಭವಿಷ್ಯ ಶೀಘ್ರದಲ್ಲಿ ಲಭ್ಯವಾಗುತ್ತದೆ — Predictions coming soon.</p>';
                         return;
                     }
                     document.getElementById('intro-en').textContent       = d.intro_en;
@@ -292,7 +411,7 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
                 })
                 .catch(function() {
                     document.querySelector('.prediction-content-wrapper').innerHTML =
-                        '<p style="text-align:center;padding:40px;color:#8B2323;font-size:1.1rem;">Content could not be loaded. Please try again.</p>';
+                        '<p style="text-align:center;padding:40px;color:#F3C34B;font-size:1.1rem;">Content could not be loaded. Please try again.</p>';
                 });
         }
     </script>

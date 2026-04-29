@@ -306,25 +306,62 @@ body {
 }
 
 /* =========================================================================
-   PREDICTION PAGE (PARCHMENT THEME)
+   PREDICTION PAGE (NAVY COSMIC THEME — matches horoscopebook.astrovastushrivmjoshi.com)
    ========================================================================= */
 .prediction-body {
-    background-color: var(--bg-parchment);
-    /* Simple SVG noise for paper texture */
-    background-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(%23noise)" opacity="0.06"/></svg>'), linear-gradient(135deg, #FFF9EB, #F2E3C6);
-    color: var(--text-dark);
+    position: relative;
+    background-color: #0A1530;
+    color: var(--text-light);
     min-height: 100vh;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+.prediction-body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: -2;
+    background:
+        radial-gradient(circle at 20% 30%, rgba(75, 110, 210, 0.25) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(212, 175, 55, 0.10) 0%, transparent 40%),
+        radial-gradient(circle at 50% 90%, rgba(20, 35, 80, 0.6) 0%, transparent 50%),
+        linear-gradient(135deg, #0A1530 0%, #050B20 100%);
+}
+
+.prediction-body::after {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: -1;
+    background-image:
+        radial-gradient(2px 2px at 15px 25px, #FFE066 100%, transparent),
+        radial-gradient(2px 2px at 50px 70px, rgba(255,255,255,0.8) 100%, transparent),
+        radial-gradient(1.5px 1.5px at 90px 40px, #F3C34B 100%, transparent),
+        radial-gradient(1px 1px at 130px 110px, rgba(255,255,255,0.6) 100%, transparent),
+        radial-gradient(2.5px 2.5px at 180px 30px, #FFE066 100%, transparent),
+        radial-gradient(1px 1px at 220px 140px, rgba(255,255,255,0.5) 100%, transparent),
+        radial-gradient(2px 2px at 270px 80px, #F3C34B 100%, transparent),
+        radial-gradient(1.5px 1.5px at 320px 160px, rgba(255,255,255,0.7) 100%, transparent),
+        radial-gradient(1px 1px at 380px 20px, #FFE066 100%, transparent);
+    background-size: 400px 400px;
+    opacity: 0.55;
+    animation: stardust 30s linear infinite;
 }
 
 .prediction-container {
+    position: relative;
     max-width: 900px;
     margin: 20px auto;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.4);
-    border: 3px solid transparent;
+    padding: 30px 25px;
+    background: rgba(15, 25, 55, 0.55);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 2px solid transparent;
     border-image: linear-gradient(to bottom, #D4AF37, #8B6914, #D4AF37) 1;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1), inset 0 0 40px rgba(212, 175, 55, 0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6), inset 0 0 60px rgba(212, 175, 55, 0.06);
     overflow: hidden;
+    z-index: 1;
 }
 
 .prediction-header {
@@ -337,13 +374,14 @@ body {
 
 .prediction-header .kannada-text {
     font-size: 2.2rem;
-    color: var(--bg-dark-red);
+    color: var(--gold-primary);
     margin-bottom: 5px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 
 .prediction-header .english-heading {
     font-size: 1.2rem;
-    color: #8B6914;
+    color: var(--gold-light);
     letter-spacing: 1px;
 }
 
@@ -399,7 +437,7 @@ body {
 
 .pred-section h3 {
     font-size: 1.5rem;
-    color: var(--bg-dark-red);
+    color: var(--gold-primary);
     margin-bottom: 15px;
     border-bottom: 1px solid rgba(212, 175, 55, 0.4);
     padding-bottom: 5px;
@@ -427,7 +465,7 @@ body {
 
 .pred-section .kannada-text {
     font-size: 1.05rem;
-    color: #4A0E0E; /* Slightly darker for readability */
+    color: #FFE9B0; /* Light cream/gold for readability on dark navy */
 }
 
 /* Sidebar Call-to-Action Cards */
@@ -610,15 +648,19 @@ body {
 
 @media (max-width: 480px) {
     .btn-consult-fixed {
-        left: 15px;
-        right: 15px;
-        transform: none;
-        width: auto;
-        max-width: none;
-        font-size: 0.78rem;
-        padding: 12px 15px;
-        letter-spacing: 0.8px;
-        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.68rem;
+        padding: 11px 16px;
+        letter-spacing: 0.6px;
+    }
+}
+
+@media (max-width: 380px) {
+    .btn-consult-fixed {
+        font-size: 0.6rem;
+        padding: 10px 12px;
+        letter-spacing: 0.3px;
     }
 }
 

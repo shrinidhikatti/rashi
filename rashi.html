@@ -130,216 +130,206 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
     </div>
 
 
-    <!-- ===== Kundali Popup (Navy Cosmic — matches horoscopebook) ===== -->
+    <!-- ===== Kundali Popup (Green Promo Style) ===== -->
     <style>
         @keyframes popupIn {
-            from { opacity:0; transform:scale(0.9) translateY(24px); }
+            from { opacity:0; transform:scale(0.92) translateY(20px); }
             to   { opacity:1; transform:scale(1) translateY(0); }
         }
-        @keyframes pulseCTA {
-            0%,100% { box-shadow: 0 8px 24px rgba(32, 214, 128, 0.5), 0 0 0 0 rgba(32, 214, 128, 0.6); }
-            50%      { box-shadow: 0 8px 24px rgba(32, 214, 128, 0.5), 0 0 0 14px rgba(32, 214, 128, 0); }
-        }
-        @keyframes twinkle {
-            0%,100% { opacity: 0.5; }
-            50%     { opacity: 1; }
-        }
-        @keyframes orbFloat {
-            0%,100% { transform: translateY(0) rotate(0deg); }
-            50%     { transform: translateY(-6px) rotate(8deg); }
+        @keyframes ctaPulse {
+            0%,100% { box-shadow: 0 6px 22px rgba(0,0,0,0.5); }
+            50%      { box-shadow: 0 8px 32px rgba(0,0,0,0.7), 0 0 0 7px rgba(255,220,50,0.18); }
         }
 
         #kundali-popup-overlay {
             display:none;
             position:fixed; inset:0; z-index:9999;
-            background:rgba(0,0,0,0.85);
-            backdrop-filter:blur(8px);
-            -webkit-backdrop-filter:blur(8px);
-            align-items:center; justify-content:center; padding:16px;
+            background:rgba(0,0,0,0.82);
+            backdrop-filter:blur(6px);
+            -webkit-backdrop-filter:blur(6px);
+            align-items:center; justify-content:center; padding:12px;
         }
 
         #kundali-popup-box {
-            position:relative; width:100%; max-width:430px;
-            background:
-                radial-gradient(circle at 15% 8%, rgba(75, 110, 210, 0.4) 0%, transparent 55%),
-                radial-gradient(circle at 90% 95%, rgba(212, 175, 55, 0.18) 0%, transparent 45%),
-                linear-gradient(160deg, #0A1530 0%, #18234A 50%, #0A1530 100%);
-            border: 1.5px solid rgba(212, 175, 55, 0.55);
+            position:relative; width:100%; max-width:420px;
+            background: #22C55E;
             border-radius:22px;
             overflow:hidden;
-            box-shadow:
-                0 0 80px rgba(75, 110, 210, 0.35),
-                0 24px 80px rgba(0,0,0,0.95);
-            animation: popupIn 0.45s cubic-bezier(0.34,1.56,0.64,1) forwards;
-        }
-
-        /* Decorative star dots inside popup */
-        #kundali-popup-box::before {
-            content:'';
-            position:absolute; inset:0;
-            background-image:
-                radial-gradient(1.5px 1.5px at 30px 40px, #FFE066 100%, transparent),
-                radial-gradient(1px 1px at 90px 80px, rgba(255,255,255,0.7) 100%, transparent),
-                radial-gradient(2px 2px at 220px 30px, #F3C34B 100%, transparent),
-                radial-gradient(1px 1px at 380px 110px, rgba(255,255,255,0.6) 100%, transparent),
-                radial-gradient(1.5px 1.5px at 60px 280px, #FFE066 100%, transparent),
-                radial-gradient(1px 1px at 350px 320px, rgba(255,255,255,0.7) 100%, transparent),
-                radial-gradient(1.5px 1.5px at 200px 450px, #F3C34B 100%, transparent);
-            opacity:0.6;
-            animation: twinkle 3.5s ease-in-out infinite;
-            pointer-events:none;
-        }
-
-        #kundali-popup-content {
-            position:relative; z-index:1;
-            padding:38px 28px 26px;
-            text-align:center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.85), 0 0 0 1.5px rgba(255,255,255,0.12);
+            animation: popupIn 0.4s cubic-bezier(0.34,1.56,0.64,1) forwards;
         }
 
         #kundali-popup-close {
-            position:absolute; top:14px; right:14px;
-            background:rgba(255,255,255,0.1);
-            border:1px solid rgba(255,255,255,0.18);
-            color:#ddd; font-size:1.2rem;
-            width:32px; height:32px;
+            position:absolute; top:12px; right:12px;
+            background:rgba(0,0,0,0.35);
+            border:1.5px solid rgba(255,255,255,0.3);
+            color:#fff; font-size:1.1rem;
+            width:30px; height:30px;
             border-radius:50%; cursor:pointer; line-height:1;
-            z-index:5; transition:all 0.2s;
+            z-index:10; transition:all 0.2s;
+            display:flex; align-items:center; justify-content:center;
         }
-        #kundali-popup-close:hover { background:rgba(255,255,255,0.22); color:#fff; }
+        #kundali-popup-close:hover { background:rgba(0,0,0,0.6); }
 
-        .popup-orb {
-            font-size:2.6rem;
-            display:inline-block;
-            animation: orbFloat 3s ease-in-out infinite;
-            filter: drop-shadow(0 0 18px rgba(243, 195, 75, 0.6));
-            margin-bottom:6px;
+        /* Top section: zodiac wheel overlapping a dark navy headline box */
+        .popup-top-section {
+            position:relative;
+            padding: 70px 22px 0;
         }
-        .popup-tag {
-            display:inline-block;
-            font-family:'Cinzel', serif;
-            font-size:0.68rem; letter-spacing:0.22em;
-            color:#F3C34B; text-transform:uppercase;
-            padding:5px 16px;
-            border:1px solid rgba(243, 195, 75, 0.45);
-            border-radius:20px;
-            margin-bottom:18px;
-            background: rgba(243, 195, 75, 0.05);
+        .popup-zodiac-wheel {
+            position:absolute;
+            top:14px; left:50%;
+            transform: translateX(-50%);
+            width:110px; height:110px;
+            z-index:3;
+            filter: drop-shadow(0 4px 16px rgba(0,0,0,0.5));
         }
-        .popup-headline {
-            font-family:'Cinzel', serif;
-            font-size:1.5rem; font-weight:700;
-            color:#fff; line-height:1.3;
-            margin:0 0 8px;
-            text-shadow:0 2px 14px rgba(0,0,0,0.5);
+        .popup-zodiac-wheel img {
+            width:100%; height:100%; object-fit:contain;
         }
-        .popup-headline .gold-accent {
-            background: linear-gradient(135deg, #FFF2A8, #F3C34B, #C49221);
-            -webkit-background-clip:text; background-clip:text;
-            color:transparent;
-        }
-        .popup-sub {
-            color:rgba(255,255,255,0.72);
-            font-size:0.92rem; line-height:1.55;
-            margin:0 0 22px;
-            font-family: var(--font-body-en);
-        }
-
-        .popup-features {
-            list-style:none;
-            text-align:left;
-            background: rgba(255,255,255,0.04);
-            border:1px solid rgba(212, 175, 55, 0.25);
+        .popup-headline-box {
+            background: linear-gradient(135deg, #0A1530, #1B2858);
             border-radius:14px;
-            padding:14px 18px;
-            margin:0 0 22px;
+            padding: 60px 18px 18px;
+            border: 1px solid rgba(255,220,50,0.35);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+            margin-top: 0;
+            position:relative;
+            z-index:2;
         }
-        .popup-features li {
-            display:flex; align-items:center; gap:11px;
-            font-size:0.86rem;
-            color:rgba(255,255,255,0.88);
-            padding:5px 0;
-            font-family: var(--font-body-en);
+        .popup-headline-kn {
+            font-family: var(--font-kannada);
+            font-size:1.55rem; font-weight:800;
+            color:#fff;
+            text-align:center;
+            line-height:1.3;
+            margin:0;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.4);
         }
-        .popup-features li::before {
+        .popup-sub-kn {
+            font-family: var(--font-kannada);
+            font-size:1.02rem; font-weight:800;
+            color:#fff;
+            text-align:center;
+            line-height:1.4;
+            padding: 8px 22px 6px;
+            margin:0;
+            text-shadow: 0 1px 4px rgba(0,0,0,0.2);
+        }
+
+        .popup-middle {
+            display:flex;
+            align-items:flex-end;
+            padding: 0 14px 0 0;
+            min-height:200px;
+            margin-top:-10px;
+        }
+        .popup-sachin {
+            flex-shrink:0;
+            width:170px;
+            margin-left:-8px;
+            align-self:flex-end;
+        }
+        .popup-sachin img {
+            width:100%; display:block;
+            filter: drop-shadow(0 4px 14px rgba(0,0,0,0.45));
+        }
+        .popup-features-card {
+            flex:1;
+            background:#fff;
+            border-radius:16px;
+            padding: 12px 12px;
+            margin: 0 0 8px -8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.22);
+            position:relative;
+            z-index:2;
+        }
+        .popup-features-card ul { list-style:none; margin:0; padding:0; }
+        .popup-features-card li {
+            display:flex; align-items:flex-start; gap:8px;
+            font-family: var(--font-kannada);
+            font-size:0.82rem; color:#111;
+            font-weight:600;
+            padding: 5px 0;
+            line-height:1.4;
+        }
+        .popup-features-card li::before {
             content:'✓';
             flex-shrink:0;
             width:20px; height:20px;
             background: linear-gradient(135deg, #F3C34B, #C49221);
-            color:#0A1530;
-            font-weight:800; font-size:0.78rem;
+            color:#1a1a1a;
+            font-weight:900; font-size:0.76rem;
             border-radius:50%;
             display:flex; align-items:center; justify-content:center;
+            margin-top:1px;
         }
 
-        /* Vibrant emerald-green CTA — drives clicks, contrasts navy */
+        .popup-cta-wrapper {
+            padding: 2px 18px 18px;
+            text-align:center;
+        }
         .popup-cta-btn {
-            display:flex; align-items:center; justify-content:center; gap:6px;
-            width:100%;
-            background: linear-gradient(135deg, #0F9D58 0%, #20D680 50%, #0F9D58 100%);
-            color:#fff;
+            display:block; width:100%;
+            background: linear-gradient(135deg, #0A1530, #1B2858);
+            color:#FFDD57;
             font-family:'Cinzel', serif;
-            font-size:1.02rem; font-weight:700;
-            letter-spacing:0.06em; text-transform:uppercase;
+            font-size:1.08rem; font-weight:800;
+            letter-spacing:0.1em; text-transform:uppercase;
             padding:16px 22px;
             border-radius:50px;
             text-decoration:none;
-            border:1px solid rgba(180, 255, 220, 0.35);
-            animation: pulseCTA 1.8s ease-in-out infinite;
+            border: 2px solid rgba(255,220,50,0.28);
+            animation: ctaPulse 2s ease-in-out infinite;
             transition: transform 0.2s ease;
         }
         .popup-cta-btn:hover { transform: translateY(-2px); }
-        .popup-cta-arrow {
-            display:inline-block;
-            transition: transform 0.25s;
-        }
-        .popup-cta-btn:hover .popup-cta-arrow { transform: translateX(5px); }
-
-        .popup-trust {
-            font-size:0.74rem;
-            color:rgba(255,255,255,0.55);
-            margin-top:14px;
-            font-family: var(--font-body-en);
-        }
-        .popup-trust strong { color:#F3C34B; font-weight:600; }
 
         .popup-skip-link {
-            margin-top:8px;
+            margin-top:12px;
             font-size:0.76rem;
-            color:rgba(255,255,255,0.32);
+            color:rgba(255,255,255,0.45);
             cursor:pointer;
             text-decoration:underline;
             display:block;
             font-family: var(--font-body-en);
         }
-        .popup-skip-link:hover { color:rgba(255,255,255,0.6); }
+        .popup-skip-link:hover { color:rgba(255,255,255,0.8); }
     </style>
 
     <div id="kundali-popup-overlay">
         <div id="kundali-popup-box">
             <button id="kundali-popup-close">&times;</button>
-            <div id="kundali-popup-content">
-                <div class="popup-orb">🔮</div>
-                <span class="popup-tag">Personalised Report</span>
 
-                <h2 class="popup-headline">
-                    Discover Your <span class="gold-accent">Complete Life Story</span>
-                </h2>
-                <p class="popup-sub">
-                    Monthly predictions show only a glimpse.<br>
-                    Unlock your full life blueprint today.
-                </p>
+            <div class="popup-top-section">
+                <div class="popup-zodiac-wheel">
+                    <img src="assets/img/indian_rashi_wheel1.png" alt="Zodiac Wheel">
+                </div>
+                <div class="popup-headline-box">
+                    <h2 class="popup-headline-kn">ನಿಮ್ಮ ಸಂಪೂರ್ಣ ಜೀವನ<br>ವರದಿ ಪಡೆಯಿರಿ</h2>
+                </div>
+            </div>
 
-                <ul class="popup-features">
-                    <li>Career, Marriage &amp; Wealth predictions</li>
-                    <li>Health, Family &amp; relationships guidance</li>
-                    <li>Personalised remedies — crafted for YOU</li>
-                    <li>Trusted by 100+ happy customers</li>
-                </ul>
+            <p class="popup-sub-kn">ಮುಂದಿನ 5 ವರ್ಷಗಳಲ್ಲಿ ನಿಮ್ಮ ಜೀವನ<br>ಹೇಗಿರಲಿದೆ ಎಂದು ಈಗಲೇ ತಿಳಿಯಿರಿ!</p>
 
+            <div class="popup-middle">
+                <div class="popup-sachin">
+                    <img src="assets/img/sachin22.png" alt="Shri V M Joshi">
+                </div>
+                <div class="popup-features-card">
+                    <ul>
+                        <li>ಸಾಲದ ಸುಳಿಯಿಂದ ಮುಕ್ತಿ ಬೇಕೇ?</li>
+                        <li>ಆರೋಗ್ಯ ಪದೇ ಪದೇ ಕೈಕೊಡುತ್ತಿದೆಯೇ?</li>
+                        <li>ಮದುವೆ ವಿಳಂಬವಾಗುತ್ತಿದೆಯೇ?</li>
+                        <li>ಉದ್ಯೋಗದಲ್ಲಿ ತೊಂದರೆ ಯಾಗುತ್ತಿದೆಯೇ?</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="popup-cta-wrapper">
                 <a href="https://horoscopebook.astrovastushrivmjoshi.com/" target="_blank" class="popup-cta-btn">
-                    Get My Life Report <span class="popup-cta-arrow">→</span>
+                    CHECK NOW
                 </a>
-                <div class="popup-trust">🔒 Personalised by <strong>Shri V M Joshi</strong></div>
                 <span class="popup-skip-link" id="popup-skip">No thanks, I'll keep reading</span>
             </div>
         </div>

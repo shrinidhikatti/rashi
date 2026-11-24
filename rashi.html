@@ -47,6 +47,8 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
                 </div>
                 <h1 id="rashi-name-kn" class="kannada-text"></h1>
                 <h2 id="rashi-name-en" class="english-heading"></h2>
+                <p id="month-title-en" class="english-heading" style="font-size:0.95rem;color:var(--gold-primary);margin-top:8px;letter-spacing:1px;"></p>
+                <p id="month-title-kn" class="kannada-text" style="font-size:1.1rem;margin-top:2px;"></p>
 
                 <p id="intro-en" style="max-width:700px;margin:15px auto 0;font-size:1rem;line-height:1.8;"></p>
                 <p id="intro-kn" class="kannada-text" style="max-width:700px;margin:10px auto 0;font-size:1.1rem;line-height:1.8;"></p>
@@ -94,18 +96,44 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
                         <p id="growth-kn" class="kannada-text"></p>
                     </div>
 
+                    <!-- Lucky Factors -->
+                    <div class="pred-section">
+                        <h3><span style="font-size:1.5rem;line-height:1;">🍀</span> Lucky Factors</h3>
+                        <div class="lucky-grid">
+                            <div class="lucky-item">
+                                <span class="lucky-label">Lucky Colour</span>
+                                <span id="lucky-colour-en"></span>
+                                <span id="lucky-colour-kn" class="kannada-text"></span>
+                            </div>
+                            <div class="lucky-item">
+                                <span class="lucky-label">Lucky Days</span>
+                                <span id="lucky-days-en"></span>
+                                <span id="lucky-days-kn" class="kannada-text"></span>
+                            </div>
+                            <div class="lucky-item">
+                                <span class="lucky-label">Lucky Numbers</span>
+                                <span id="lucky-numbers"></span>
+                            </div>
+                            <div class="lucky-item">
+                                <span class="lucky-label">Lucky Direction</span>
+                                <span id="lucky-direction-en"></span>
+                                <span id="lucky-direction-kn" class="kannada-text"></span>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Astrological Remedy -->
                     <div class="pred-section">
                         <h3><span style="font-size:1.8rem;line-height:1;">ॐ</span> Astrological Remedy</h3>
-                        <p id="remedy-en"></p>
-                        <p id="remedy-kn" class="kannada-text"></p>
+                        <ul id="remedy-en"></ul>
+                        <ul id="remedy-kn" class="kannada-text"></ul>
                     </div>
 
                     <!-- Conclusion -->
                     <div class="pred-section">
                         <h3><span style="font-size:1.5rem;line-height:1;">🪐</span> Conclusion</h3>
-                        <p id="conclusion-en"></p>
-                        <p id="conclusion-kn" class="kannada-text"></p>
+                        <p id="conclusion-en" class="life-quote"></p>
+                        <p id="conclusion-kn" class="kannada-text life-quote"></p>
                     </div>
 
                 </div> <!-- End Main Content -->
@@ -273,7 +301,7 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
             display:block; width:100%;
             background: linear-gradient(135deg, #0A1530, #1B2858);
             color:#FFDD57;
-            font-family:'Cinzel', serif;
+            font-family:'Anek Kannada', var(--font-kannada);
             font-size:1.08rem; font-weight:800;
             letter-spacing:0.1em; text-transform:uppercase;
             padding:16px 22px;
@@ -292,7 +320,7 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
             cursor:pointer;
             text-decoration:underline;
             display:block;
-            font-family: var(--font-body-en);
+            font-family: 'Anek Kannada', var(--font-kannada);
         }
         .popup-skip-link:hover { color:rgba(255,255,255,0.8); }
     </style>
@@ -336,10 +364,10 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
     </div>
     <!-- ===== End Popup ===== -->
 
-    <!-- Fixed Golden Consultation Button -->
+    <!-- Fixed Green Consultation Button -->
     <a href="https://horoscopebook.astrovastushrivmjoshi.com/"
        class="btn-consult-fixed english-heading">
-        📖 Book Your Detailed Horoscope Book Now
+        FREE MONTHLY PREDICTION
     </a>
 
     <script>
@@ -382,22 +410,40 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
                             '<p style="text-align:center;padding:40px;color:#F3C34B;font-size:1.1rem;">ಭವಿಷ್ಯ ಶೀಘ್ರದಲ್ಲಿ ಲಭ್ಯವಾಗುತ್ತದೆ — Predictions coming soon.</p>';
                         return;
                     }
-                    document.getElementById('intro-en').textContent       = d.intro_en;
-                    document.getElementById('intro-kn').textContent       = d.intro_kn;
-                    document.getElementById('career-en').textContent      = d.career_en;
-                    document.getElementById('career-kn').textContent      = d.career_kn;
-                    document.getElementById('finance-en').textContent     = d.finance_en;
-                    document.getElementById('finance-kn').textContent     = d.finance_kn;
-                    document.getElementById('family-en').textContent      = d.family_en;
-                    document.getElementById('family-kn').textContent      = d.family_kn;
-                    document.getElementById('health-en').textContent      = d.health_en;
-                    document.getElementById('health-kn').textContent      = d.health_kn;
-                    document.getElementById('growth-en').textContent      = d.growth_en;
-                    document.getElementById('growth-kn').textContent      = d.growth_kn;
-                    document.getElementById('remedy-en').textContent      = d.remedy_en;
-                    document.getElementById('remedy-kn').textContent      = d.remedy_kn;
-                    document.getElementById('conclusion-en').textContent  = d.conclusion_en;
-                    document.getElementById('conclusion-kn').textContent  = d.conclusion_kn;
+                    function listHtml(items) {
+                        return (items || []).map(function(item) {
+                            return '<li>' + item + '</li>';
+                        }).join('');
+                    }
+
+                    document.getElementById('month-title-en').textContent = d.month_title_en;
+                    document.getElementById('month-title-kn').textContent = d.month_title_kn;
+
+                    document.getElementById('intro-en').textContent       = d.monthly_overview.en;
+                    document.getElementById('intro-kn').textContent       = d.monthly_overview.kn;
+                    document.getElementById('career-en').textContent      = d.career_business.en;
+                    document.getElementById('career-kn').textContent      = d.career_business.kn;
+                    document.getElementById('finance-en').textContent     = d.finance.en;
+                    document.getElementById('finance-kn').textContent     = d.finance.kn;
+                    document.getElementById('family-en').textContent      = d.family_relationships.en;
+                    document.getElementById('family-kn').textContent      = d.family_relationships.kn;
+                    document.getElementById('health-en').textContent      = d.health.en;
+                    document.getElementById('health-kn').textContent      = d.health.kn;
+                    document.getElementById('growth-en').textContent      = d.education_personal_growth.en;
+                    document.getElementById('growth-kn').textContent      = d.education_personal_growth.kn;
+                    document.getElementById('remedy-en').innerHTML        = listHtml(d.best_remedies.en);
+                    document.getElementById('remedy-kn').innerHTML        = listHtml(d.best_remedies.kn);
+                    document.getElementById('conclusion-en').textContent  = d.life_insight.en;
+                    document.getElementById('conclusion-kn').textContent  = d.life_insight.kn;
+
+                    var lucky = d.lucky_factors;
+                    document.getElementById('lucky-colour-en').textContent    = lucky.lucky_colour.en;
+                    document.getElementById('lucky-colour-kn').textContent    = lucky.lucky_colour.kn;
+                    document.getElementById('lucky-days-en').textContent      = lucky.lucky_days.en;
+                    document.getElementById('lucky-days-kn').textContent      = lucky.lucky_days.kn;
+                    document.getElementById('lucky-numbers').textContent      = lucky.lucky_numbers.join(', ');
+                    document.getElementById('lucky-direction-en').textContent = lucky.lucky_direction.en;
+                    document.getElementById('lucky-direction-kn').textContent = lucky.lucky_direction.kn;
                 })
                 .catch(function() {
                     document.querySelector('.prediction-content-wrapper').innerHTML =
@@ -407,23 +453,71 @@ src="https://www.facebook.com/tr?id=1952801472042069&ev=PageView&noscript=1"
     </script>
 
     <script>
-    // ===== Kundali Popup — shows on every page load & every rashi switch =====
+    // ===== Kundali Popup =====
     (function () {
         var overlay  = document.getElementById('kundali-popup-overlay');
         var closeBtn = document.getElementById('kundali-popup-close');
         var skipBtn  = document.getElementById('popup-skip');
+        var timer;
+        var pendingNav = null; // null = timed popup | 'index.html' = exit popup
 
-        function showPopup() { overlay.style.display = 'flex'; }
-        function hidePopup() { overlay.style.display = 'none'; }
+        function showPopup(afterUrl) {
+            pendingNav = afterUrl || null;
+            // Change skip link text based on context
+            if (skipBtn) {
+                skipBtn.textContent = pendingNav
+                    ? 'No thanks, go to home page'
+                    : "No thanks, I'll keep reading";
+            }
+            overlay.style.display = 'flex';
+        }
 
-        // Always show after 10s — no sessionStorage gate so every refresh
-        // and every rashi navigation triggers it fresh
-        setTimeout(showPopup, 10000);
+        function dismiss() {
+            overlay.style.display = 'none';
+            if (pendingNav) {
+                var dest = pendingNav;
+                pendingNav = null;
+                window.location.href = dest;
+            } else {
+                pendingNav = null;
+            }
+        }
 
-        closeBtn.addEventListener('click', hidePopup);
-        if (skipBtn) skipBtn.addEventListener('click', hidePopup);
+        function schedulePopup() {
+            clearTimeout(timer);
+            overlay.style.display = 'none';
+            timer = setTimeout(function () { showPopup(); }, 5000);
+        }
+
+        // Timed popup on every page load
+        schedulePopup();
+
+        // Re-fire when bfcache restores the page
+        window.addEventListener('pageshow', function (e) {
+            if (e.persisted) { schedulePopup(); }
+        });
+
+        // Push a fake history entry so the phone back button is caught
+        history.pushState({ rashiExitPopup: true }, '');
+        window.addEventListener('popstate', function () {
+            if (overlay.style.display === 'flex') return;
+            showPopup('index.html');
+            history.pushState({ rashiExitPopup: true }, '');
+        });
+
+        // Intercept "← Back to All Rashis" link
+        var backLink = document.querySelector('a[href="index.html"]');
+        if (backLink) {
+            backLink.addEventListener('click', function (e) {
+                e.preventDefault();
+                showPopup('index.html');
+            });
+        }
+
+        closeBtn.addEventListener('click', dismiss);
+        if (skipBtn) skipBtn.addEventListener('click', dismiss);
         overlay.addEventListener('click', function (e) {
-            if (e.target === overlay) hidePopup();
+            if (e.target === overlay) dismiss();
         });
     })();
     </script>
